@@ -39,8 +39,8 @@ Since most of this process is automatically done, it can be applied in other lan
 | BiLC3 + Bert_Base           	| 88.26   | 89.91             | 0.4609 |
 | BiLC3 + w2v_c2v             	| 89.46   | 89.46            	| 0.4796 |
 | BiLC3 + fastText            	| 89.65   | 89.84            	|  0.4970 |
-| BiLC3 + Elmo                	| 89.67 | 90.84            	| 0.4999 |
-| BiLC3 + MULTI_WC_F_E_B        | **91.09**   | 91.75        	| 0.4906|
+| BiLC3 + Elmo                	| 89.67 | 90.84            	| **0.4999** |
+| BiLC3 + MULTI_WC_F_E_B        | **91.09**   | **91.75**        	| 0.4906|
 
 
 ## 2. Embedding Extractor: To extract embedding vectors for other tasks.
