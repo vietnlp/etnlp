@@ -56,10 +56,10 @@ Since most of this process is automatically done, it can be applied in other lan
 ## 3. Visualizer: to explore the embedding space and compare between different embeddings.
 
 #### Screenshot of viewing multiple-embeddings side-by-side
-![Alt text](master/images/etnlp_view_multi_embeddings.png "Screenshot multiple-embeddings side-by-side")
+![Alt text](images/etnlp_view_multi_embeddings.png "Screenshot multiple-embeddings side-by-side")
 
 #### Screenshot of viewing each embedding interactively
-![Alt text](master/images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
+![Alt text](images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
 
 # II. Available Lexical Resources
