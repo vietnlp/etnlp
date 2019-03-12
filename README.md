@@ -40,7 +40,6 @@ Since most of this process is automatically done, it can be applied in other lan
 | BiLC3 + Elmo                	| 89.67 (2)  | **90.84**     (1)       	| 0.4999 |
 | BiLC3 + Multi               	| **90.31**    (1)   | 90.83        (2)    	| 0.4907|
 | BiLC3 + Bert_Base           	| 88.26     (6)  | 89.91         (3)    | 0.4609 |
-| BiLC3 + Bert_Large         	| 88.05     (7)   | 88.58        (7)     | 0.4125|
 
 # Embedding Extractor: To extract embedding vectors for other tasks.
 - Input: (1) list of input embeddings, (2) a vocabulary file.
@@ -53,7 +52,7 @@ Since most of this process is automatically done, it can be applied in other lan
 
 [1] Nils Reimers and Iryna Gurevych, Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging, 2017, http://arxiv.org/abs/1707.09861, arXiv.
 
-## II. An application to Vietnamese
+# II. An application to Vietnamese
 ### 1. Multiple embedding models for Vietnamese NER-TASK are released in this work
 
 | ﻿  Embedding Model           | Download Link (NER Task) |Download Link (General) | 
