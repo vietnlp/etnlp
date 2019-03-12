@@ -1,4 +1,9 @@
 # I. ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings
+## 0. A glimpse of ETNLP:
+- Github: https://github.com/vietnlp/etnlp
+- Video: https://vimeo.com/317599106
+- Paper: https://arxiv.org/abs/1903.04433
+
 ## 1. Embedding Evaluator: To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
 - Output: (1) evaluate quality of the embedding model based on the MAP/P@10 score, (2) Paired t-tests to show significant level between different word embeddings.
