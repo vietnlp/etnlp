@@ -64,6 +64,7 @@ Since most of this process is automatically done, it can be applied in other lan
 
 ## 2. Multiple pre-trained embedding models for Vietnamese
 * Note: The MULTI_WC_F_E_B is the concatenation of four embeddings: W2V_C2V, fastText, ELMO, and Bert_Base.
+
 | ﻿  Embedding Model           | Download Link (NER Task) |Download Link (General) | 
 |------------------------------|---------------|---------------|
 | w2v                          | [Link1]() | [Link1]() |
