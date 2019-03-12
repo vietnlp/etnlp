@@ -1,4 +1,4 @@
-# I. ETNLP TOOLKIT:
+# I. ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings
 ## 1. Embedding Evaluator: To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
 - Output: (1) evaluate quality of the embedding model based on the MAP/P@10 score, (2) Paired t-tests to show significant level between different word embeddings.
@@ -25,7 +25,7 @@ Since most of this process is automatically done, it can be applied in other lan
 > 13. gram8-plural-cac-nhung (e.g., banana | bananas | bird | birds) (NOT USED)
 > 14. gram9-plural-verbs (NOT USED)
 
-## 2. Evaluation results (in details)
+### 1.3 Evaluation results (in details)
 
 * Analogy: Word Analogy Task
 
@@ -43,7 +43,7 @@ Since most of this process is automatically done, it can be applied in other lan
 | BiLC3 + MULTI_WC_F_E_B        | **91.09**   | -        	| 0.4906|
 
 
-## 3. Embedding Extractor: To extract embedding vectors for other tasks.
+## 2. Embedding Extractor: To extract embedding vectors for other tasks.
 - Input: (1) list of input embeddings, (2) a vocabulary file.
 - Output: embedding vectors of the given vocab file in `.txt`, i.e., each line conains the embedding for a word. The file then be compressed in .gz format. This format is widely used in existing NLP Toolkits (e.g., Reimers et al. [1]).
 
@@ -51,8 +51,11 @@ Since most of this process is automatically done, it can be applied in other lan
 - `-input-c2v`: character embedding file
 - `solveoov:1`: to solve OOV words of the 1st embedding. Similarly for more than one embedding: e.g., `solveoov:1:2`.
 
-
 [1] Nils Reimers and Iryna Gurevych, Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging, 2017, http://arxiv.org/abs/1707.09861, arXiv.
+
+## 3. Visualizer: to explore the embedding space and compare between different embeddings.
+
+
 
 # II. Available Lexical Resources
 ## 1. Word Analogy List for Vietnamese
