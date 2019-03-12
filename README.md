@@ -1,4 +1,4 @@
-# ETNLP TOOLKIT:
+# I. ETNLP TOOLKIT:
 ## 1. Embedding Evaluator: To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
 - Output: (1) evaluate quality of the embedding model based on the MAP/P@10 score, (2) Paired t-tests to show significant level between different word embeddings.
@@ -59,17 +59,17 @@ Since most of this process is automatically done, it can be applied in other lan
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
 |------------------------------|---------------|---------------|
-| Vietnamese                          | [Link1]()| [Link1]()|
+| Vietnamese                          | [Link1](https://drive.google.com/open?id=1cBYVGwU59slI6bTe2maOW0_xj_e7XugW)| [Link1]()|
 
 
 ## 2. Multiple pre-trained embedding models for Vietnamese
-
+* Note: The MULTI_WC_F_E_B is the concatenation of four embeddings: W2V_C2V, fastText, ELMO, and Bert_Base.
 | ﻿  Embedding Model           | Download Link (NER Task) |Download Link (General) | 
 |------------------------------|---------------|---------------|
 | w2v                          | [Link1]() | [Link1]() |
-| w2v_c2v                      | [Link2]() | [Link2]() |
-| fastText                     | [Link3]()| [Link3]() |
-| Elmo                         | [Link4]() | [Link4]() |
-| Bert_base                    | [Link5]() | [Link5]() |
-| MULTI                   | [Link6]()  | [Link6]() |
+| w2v_c2v                      | [Link2](https://drive.google.com/open?id=1YWDmVq6ku7OzY8-Rsm_MsWQ5lH-uUb4h) | [Link2]() |
+| fastText                     | [Link3](https://drive.google.com/open?id=1EGsNoPX3acNCjYKAVD0T2r04A55lnEmH)| [Link3]() |
+| Elmo                         | [Link4](https://drive.google.com/open?id=1U2eWRWwgbva9OMyRvJKopn8FsmTLqMiq) | [Link4]() |
+| Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) | [Link5]() |
+| MULTI_WC_F_E_B               | [Link6](https://drive.google.com/open?id=1Cr-3ST4aac8O807tDFEYsohDyXWUJVMV)  | [Link6]() |
 
