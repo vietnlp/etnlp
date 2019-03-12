@@ -55,6 +55,11 @@ Since most of this process is automatically done, it can be applied in other lan
 
 ## 3. Visualizer: to explore the embedding space and compare between different embeddings.
 
+#### Screenshot of viewing multiple-embeddings side-by-side
+![Alt text](master/images/etnlp_view_multi_embeddings.png "Screenshot multiple-embeddings side-by-side")
+
+#### Screenshot of viewing each embedding interactively
+![Alt text](master/images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
 
 # II. Available Lexical Resources
@@ -81,12 +86,14 @@ Since most of this process is automatically done, it can be applied in other lan
 
 For now, please cite [the Arxiv paper](https://arxiv.org/abs/1903.04433)
 
-> @article{vu:2019n,
+```
+@article{vu:2019n,
   title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
   author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
   journal={arXiv preprint arXiv:1903.04433},
   year={2019}
 }
+```
 
 
 
