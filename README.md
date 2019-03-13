@@ -4,6 +4,21 @@
 - Video: https://vimeo.com/317599106
 - Paper: https://arxiv.org/abs/1903.04433
 
+# II. How do I cite ETNLP?
+
+Please CITE paper [the Arxiv paper](https://arxiv.org/abs/1903.04433) whenever ETNLP (or the pre-trained embeddings) 
+is used to produce published results or incorporated into other software:
+
+```
+@article{vu:2019n,
+  title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
+  author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
+  journal={arXiv preprint arXiv:1903.04433},
+  year={2019}
+}
+```
+
+# III. More about ETNLP:
 ## 1. Embedding Evaluator: To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
 - Output: (1) evaluate quality of the embedding model based on the MAP/P@10 score, (2) Paired t-tests to show significant level between different word embeddings.
@@ -60,14 +75,15 @@ Since most of this process is automatically done, it can be applied in other lan
 
 ## 3. Visualizer: to explore the embedding space and compare between different embeddings.
 
-#### Screenshot of viewing multiple-embeddings side-by-side
+### Screenshot of viewing multiple-embeddings side-by-side
 ![Alt text](images/etnlp_view_multi_embeddings.png "Screenshot multiple-embeddings side-by-side")
 
-#### Screenshot of viewing each embedding interactively
+### Screenshot of viewing each embedding interactively
 ![Alt text](images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
 
-# II. Available Lexical Resources
+
+# III. Available Lexical Resources
 ## 1. Word Analogy List for Vietnamese
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
@@ -87,18 +103,7 @@ Since most of this process is automatically done, it can be applied in other lan
 | Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) | [Link5] |
 | MULTI_WC_F_E_B               | [Link6](https://drive.google.com/open?id=1Cr-3ST4aac8O807tDFEYsohDyXWUJVMV)  | [Link6] |
 
-# III. How do I cite ETNLP?
 
-For now, please cite [the Arxiv paper](https://arxiv.org/abs/1903.04433)
-
-```
-@article{vu:2019n,
-  title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
-  author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
-  journal={arXiv preprint arXiv:1903.04433},
-  year={2019}
-}
-```
 
 
 
