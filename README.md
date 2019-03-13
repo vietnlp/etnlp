@@ -98,7 +98,7 @@ Since most of this process is automatically done, it can be applied in other lan
 
 - Training data: Wiki in Vietnamese:
 
-| ﻿ # of sentences          | # of words| 
+| ﻿ # of sentences          | # of tokenized words| 
 |------------------------------|---------------|
 | ﻿  6,685,621          | 114,997,587 |
 
