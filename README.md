@@ -103,8 +103,8 @@ Since most of this process is automatically done, it can be applied in other lan
 | ﻿  6,685,621          | 114,997,587 |
 
 
-* Note: The MULTI_WC_F_E_B is the concatenation of four embeddings: W2V_C2V, fastText, ELMO, and Bert_Base.
-
+- Download Pre-trained Embeddings: 
+(Note: The MULTI_WC_F_E_B is the concatenation of four embeddings: W2V_C2V, fastText, ELMO, and Bert_Base.)
 
 | ﻿  Embedding Model           | Download Link (NER Task) |Download Link (General) | 
 |------------------------------|---------------|---------------|
