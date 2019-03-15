@@ -106,13 +106,13 @@ Since most of this process is automatically done, it can be applied in other lan
 - Download Pre-trained Embeddings: <br>
 (Note: The MULTI_WC_F_E_B is the concatenation of four embeddings: W2V_C2V, fastText, ELMO, and Bert_Base.)
 
-| ﻿  Embedding Model           | Download Link (NER Task) | Download Link (AIVIVN SentiTask) | |Download Link (General) | 
-|------------------------------|---------------|---------------|
+| ﻿  Embedding Model           | Download Link (NER Task) | Download Link (AIVIVN SentiTask) | Download Link (General) | 
+|------------------------------|---------------|---------------|---------------|
 | w2v                          | [Link1](https://drive.google.com/open?id=1D3RvwFiRvvbP6GIcuff6LTUmm1i3yvdF) |  [Link1] | [Link1] |
 | w2v_c2v                      | [Link2](https://drive.google.com/open?id=1YWDmVq6ku7OzY8-Rsm_MsWQ5lH-uUb4h) |  [Link2] | [Link2] |
-| fastText                     | [Link3](https://drive.google.com/open?id=1EGsNoPX3acNCjYKAVD0T2r04A55lnEmH)|  [Link3] |[Link3] |
-| Elmo                         | [Link4](https://drive.google.com/open?id=1U2eWRWwgbva9OMyRvJKopn8FsmTLqMiq) |  [Link4](https://drive.google.com/open?id=1DK-aPQNuJcvj8GTPJS8A2xRm5A12UuNi) |[Link4] |
-| Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) |  [Link5] |[Link5] |
+| fastText                     | [Link3](https://drive.google.com/open?id=1EGsNoPX3acNCjYKAVD0T2r04A55lnEmH)|  [Link3] | [Link3] |
+| Elmo                         | [Link4](https://drive.google.com/open?id=1U2eWRWwgbva9OMyRvJKopn8FsmTLqMiq) |  [Link4](https://drive.google.com/open?id=1DK-aPQNuJcvj8GTPJS8A2xRm5A12UuNi) | [Link4] |
+| Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) |  [Link5] | [Link5] |
 | MULTI_WC_F_E_B               | [Link6](https://drive.google.com/open?id=1Cr-3ST4aac8O807tDFEYsohDyXWUJVMV)  | [Link6] | [Link6] |
 
 
