@@ -90,7 +90,7 @@ Since most of this process is automatically done, it can be applied in other lan
 |------------------------------|---------------|---------------|
 | Vietnamese (This work)       | [Link1](https://drive.google.com/open?id=1cBYVGwU59slI6bTe2maOW0_xj_e7XugW)| [Link1]|
 | English (Mirkolov et al. [2]) | [Link2]| [Link2]|
-| Portuguese (Hartmann et al. [3]) | [Link3]| [Link3]|
+| Portuguese (Hartmann et al. [3]) | [Link3]| [Link3](https://github.com/nathanshartmann/portuguese_word_embeddings/blob/master/analogies/testset/LX-4WAnalogies.txt)|
 
 
 
