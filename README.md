@@ -124,9 +124,7 @@ Interactive visualization:
 | fastText                     | [Link3](https://drive.google.com/open?id=1EGsNoPX3acNCjYKAVD0T2r04A55lnEmH) (dim=300)|  [Link3] | [Link3] |
 | Elmo                         | [Link4](https://drive.google.com/open?id=1U2eWRWwgbva9OMyRvJKopn8FsmTLqMiq) (dim=1024)|  [Link4](https://drive.google.com/open?id=1DK-aPQNuJcvj8GTPJS8A2xRm5A12UuNi) (dim=1024)| [Link4] |
 | Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) (dim=1024)|  [Link5] | [Link5] |
-| MULTI_WC_F_E_B               | [Link6](https://drive.google.com/open?id=1Cr-3ST4aac8O807tDFEYsohDyXWUJVMV)  (dim=2648)| [Link6] | [Link6] |
-
-
+| MULTI_WC_F_E_B               | [Link6](https://drive.google.com/file/d/1p2EGSVrVl6TIbq6pZxhEuleH26qXxDts)  (dim=2392)| [Link6] | [Link6] |
 
 
 
