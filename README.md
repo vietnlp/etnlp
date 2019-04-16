@@ -89,10 +89,10 @@ Since most of this process is automatically done, it can be applied in other lan
 
 ### 3. Visualization
 Side-by-side visualization:
-> 1. cd src/codes/04.run_etnlp_visualizer_sbs.sh
+> 1. sh src/codes/04.run_etnlp_visualizer_sbs.sh
 
 Interactive visualization:
-> 1. cd src/codes/04.run_etnlp_visualizer_inter.sh
+> 1. sh src/codes/04.run_etnlp_visualizer_inter.sh
 
 
 # IV. Available Lexical Resources <a name="Download_Resources"></a>
