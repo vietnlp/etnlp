@@ -5,7 +5,7 @@ with open("../../README.md", "r") as fh:
 
 setup(
     name='ETNLP',
-    version='0.1.0',
+    version='0.1.1',
     # packages=['api', 'utils', 'embeddings', 'visualizer'],
     packages=find_packages(),
     py_modules=['etnlp_api'],

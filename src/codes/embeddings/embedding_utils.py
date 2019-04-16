@@ -106,8 +106,6 @@ def reload_embeddings(trained_models_dir):
 def create_single_utf8_file(input_dir, output_file):
     import glob
     # path = './wiki_data/*.txt'
-    # path = '/home/sonvx/word2vecVN/glove/test/*.txt'
-    # out = '/home/sonvx/word2vecVN/allvntext.utf8.txt'
     # out = './wiki_all.vi.utf8.txt'
     files = glob.glob(input_dir)
     for file in files:

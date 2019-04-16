@@ -322,7 +322,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument("-input",
                         required=True,
-                        default="/Users/sonvx/Documents/Pretrained_Models/elmo_embeddings.txt",
+                        default="../data/embedding_dicts/ELMO_23.vec",
                         help="Input multiple word embeddings, each model separated by a `;`.")
     parser.add_argument("-analoglist",
                         nargs="?",
