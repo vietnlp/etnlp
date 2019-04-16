@@ -1,9 +1,16 @@
-# I. ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings
+# Table of contents
+1. [Introduction](#introduction)
+2. [More about ETNLP](#moreaboutETNLP)
+3. [Installation and How to Use](#installation_and_howtouse)
+4. [Download Resources](#Download_Resources)
+
+
+# I. ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings <a name="introduction"></a>
 ## A glimpse of ETNLP:
 - Github: https://github.com/vietnlp/etnlp
 - Video: https://vimeo.com/317599106
 
-# II. More about ETNLP:
+# II. More about ETNLP <a name="moreaboutETNLP"></a>:
 ## 1. Embedding Evaluator: 
 To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
@@ -68,20 +75,25 @@ Since most of this process is automatically done, it can be applied in other lan
 ![Alt text](images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
 
-# III. Installation and How to use ETNLP
+# III. Installation and How to use ETNLP <a name="installation_and_howtouse"></a>
 ## 1. Installation:
 > cd src/codes/
+
 > python setup.py install
 
 ## 2. Examples
 > cd src/examples
+
 > python test1_etnlp_preprocessing.py
+
 > python test2_etnlp_extractor.py
+
 > python test3_etnlp_evaluator.py
+
 > python test4_etnlp_visualizer.py
 
 
-# IV. Available Lexical Resources
+# IV. Available Lexical Resources <a name="Download_Resources"></a>
 ## 1. Word Analogy List for Vietnamese
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
