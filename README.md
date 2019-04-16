@@ -4,7 +4,8 @@
 - Video: https://vimeo.com/317599106
 
 # II. More about ETNLP:
-## 1. Embedding Evaluator: To compare quality of embedding models on the word analogy task.
+## 1. Embedding Evaluator: 
+To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
 - Output: (1) evaluate quality of the embedding model based on the MAP/P@10 score, (2) Paired t-tests to show significant level between different word embeddings.
 
@@ -67,8 +68,20 @@ Since most of this process is automatically done, it can be applied in other lan
 ![Alt text](images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
 
+# III. Installation and How to use ETNLP
+## 1. Installation:
+> cd src/codes/
+> python setup.py install
 
-# III. Available Lexical Resources
+## 2. Examples
+> cd src/examples
+> python test1_etnlp_preprocessing.py
+> python test2_etnlp_extractor.py
+> python test3_etnlp_evaluator.py
+> python test4_etnlp_visualizer.py
+
+
+# IV. Available Lexical Resources
 ## 1. Word Analogy List for Vietnamese
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
