@@ -2,11 +2,10 @@ from etnlp_api import embedding_config
 from etnlp_api import embedding_extractor
 
 
-emb1 = "/Users/sonvx/Documents/Pretrained_Models/W2V_C2V.vec"
-emb2 = "/Users/sonvx/Documents/Pretrained_Models/ELMO.vec"
-# INPUT_FILES = "/Users/sonvx/Documents/Pretrained_Models/Bert_Large.vec"
-emb3 = "/Users/sonvx/Documents/Pretrained_Models/MULTI.vec"
-emb4 = "/Users/sonvx/Documents/Pretrained_Models/FastText.vec"
+emb1 = "<point_to_your_downloaded_file>/W2V_C2V.vec"
+emb2 = "<point_to_your_downloaded_file>/ELMO.vec"
+emb3 = "<point_to_your_downloaded_file>/MULTI.vec"
+emb4 = "<point_to_your_downloaded_file>/FastText.vec"
 C2V = "../data/embedding_dicts/C2V.vec"
 out1 = "../data/embedding_dicts/W2V_C2V_23.vec"
 out2 = "../data/embedding_dicts/ELMO_23.vec"
