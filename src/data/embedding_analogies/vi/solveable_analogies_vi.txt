@@ -1,0 +1,1 @@
+analogy_list_vi_ner.txt

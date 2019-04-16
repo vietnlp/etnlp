@@ -1,0 +1,10 @@
+gensim==3.4.0
+scipy==1.1.0
+six==1.12.0
+setuptools==40.6.2
+tensorflow==1.12.0
+Flask==1.0.2
+tensorboard==1.12.0
+numpy==1.15.4
+scikit_learn==0.20.3
+typing==3.6.6

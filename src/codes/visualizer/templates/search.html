@@ -1,0 +1,72 @@
+{% block content %}
+<div class="search">
+
+<div class="container">
+<form action="/search" method="post" role="form">
+<div class="form-group">
+<label for="name">Search:</label>
+<input type="text" class="form-control" id="name" name="search"
+       placeholder="Type a word, e.g., heo"
+       value="{{ request.form.search}}">
+</div>
+<button type="submit" class="btn btn-success">Search</button>
+</form>
+
+</div>
+</div>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <meta charset="UTF-8">
+    <title>ETNLP's Side-by-Side Visualizer</title>
+    <link rel="stylesheet" media="screen" href ="static/bootstrap.min.css">
+   <link rel="stylesheet" href="static/bootstrap-theme.min.css">
+   <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <style>
+        .answers {
+          padding-top: 20px;
+          padding-bottom: 100px;
+          padding-left: 50px;
+        }
+        .testimonial-group > .row {
+          overflow-x: auto;
+          white-space: nowrap;
+        }
+        .testimonial-group > .row > .col-xs-4 {
+          display: inline-block;
+          float: none;
+        }
+    </style>
+</head>
+
+
+<div class="answers testimonial-group">
+
+
+{% for emb_name in embedding_names_arr %}
+
+   <table style="float: left">
+        <tr><td>&nbsp;</td></tr>
+        <tr><td>&nbsp;</td></tr>
+            <tr><td>{{ emb_name }}</td></tr>
+            {% for page in output_arr[loop.index0] %}
+                    <tr><td>{{ page }}</td></tr>
+            {% endfor %}
+    </table>
+
+{% endfor %}
+
+
+
+
+</div>
+
+{% for message in get_flashed_messages() %}
+<div class=flash>
+    {{ message }}
+</div>
+{% endfor %}
+{% endblock %}
+
+</html>

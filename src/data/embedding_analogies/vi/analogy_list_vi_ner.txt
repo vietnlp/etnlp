@@ -1,0 +1,3136 @@
+: | countries
+Viên | Áo | Berlin | Đức
+cậu bé | cô gái | anh_trai | em_gái
+cậu bé | cô gái | anh_em | chị_em gái
+cậu bé | cô gái | bố | mẹ
+cậu bé | cô gái | cha | mẹ
+cậu bé | cô gái | ông | bà
+cậu bé | cô gái | chú_rể | cô_dâu
+cậu bé | cô gái | vua | nữ_hoàng
+cậu bé | cô gái | đàn_ông | đàn_bà
+cậu bé | cô gái | hoàng_tử | công_chúa
+cậu bé | cô gái | con_riêng | chị kế
+cậu bé | cô gái | chú | cô
+anh_trai | chị | anh_em | chị_em gái
+anh_trai | chị | bố | mẹ
+anh_trai | chị | cha | mẹ
+anh_trai | chị | ông | bà
+anh_trai | chị | chú_rể | cô_dâu
+anh_trai | chị | vua | nữ_hoàng
+anh_trai | chị | đàn_ông | đàn_bà
+anh_trai | chị | hoàng_tử | công_chúa
+anh_trai | chị | con_riêng | chị kế
+anh_trai | chị | chú | cô
+anh_em | chị_em | bố | mẹ
+anh_em | chị_em | cha | mẹ
+anh_em | chị_em | ông | bà
+anh_em | chị_em | chú_rể | cô_dâu
+anh_em | chị_em | vua | nữ_hoàng
+anh_em | chị_em | đàn_ông | đàn_bà
+anh_em | chị_em | hoàng_tử | công_chúa
+anh_em | chị_em | con_riêng | chị kế
+anh_em | chị_em | chú | cô
+anh_em | chị_em | anh_trai | em_gái
+bố | mẹ | cha | mẹ
+bố | mẹ | ông | bà
+bố | mẹ | chú_rể | cô_dâu
+bố | mẹ | vua | nữ_hoàng
+bố | mẹ | đàn_ông | đàn_bà
+bố | mẹ | hoàng_tử | công_chúa
+bố | mẹ | con_riêng | chị kế
+bố | mẹ | chú | cô
+bố | mẹ | anh_trai | em_gái
+bố | mẹ | anh_em | chị_em gái
+cha | mẹ | ông | bà
+cha | mẹ | chú_rể | cô_dâu
+cha | mẹ | vua | nữ_hoàng
+cha | mẹ | đàn_ông | đàn_bà
+cha | mẹ | hoàng_tử | công_chúa
+cha | mẹ | con_riêng | chị kế
+cha | mẹ | chú | cô
+cha | mẹ | anh_trai | em_gái
+cha | mẹ | anh_em | chị_em gái
+cha | mẹ | bố | mẹ
+ông nội | bà ngoại | ông | bà
+ông nội | bà ngoại | chú_rể | cô_dâu
+ông nội | bà ngoại | chồng | vợ
+ông nội | bà ngoại | vua | nữ_hoàng
+ông nội | bà ngoại | hoàng_tử | công_chúa
+ông nội | bà ngoại | con_riêng | chị kế
+ông nội | bà ngoại | chú | cô
+ông nội | bà ngoại | anh_trai | em_gái
+ông nội | bà ngoại | anh_em | chị_em gái
+ông nội | bà ngoại | bố | mẹ
+ông nội | bà ngoại | cha | mẹ
+ông nội | bà | chú_rể | cô_dâu
+ông nội | bà | vua | nữ_hoàng
+ông nội | bà | hoàng_tử | công_chúa
+ông nội | bà | con_riêng | chị kế
+ông nội | bà | chú | cô
+ông nội | bà | anh_trai | em_gái
+ông nội | bà | anh_em | chị_em gái
+ông nội | bà | bố | mẹ
+ông nội | bà | cha | mẹ
+cháu trai | cháu gái | chú_rể | cô_dâu
+cháu trai | cháu gái | vua | nữ_hoàng
+cháu trai | cháu gái | đàn_ông | đàn_bà
+cháu trai | cháu gái | hoàng_tử | công_chúa
+cháu trai | cháu gái | con_riêng | chị kế
+cháu trai | cháu gái | chú | cô
+cháu trai | cháu gái | anh_trai | em_gái
+cháu trai | cháu gái | anh_em | chị_em gái
+cháu trai | cháu gái | bố | mẹ
+cháu trai | cháu gái | cha | mẹ
+cháu trai | cháu gái | ông | bà
+chú_rể | cô_dâu | vua | nữ_hoàng
+chú_rể | cô_dâu | đàn_ông | đàn_bà
+chú_rể | cô_dâu | hoàng_tử | công_chúa
+chú_rể | cô_dâu | con_riêng | chị kế
+chú_rể | cô_dâu | chú | cô
+chú_rể | cô_dâu | anh_trai | em_gái
+chú_rể | cô_dâu | anh_em | chị_em gái
+chú_rể | cô_dâu | bố | mẹ
+chú_rể | cô_dâu | cha | mẹ
+chú_rể | cô_dâu | ông | bà nội
+anh ấy | cô ấy | vua | nữ_hoàng
+anh ấy | cô ấy | đàn_ông | đàn_bà
+anh ấy | cô ấy | hoàng_tử | công_chúa
+anh ấy | cô ấy | con_riêng | chị kế
+anh ấy | cô ấy | chú | cô
+anh ấy | cô ấy | anh_trai | em_gái
+anh ấy | cô ấy | anh_em | chị_em gái
+anh ấy | cô ấy | bố | mẹ
+anh ấy | cô ấy | cha | mẹ
+anh ấy | cô ấy | ông | bà
+anh ấy | cô ấy | chú_rể | cô_dâu
+của anh ấy | của cô ấy | vua | nữ_hoàng
+của anh ấy | của cô ấy | đàn_ông | đàn_bà
+của anh ấy | của cô ấy | hoàng_tử | công_chúa
+của anh ấy | của cô ấy | con_riêng | chị kế
+của anh ấy | của cô ấy | chú | cô
+của anh ấy | của cô ấy | anh_trai | em_gái
+của anh ấy | của cô ấy | anh_em | chị_em gái
+của anh ấy | của cô ấy | bố | mẹ
+của anh ấy | của cô ấy | cha | mẹ
+của anh ấy | của cô ấy | ông | bà
+của anh ấy | của cô ấy | chú_rể | cô_dâu
+chồng | vợ | vua | nữ_hoàng
+chồng | vợ | đàn_ông | đàn_bà
+chồng | vợ | hoàng_tử | công_chúa
+chồng | vợ | con_riêng | chị kế
+chồng | vợ | chú | cô
+chồng | vợ | anh_trai | em_gái
+chồng | vợ | anh_em | chị_em gái
+chồng | vợ | bố | mẹ
+chồng | vợ | cha | mẹ
+chồng | vợ | ông | bà
+chồng | vợ | chú_rể | cô_dâu
+vua | nữ_hoàng | đàn_ông | đàn_bà
+vua | nữ_hoàng | hoàng_tử | công_chúa
+vua | nữ_hoàng | con_riêng | chị kế
+vua | nữ_hoàng | chú | cô
+vua | nữ_hoàng | anh_trai | em_gái
+vua | nữ_hoàng | anh_em | chị_em gái
+vua | nữ_hoàng | bố | mẹ
+vua | nữ_hoàng | cha | mẹ
+vua | nữ_hoàng | ông | bà
+vua | nữ_hoàng | chú_rể | cô_dâu
+người đàn_ông | phụ_nữ | hoàng_tử | công_chúa
+người đàn_ông | phụ_nữ | con_riêng | chị kế
+người đàn_ông | phụ_nữ | chú | cô
+người đàn_ông | phụ_nữ | anh_trai | em_gái
+người đàn_ông | phụ_nữ | anh_em | chị_em gái
+người đàn_ông | phụ_nữ | bố | mẹ
+người đàn_ông | phụ_nữ | cha | mẹ
+người đàn_ông | phụ_nữ | ông | bà
+người đàn_ông | phụ_nữ | chú_rể | cô_dâu
+người đàn_ông | phụ_nữ | vua | nữ_hoàng
+cháu trai | cháu gái | hoàng_tử | công_chúa
+cháu trai | cháu gái | con_riêng | chị kế
+cháu trai | cháu gái | chú | cô
+cháu trai | cháu gái | anh_trai | em_gái
+cháu trai | cháu gái | anh_em | chị_em gái
+cháu trai | cháu gái | bố | mẹ
+cháu trai | cháu gái | cha | mẹ
+cháu trai | cháu gái | ông | bà
+cháu trai | cháu gái | chú_rể | cô_dâu
+cháu trai | cháu gái | vua | nữ_hoàng
+cháu trai | cháu gái | đàn_ông | đàn_bà
+cảnh_sát | nữ cảnh_sát | hoàng_tử | công_chúa
+cảnh_sát | nữ cảnh_sát | con_riêng | chị kế
+cảnh_sát | nữ cảnh_sát | chú | cô
+cảnh_sát | nữ cảnh_sát | anh_trai | em_gái
+cảnh_sát | nữ cảnh_sát | anh_em | chị_em gái
+cảnh_sát | nữ cảnh_sát | bố | mẹ
+cảnh_sát | nữ cảnh_sát | cha | mẹ
+cảnh_sát | nữ cảnh_sát | ông | bà
+cảnh_sát | nữ cảnh_sát | chú_rể | cô_dâu
+cảnh_sát | nữ cảnh_sát | vua | nữ_hoàng
+cảnh_sát | nữ cảnh_sát | đàn_ông | đàn_bà
+hoàng_tử | công_chúa | con_riêng | chị kế
+hoàng_tử | công_chúa | chú | cô
+hoàng_tử | công_chúa | anh_trai | em_gái
+hoàng_tử | công_chúa | anh_em | chị_em gái
+hoàng_tử | công_chúa | bố | mẹ
+hoàng_tử | công_chúa | cha | mẹ
+hoàng_tử | công_chúa | ông | bà
+hoàng_tử | công_chúa | chú_rể | cô_dâu
+hoàng_tử | công_chúa | vua | nữ_hoàng
+hoàng_tử | công_chúa | đàn_ông | đàn_bà
+con trai | con gái | con_riêng | chị kế
+con trai | con gái | chú | cô
+con trai | con gái | anh_trai | em_gái
+con trai | con gái | anh_em | chị_em gái
+con trai | con gái | bố | mẹ
+con trai | con gái | cha | mẹ
+con trai | con gái | ông | bà
+con trai | con gái | chú_rể | cô_dâu
+con trai | con gái | vua | nữ_hoàng
+con trai | con gái | đàn_ông | đàn_bà
+con trai | con gái | hoàng_tử | công_chúa
+con trai | con gái | con_riêng | chị kế
+con trai | con gái | chú | cô
+con trai | con gái | anh_trai | em_gái
+con trai | con gái | anh_em | chị_em gái
+con trai | con gái | bố | mẹ
+con trai | con gái | cha | mẹ
+con trai | con gái | ông | bà
+con trai | con gái | chú_rể | cô_dâu
+con trai | con gái | vua | nữ_hoàng
+con trai | con gái | đàn_ông | đàn_bà
+con trai | con gái | hoàng_tử | công_chúa
+cha dượng | mẹ_kế | chú | cô
+cha dượng | mẹ_kế | anh_trai | em_gái
+cha dượng | mẹ_kế | anh_em | chị_em gái
+cha dượng | mẹ_kế | bố | mẹ
+cha dượng | mẹ_kế | cha | mẹ
+cha dượng | mẹ_kế | ông | bà
+cha dượng | mẹ_kế | chú_rể | cô_dâu
+cha dượng | mẹ_kế | vua | nữ_hoàng
+cha dượng | mẹ_kế | đàn_ông | đàn_bà
+cha dượng | mẹ_kế | hoàng_tử | công_chúa
+cha dượng | mẹ_kế | con_riêng | chị kế
+con trai riêng | con gái riêng | chú | cô
+con trai riêng | con gái riêng | anh_trai | em_gái
+con trai riêng | con gái riêng | anh_em | chị_em gái
+con trai riêng | con gái riêng | bố | mẹ
+con trai riêng | con gái riêng | cha | mẹ
+con trai riêng | con gái riêng | ông | bà
+con trai riêng | con gái riêng | chú_rể | cô_dâu
+con trai riêng | con gái riêng | vua | nữ_hoàng
+con trai riêng | con gái riêng | đàn_ông | đàn_bà
+con trai riêng | con gái riêng | hoàng_tử | công_chúa
+con trai riêng | con gái riêng | con_riêng | chị kế
+chú | dì | anh_trai | em_gái
+chú | dì | anh_em | chị_em gái
+chú | dì | bố | mẹ
+chú | dì | cha | mẹ
+chú | dì | ông | bà
+chú | dì | chú_rể | cô_dâu
+chú | dì | vua | nữ_hoàng
+chú | dì | đàn_ông | đàn_bà
+chú | dì | hoàng_tử | công_chúa
+chú | dì | con_riêng | chị kế
+chấp_nhận được | không_thể chấp_nhận | nhận_thức | không biết
+chấp_nhận được | không_thể chấp_nhận | nhất_định | không chắc_chắn
+chấp_nhận được | không_thể chấp_nhận | rõ_ràng | không rõ
+chấp_nhận được | không_thể chấp_nhận | thoải_mái | khó_chịu
+chấp_nhận được | không_thể chấp_nhận | cạnh_tranh | không cạnh_tranh
+chấp_nhận được | không_thể chấp_nhận | nhất_quán | không nhất_quán
+chấp_nhận được | không_thể chấp_nhận | thuyết_phục | thiếu thuyết_phục
+chấp_nhận được | không_thể chấp_nhận | thuận_tiện | bất_tiện
+chấp_nhận được | không_thể chấp_nhận | quyết_định | chưa quyết_định
+chấp_nhận được | không_thể chấp_nhận | hiệu_quả | không hiệu_quả
+chấp_nhận được | không_thể chấp_nhận | đạo_đức | phi đạo_đức
+chấp_nhận được | không_thể chấp_nhận | may_mắn | không may
+chấp_nhận được | không_thể chấp_nhận | trung_thực | Không trung_thực
+chấp_nhận được | không_thể chấp_nhận | ấn_tượng | không ấn_tượng
+chấp_nhận được | không_thể chấp_nhận | thông_tin | không thông_tin
+chấp_nhận được | không_thể chấp_nhận | thông_báo | không hiểu
+chấp_nhận được | không_thể chấp_nhận | logic | phi logic
+chấp_nhận được | không_thể chấp_nhận | dễ_chịu | khó_chịu
+chấp_nhận được | không_thể chấp_nhận | có_thể | không_thể tưởng_tượng được
+chấp_nhận được | không_thể chấp_nhận | năng_suất | không hiệu_quả
+chấp_nhận được | không_thể chấp_nhận | hợp_lý | không hợp_lý
+chấp_nhận được | không_thể chấp_nhận | chắc_chắn | không chắc_chắn
+chấp_nhận được | không_thể chấp_nhận | trang_nhã | phiền_nhiễu
+nhận_thức | không biết | nhất_định | không chắc_chắn
+nhận_thức | không biết | rõ_ràng | không rõ
+nhận_thức | không biết | thoải_mái | khó_chịu
+nhận_thức | không biết | cạnh_tranh | không cạnh_tranh
+nhận_thức | không biết | nhất_quán | không nhất_quán
+nhận_thức | không biết | thuyết_phục | thiếu thuyết_phục
+nhận_thức | không biết | thuận_tiện | bất_tiện
+nhận_thức | không biết | quyết_định | chưa quyết_định
+nhận_thức | không biết | hiệu_quả | không hiệu_quả
+nhận_thức | không biết | đạo_đức | phi đạo_đức
+nhận_thức | không biết | may_mắn | không may
+nhận_thức | không biết | trung_thực | Không trung_thực
+nhận_thức | không biết | ấn_tượng | không ấn_tượng
+nhận_thức | không biết | thông_tin | không thông_tin
+nhận_thức | không biết | thông_báo | không hiểu
+nhận_thức | không biết | logic | phi logic
+nhận_thức | không biết | dễ_chịu | khó_chịu
+nhận_thức | không biết | có_thể | không_thể tưởng_tượng được
+nhận_thức | không biết | năng_suất | không hiệu_quả
+nhận_thức | không biết | hợp_lý | không hợp_lý
+nhận_thức | không biết | chắc_chắn | không chắc_chắn
+nhận_thức | không biết | trang_nhã | phiền_nhiễu
+nhất_định | không chắc_chắn | rõ_ràng | không rõ
+nhất_định | không chắc_chắn | thoải_mái | khó_chịu
+nhất_định | không chắc_chắn | cạnh_tranh | không cạnh_tranh
+nhất_định | không chắc_chắn | nhất_quán | không nhất_quán
+nhất_định | không chắc_chắn | thuyết_phục | thiếu thuyết_phục
+nhất_định | không chắc_chắn | thuận_tiện | bất_tiện
+nhất_định | không chắc_chắn | quyết_định | chưa quyết_định
+nhất_định | không chắc_chắn | hiệu_quả | không hiệu_quả
+nhất_định | không chắc_chắn | đạo_đức | phi đạo_đức
+nhất_định | không chắc_chắn | may_mắn | không may
+nhất_định | không chắc_chắn | trung_thực | Không trung_thực
+nhất_định | không chắc_chắn | ấn_tượng | không ấn_tượng
+nhất_định | không chắc_chắn | thông_tin | không thông_tin
+nhất_định | không chắc_chắn | thông_báo | không hiểu
+nhất_định | không chắc_chắn | logic | phi logic
+nhất_định | không chắc_chắn | dễ_chịu | khó_chịu
+nhất_định | không chắc_chắn | có_thể | không_thể tưởng_tượng được
+nhất_định | không chắc_chắn | năng_suất | không hiệu_quả
+nhất_định | không chắc_chắn | hợp_lý | không hợp_lý
+nhất_định | không chắc_chắn | chắc_chắn | không chắc_chắn
+nhất_định | không chắc_chắn | trang_nhã | phiền_nhiễu
+nhất_định | không chắc_chắn | nhận_thức | không biết |
+rõ_ràng | không rõ_ràng | thoải_mái | khó_chịu
+rõ_ràng | không rõ_ràng | cạnh_tranh | không cạnh_tranh
+rõ_ràng | không rõ_ràng | nhất_quán | không nhất_quán
+rõ_ràng | không rõ_ràng | thuyết_phục | thiếu thuyết_phục
+rõ_ràng | không rõ_ràng | thuận_tiện | bất_tiện
+rõ_ràng | không rõ_ràng | quyết_định | chưa quyết_định
+rõ_ràng | không rõ_ràng | hiệu_quả | không hiệu_quả
+rõ_ràng | không rõ_ràng | đạo_đức | phi đạo_đức
+rõ_ràng | không rõ_ràng | may_mắn | không may
+rõ_ràng | không rõ_ràng | trung_thực | Không trung_thực
+rõ_ràng | không rõ_ràng | ấn_tượng | không ấn_tượng
+rõ_ràng | không rõ_ràng | thông_tin | không thông_tin
+rõ_ràng | không rõ_ràng | thông_báo | không hiểu
+rõ_ràng | không rõ_ràng | logic | phi logic
+rõ_ràng | không rõ_ràng | dễ_chịu | khó_chịu
+rõ_ràng | không rõ_ràng | có_thể | không_thể tưởng_tượng được
+rõ_ràng | không rõ_ràng | năng_suất | không hiệu_quả
+rõ_ràng | không rõ_ràng | hợp_lý | không hợp_lý
+rõ_ràng | không rõ_ràng | chắc_chắn | không chắc_chắn
+rõ_ràng | không rõ_ràng | trang_nhã | phiền_nhiễu
+rõ_ràng | không rõ_ràng | nhận_thức | không biết |
+rõ_ràng | không rõ_ràng | nhất_định | không chắc_chắn
+thoải_mái | khó_chịu | cạnh_tranh | không cạnh_tranh
+thoải_mái | khó_chịu | nhất_quán | không nhất_quán
+thoải_mái | khó_chịu | thuyết_phục | thiếu thuyết_phục
+thoải_mái | khó_chịu | thuận_tiện | bất_tiện
+thoải_mái | khó_chịu | quyết_định | chưa quyết_định
+thoải_mái | khó_chịu | hiệu_quả | không hiệu_quả
+thoải_mái | khó_chịu | đạo_đức | phi đạo_đức
+thoải_mái | khó_chịu | may_mắn | không may
+thoải_mái | khó_chịu | trung_thực | Không trung_thực
+thoải_mái | khó_chịu | ấn_tượng | không ấn_tượng
+thoải_mái | khó_chịu | thông_tin | không thông_tin
+thoải_mái | khó_chịu | thông_báo | không hiểu
+thoải_mái | khó_chịu | logic | phi logic
+thoải_mái | khó_chịu | dễ_chịu | khó_chịu
+thoải_mái | khó_chịu | có_thể | không_thể tưởng_tượng được
+thoải_mái | khó_chịu | năng_suất | không hiệu_quả
+thoải_mái | khó_chịu | hợp_lý | không hợp_lý
+thoải_mái | khó_chịu | chắc_chắn | không chắc_chắn
+thoải_mái | khó_chịu | trang_nhã | phiền_nhiễu
+thoải_mái | khó_chịu | nhận_thức | không biết |
+thoải_mái | khó_chịu | nhất_định | không chắc_chắn
+thoải_mái | khó_chịu | rõ_ràng | không rõ
+cạnh_tranh | không cạnh_tranh | nhất_quán | không nhất_quán
+cạnh_tranh | không cạnh_tranh | thuyết_phục | thiếu thuyết_phục
+cạnh_tranh | không cạnh_tranh | thuận_tiện | bất_tiện
+cạnh_tranh | không cạnh_tranh | quyết_định | chưa quyết_định
+cạnh_tranh | không cạnh_tranh | hiệu_quả | không hiệu_quả
+cạnh_tranh | không cạnh_tranh | đạo_đức | phi đạo_đức
+cạnh_tranh | không cạnh_tranh | may_mắn | không may
+cạnh_tranh | không cạnh_tranh | trung_thực | Không trung_thực
+cạnh_tranh | không cạnh_tranh | ấn_tượng | không ấn_tượng
+cạnh_tranh | không cạnh_tranh | thông_tin | không thông_tin
+cạnh_tranh | không cạnh_tranh | thông_báo | không hiểu
+cạnh_tranh | không cạnh_tranh | logic | phi logic
+cạnh_tranh | không cạnh_tranh | dễ_chịu | khó_chịu
+cạnh_tranh | không cạnh_tranh | có_thể | không_thể tưởng_tượng được
+cạnh_tranh | không cạnh_tranh | năng_suất | không hiệu_quả
+cạnh_tranh | không cạnh_tranh | hợp_lý | không hợp_lý
+cạnh_tranh | không cạnh_tranh | chắc_chắn | không chắc_chắn
+cạnh_tranh | không cạnh_tranh | trang_nhã | phiền_nhiễu
+cạnh_tranh | không cạnh_tranh | nhận_thức | không biết
+cạnh_tranh | không cạnh_tranh | nhất_định | không chắc_chắn
+cạnh_tranh | không cạnh_tranh | rõ_ràng | không rõ
+cạnh_tranh | không cạnh_tranh | thoải_mái | khó_chịu
+thuyết_phục | thiếu thuyết_phục | thuận_tiện | bất_tiện
+thuyết_phục | thiếu thuyết_phục | quyết_định | chưa quyết_định
+thuyết_phục | thiếu thuyết_phục | hiệu_quả | không hiệu_quả
+thuyết_phục | thiếu thuyết_phục | đạo_đức | phi đạo_đức
+thuyết_phục | thiếu thuyết_phục | may_mắn | không may
+thuyết_phục | thiếu thuyết_phục | trung_thực | Không trung_thực
+thuyết_phục | thiếu thuyết_phục | ấn_tượng | không ấn_tượng
+thuyết_phục | thiếu thuyết_phục | thông_tin | không thông_tin
+thuyết_phục | thiếu thuyết_phục | thông_báo | không hiểu
+thuyết_phục | thiếu thuyết_phục | logic | phi logic
+thuyết_phục | thiếu thuyết_phục | dễ_chịu | khó_chịu
+thuyết_phục | thiếu thuyết_phục | có_thể | không_thể tưởng_tượng được
+thuyết_phục | thiếu thuyết_phục | năng_suất | không hiệu_quả
+thuyết_phục | thiếu thuyết_phục | hợp_lý | không hợp_lý
+thuyết_phục | thiếu thuyết_phục | chắc_chắn | không chắc_chắn
+thuyết_phục | thiếu thuyết_phục | trang_nhã | phiền_nhiễu
+thuyết_phục | thiếu thuyết_phục | nhận_thức | không biết
+thuyết_phục | thiếu thuyết_phục | nhất_định | không chắc_chắn
+thuyết_phục | thiếu thuyết_phục | rõ_ràng | không rõ
+thuyết_phục | thiếu thuyết_phục | thoải_mái | khó_chịu
+thuyết_phục | thiếu thuyết_phục | cạnh_tranh | không cạnh_tranh
+thuyết_phục | thiếu thuyết_phục | nhất_quán | không nhất_quán
+thuận_tiện | bất_tiện | quyết_định | chưa quyết_định
+thuận_tiện | bất_tiện | hiệu_quả | không hiệu_quả
+thuận_tiện | bất_tiện | đạo_đức | phi đạo_đức
+thuận_tiện | bất_tiện | may_mắn | không may
+thuận_tiện | bất_tiện | trung_thực | Không trung_thực
+thuận_tiện | bất_tiện | ấn_tượng | không ấn_tượng
+thuận_tiện | bất_tiện | thông_tin | không thông_tin
+thuận_tiện | bất_tiện | thông_báo | không hiểu
+thuận_tiện | bất_tiện | logic | phi logic
+thuận_tiện | bất_tiện | dễ_chịu | khó_chịu
+thuận_tiện | bất_tiện | có_thể | không_thể tưởng_tượng được
+thuận_tiện | bất_tiện | năng_suất | không hiệu_quả
+thuận_tiện | bất_tiện | hợp_lý | không hợp_lý
+thuận_tiện | bất_tiện | chắc_chắn | không chắc_chắn
+thuận_tiện | bất_tiện | trang_nhã | phiền_nhiễu
+thuận_tiện | bất_tiện | nhận_thức | không biết
+thuận_tiện | bất_tiện | nhất_định | không chắc_chắn
+thuận_tiện | bất_tiện | rõ_ràng | không rõ
+thuận_tiện | bất_tiện | thoải_mái | khó_chịu
+thuận_tiện | bất_tiện | cạnh_tranh | không cạnh_tranh
+thuận_tiện | bất_tiện | nhất_quán | không nhất_quán
+thuận_tiện | bất_tiện | thuyết_phục | thiếu thuyết_phục
+quyết_định | chưa quyết_định | hiệu_quả | không hiệu_quả
+quyết_định | chưa quyết_định | đạo_đức | phi đạo_đức
+quyết_định | chưa quyết_định | may_mắn | không may
+quyết_định | chưa quyết_định | trung_thực | Không trung_thực
+quyết_định | chưa quyết_định | ấn_tượng | không ấn_tượng
+quyết_định | chưa quyết_định | thông_tin | không thông_tin
+quyết_định | chưa quyết_định | thông_báo | không hiểu
+quyết_định | chưa quyết_định | logic | phi logic
+quyết_định | chưa quyết_định | dễ_chịu | khó_chịu
+quyết_định | chưa quyết_định | có_thể | không_thể tưởng_tượng được
+quyết_định | chưa quyết_định | năng_suất | không hiệu_quả
+quyết_định | chưa quyết_định | hợp_lý | không hợp_lý
+quyết_định | chưa quyết_định | chắc_chắn | không chắc_chắn
+quyết_định | chưa quyết_định | trang_nhã | phiền_nhiễu
+quyết_định | chưa quyết_định | nhận_thức | không biết
+quyết_định | chưa quyết_định | nhất_định | không chắc_chắn
+quyết_định | chưa quyết_định | rõ_ràng | không rõ
+quyết_định | chưa quyết_định | thoải_mái | khó_chịu
+quyết_định | chưa quyết_định | cạnh_tranh | không cạnh_tranh
+quyết_định | chưa quyết_định | nhất_quán | không nhất_quán
+quyết_định | chưa quyết_định | thuyết_phục | thiếu thuyết_phục
+quyết_định | chưa quyết_định | thuận_tiện | bất_tiện
+hiệu_quả | không hiệu_quả | đạo_đức | phi đạo_đức
+hiệu_quả | không hiệu_quả | may_mắn | không may
+hiệu_quả | không hiệu_quả | trung_thực | Không trung_thực
+hiệu_quả | không hiệu_quả | ấn_tượng | không ấn_tượng
+hiệu_quả | không hiệu_quả | thông_tin | không thông_tin
+hiệu_quả | không hiệu_quả | thông_báo | không hiểu
+hiệu_quả | không hiệu_quả | logic | phi logic
+hiệu_quả | không hiệu_quả | dễ_chịu | khó_chịu
+hiệu_quả | không hiệu_quả | có_thể | không_thể tưởng_tượng được
+hiệu_quả | không hiệu_quả | năng_suất | không hiệu_quả
+hiệu_quả | không hiệu_quả | hợp_lý | không hợp_lý
+hiệu_quả | không hiệu_quả | chắc_chắn | không chắc_chắn
+hiệu_quả | không hiệu_quả | trang_nhã | phiền_nhiễu
+hiệu_quả | không hiệu_quả | nhận_thức | không biết
+hiệu_quả | không hiệu_quả | nhất_định | không chắc_chắn
+hiệu_quả | không hiệu_quả | rõ_ràng | không rõ
+hiệu_quả | không hiệu_quả | thoải_mái | khó_chịu
+hiệu_quả | không hiệu_quả | cạnh_tranh | không cạnh_tranh
+hiệu_quả | không hiệu_quả | nhất_quán | không nhất_quán
+hiệu_quả | không hiệu_quả | thuyết_phục | thiếu thuyết_phục
+hiệu_quả | không hiệu_quả | thuận_tiện | bất_tiện
+hiệu_quả | không hiệu_quả | quyết_định | chưa quyết_định
+đạo_đức | phi đạo_đức | may_mắn | không may
+đạo_đức | phi đạo_đức | trung_thực | Không trung_thực
+đạo_đức | phi đạo_đức | ấn_tượng | không ấn_tượng
+đạo_đức | phi đạo_đức | thông_tin | không thông_tin
+đạo_đức | phi đạo_đức | thông_báo | không hiểu
+đạo_đức | phi đạo_đức | logic | phi logic
+đạo_đức | phi đạo_đức | dễ_chịu | khó_chịu
+đạo_đức | phi đạo_đức | có_thể | không_thể tưởng_tượng được
+đạo_đức | phi đạo_đức | năng_suất | không hiệu_quả
+đạo_đức | phi đạo_đức | hợp_lý | không hợp_lý
+đạo_đức | phi đạo_đức | chắc_chắn | không chắc_chắn
+đạo_đức | phi đạo_đức | trang_nhã | phiền_nhiễu
+đạo_đức | phi đạo_đức | nhận_thức | không biết
+đạo_đức | phi đạo_đức | nhất_định | không chắc_chắn
+đạo_đức | phi đạo_đức | rõ_ràng | không rõ
+đạo_đức | phi đạo_đức | thoải_mái | khó_chịu
+đạo_đức | phi đạo_đức | cạnh_tranh | không cạnh_tranh
+đạo_đức | phi đạo_đức | nhất_quán | không nhất_quán
+đạo_đức | phi đạo_đức | thuyết_phục | thiếu thuyết_phục
+đạo_đức | phi đạo_đức | thuận_tiện | bất_tiện
+đạo_đức | phi đạo_đức | quyết_định | chưa quyết_định
+đạo_đức | phi đạo_đức | hiệu_quả | không hiệu_quả
+may_mắn | không may | trung_thực | Không trung_thực
+may_mắn | không may | ấn_tượng | không ấn_tượng
+may_mắn | không may | thông_tin | không thông_tin
+may_mắn | không may | thông_báo | không hiểu
+may_mắn | không may | logic | phi logic
+may_mắn | không may | dễ_chịu | khó_chịu
+may_mắn | không may | có_thể | không_thể tưởng_tượng được
+may_mắn | không may | năng_suất | không hiệu_quả
+may_mắn | không may | hợp_lý | không hợp_lý
+may_mắn | không may | chắc_chắn | không chắc_chắn
+may_mắn | không may | trang_nhã | phiền_nhiễu
+may_mắn | không may | nhận_thức | không biết
+may_mắn | không may | nhất_định | không chắc_chắn
+may_mắn | không may | rõ_ràng | không rõ
+may_mắn | không may | thoải_mái | khó_chịu
+may_mắn | không may | cạnh_tranh | không cạnh_tranh
+may_mắn | không may | nhất_quán | không nhất_quán
+may_mắn | không may | thuyết_phục | thiếu thuyết_phục
+may_mắn | không may | thuận_tiện | bất_tiện
+may_mắn | không may | quyết_định | chưa quyết_định
+may_mắn | không may | hiệu_quả | không hiệu_quả
+may_mắn | không may | đạo_đức | phi đạo_đức
+trung_thực | không trung_thực | ấn_tượng | không ấn_tượng
+trung_thực | không trung_thực | thông_tin | không thông_tin
+trung_thực | không trung_thực | thông_báo | không hiểu
+trung_thực | không trung_thực | logic | phi logic
+trung_thực | không trung_thực | dễ_chịu | khó_chịu
+trung_thực | không trung_thực | có_thể | không_thể tưởng_tượng được
+trung_thực | không trung_thực | năng_suất | không hiệu_quả
+trung_thực | không trung_thực | hợp_lý | không hợp_lý
+trung_thực | không trung_thực | chắc_chắn | không chắc_chắn
+trung_thực | không trung_thực | trang_nhã | phiền_nhiễu
+trung_thực | không trung_thực | nhận_thức | không biết
+trung_thực | không trung_thực | nhất_định | không chắc_chắn
+trung_thực | không trung_thực | rõ_ràng | không rõ
+trung_thực | không trung_thực | thoải_mái | khó_chịu
+trung_thực | không trung_thực | cạnh_tranh | không cạnh_tranh
+trung_thực | không trung_thực | nhất_quán | không nhất_quán
+trung_thực | không trung_thực | thuyết_phục | thiếu thuyết_phục
+trung_thực | không trung_thực | thuận_tiện | bất_tiện
+trung_thực | không trung_thực | quyết_định | chưa quyết_định
+trung_thực | không trung_thực | hiệu_quả | không hiệu_quả
+trung_thực | không trung_thực | đạo_đức | phi đạo_đức
+trung_thực | không trung_thực | may_mắn | không may
+ấn_tượng | không ấn_tượng | thông_tin | không thông_tin
+ấn_tượng | không ấn_tượng | thông_báo | không hiểu
+ấn_tượng | không ấn_tượng | logic | phi logic
+ấn_tượng | không ấn_tượng | dễ_chịu | khó_chịu
+ấn_tượng | không ấn_tượng | có_thể | không_thể tưởng_tượng được
+ấn_tượng | không ấn_tượng | năng_suất | không hiệu_quả
+ấn_tượng | không ấn_tượng | hợp_lý | không hợp_lý
+ấn_tượng | không ấn_tượng | chắc_chắn | không chắc_chắn
+ấn_tượng | không ấn_tượng | trang_nhã | phiền_nhiễu
+ấn_tượng | không ấn_tượng | nhận_thức | không biết
+ấn_tượng | không ấn_tượng | nhất_định | không chắc_chắn
+ấn_tượng | không ấn_tượng | rõ_ràng | không rõ
+ấn_tượng | không ấn_tượng | thoải_mái | khó_chịu
+ấn_tượng | không ấn_tượng | cạnh_tranh | không cạnh_tranh
+ấn_tượng | không ấn_tượng | nhất_quán | không nhất_quán
+ấn_tượng | không ấn_tượng | thuyết_phục | thiếu thuyết_phục
+ấn_tượng | không ấn_tượng | thuận_tiện | bất_tiện
+ấn_tượng | không ấn_tượng | quyết_định | chưa quyết_định
+ấn_tượng | không ấn_tượng | hiệu_quả | không hiệu_quả
+ấn_tượng | không ấn_tượng | đạo_đức | phi đạo_đức
+ấn_tượng | không ấn_tượng | may_mắn | không may
+ấn_tượng | không ấn_tượng | trung_thực | Không trung_thực
+thông_tin | không thông_tin | thông_báo | không hiểu
+thông_tin | không thông_tin | logic | phi logic
+thông_tin | không thông_tin | dễ_chịu | khó_chịu
+thông_tin | không thông_tin | có_thể | không_thể tưởng_tượng được
+thông_tin | không thông_tin | năng_suất | không hiệu_quả
+thông_tin | không thông_tin | hợp_lý | không hợp_lý
+thông_tin | không thông_tin | chắc_chắn | không chắc_chắn
+thông_tin | không thông_tin | trang_nhã | phiền_nhiễu
+thông_tin | không thông_tin | nhận_thức | không biết
+thông_tin | không thông_tin | nhất_định | không chắc_chắn
+thông_tin | không thông_tin | rõ_ràng | không rõ
+thông_tin | không thông_tin | thoải_mái | khó_chịu
+thông_tin | không thông_tin | cạnh_tranh | không cạnh_tranh
+thông_tin | không thông_tin | nhất_quán | không nhất_quán
+thông_tin | không thông_tin | thuyết_phục | thiếu thuyết_phục
+thông_tin | không thông_tin | thuận_tiện | bất_tiện
+thông_tin | không thông_tin | quyết_định | chưa quyết_định
+thông_tin | không thông_tin | hiệu_quả | không hiệu_quả
+thông_tin | không thông_tin | đạo_đức | phi đạo_đức
+thông_tin | không thông_tin | may_mắn | không may
+thông_tin | không thông_tin | trung_thực | Không trung_thực
+thông_tin | không thông_tin | ấn_tượng | không ấn_tượng
+thông_báo | không hiểu | logic | phi logic
+thông_báo | không hiểu | dễ_chịu | khó_chịu
+thông_báo | không hiểu | có_thể | không_thể tưởng_tượng được
+thông_báo | không hiểu | năng_suất | không hiệu_quả
+thông_báo | không hiểu | hợp_lý | không hợp_lý
+thông_báo | không hiểu | chắc_chắn | không chắc_chắn
+thông_báo | không hiểu | trang_nhã | phiền_nhiễu
+thông_báo | không hiểu | nhận_thức | không biết
+thông_báo | không hiểu | nhất_định | không chắc_chắn
+thông_báo | không hiểu | rõ_ràng | không rõ
+thông_báo | không hiểu | thoải_mái | khó_chịu
+thông_báo | không hiểu | cạnh_tranh | không cạnh_tranh
+thông_báo | không hiểu | nhất_quán | không nhất_quán
+thông_báo | không hiểu | thuyết_phục | thiếu thuyết_phục
+thông_báo | không hiểu | thuận_tiện | bất_tiện
+thông_báo | không hiểu | quyết_định | chưa quyết_định
+thông_báo | không hiểu | hiệu_quả | không hiệu_quả
+thông_báo | không hiểu | đạo_đức | phi đạo_đức
+thông_báo | không hiểu | may_mắn | không may
+thông_báo | không hiểu | trung_thực | Không trung_thực
+thông_báo | không hiểu | ấn_tượng | không ấn_tượng
+thông_báo | không hiểu | thông_tin | không thông_tin
+được biết đến | chưa biết | logic | phi logic
+được biết đến | chưa biết | dễ_chịu | khó_chịu
+được biết đến | chưa biết | có_thể | không_thể tưởng_tượng được
+được biết đến | chưa biết | năng_suất | không hiệu_quả
+được biết đến | chưa biết | hợp_lý | không hợp_lý
+được biết đến | chưa biết | chắc_chắn | không chắc_chắn
+được biết đến | chưa biết | trang_nhã | phiền_nhiễu
+được biết đến | chưa biết | nhận_thức | không biết
+được biết đến | chưa biết | nhất_định | không chắc_chắn
+được biết đến | chưa biết | rõ_ràng | không rõ
+được biết đến | chưa biết | thoải_mái | khó_chịu
+được biết đến | chưa biết | cạnh_tranh | không cạnh_tranh
+được biết đến | chưa biết | nhất_quán | không nhất_quán
+được biết đến | chưa biết | thuyết_phục | thiếu thuyết_phục
+được biết đến | chưa biết | thuận_tiện | bất_tiện
+được biết đến | chưa biết | quyết_định | chưa quyết_định
+được biết đến | chưa biết | hiệu_quả | không hiệu_quả
+được biết đến | chưa biết | đạo_đức | phi đạo_đức
+được biết đến | chưa biết | may_mắn | không may
+được biết đến | chưa biết | trung_thực | Không trung_thực
+được biết đến | chưa biết | ấn_tượng | không ấn_tượng
+được biết đến | chưa biết | thông_tin | không thông_tin
+được biết đến | chưa biết | thông_báo | không hiểu |
+có khả_năng | không có khả_năng | logic | phi logic
+có khả_năng | không có khả_năng | dễ_chịu | khó_chịu
+có khả_năng | không có khả_năng | có_thể | không_thể tưởng_tượng được
+có khả_năng | không có khả_năng | năng_suất | không hiệu_quả
+có khả_năng | không có khả_năng | hợp_lý | không hợp_lý
+có khả_năng | không có khả_năng | chắc_chắn | không chắc_chắn
+có khả_năng | không có khả_năng | trang_nhã | phiền_nhiễu
+có khả_năng | không có khả_năng | nhận_thức | không biết
+có khả_năng | không có khả_năng | nhất_định | không chắc_chắn
+có khả_năng | không có khả_năng | rõ_ràng | không rõ
+có khả_năng | không có khả_năng | thoải_mái | khó_chịu
+có khả_năng | không có khả_năng | cạnh_tranh | không cạnh_tranh
+có khả_năng | không có khả_năng | nhất_quán | không nhất_quán
+có khả_năng | không có khả_năng | thuyết_phục | thiếu thuyết_phục
+có khả_năng | không có khả_năng | thuận_tiện | bất_tiện
+có khả_năng | không có khả_năng | quyết_định | chưa quyết_định
+có khả_năng | không có khả_năng | hiệu_quả | không hiệu_quả
+có khả_năng | không có khả_năng | đạo_đức | phi đạo_đức
+có khả_năng | không có khả_năng | may_mắn | không may
+có khả_năng | không có khả_năng | trung_thực | Không trung_thực
+có khả_năng | không có khả_năng | ấn_tượng | không ấn_tượng
+có khả_năng | không có khả_năng | thông_tin | không thông_tin
+có khả_năng | không có khả_năng | thông_báo | không hiểu |
+logic | phi logic | dễ_chịu | khó_chịu
+logic | phi logic | có_thể | không_thể tưởng_tượng được
+logic | phi logic | năng_suất | không hiệu_quả
+logic | phi logic | hợp_lý | không hợp_lý
+logic | phi logic | chắc_chắn | không chắc_chắn
+logic | phi logic | trang_nhã | phiền_nhiễu
+logic | phi logic | nhận_thức | không biết
+logic | phi logic | nhất_định | không chắc_chắn
+logic | phi logic | rõ_ràng | không rõ
+logic | phi logic | thoải_mái | khó_chịu
+logic | phi logic | cạnh_tranh | không cạnh_tranh
+logic | phi logic | nhất_quán | không nhất_quán
+logic | phi logic | thuyết_phục | thiếu thuyết_phục
+logic | phi logic | thuận_tiện | bất_tiện
+logic | phi logic | quyết_định | chưa quyết_định
+logic | phi logic | hiệu_quả | không hiệu_quả
+logic | phi logic | đạo_đức | phi đạo_đức
+logic | phi logic | may_mắn | không may
+logic | phi logic | trung_thực | Không trung_thực
+logic | phi logic | ấn_tượng | không ấn_tượng
+logic | phi logic | thông_tin | không thông_tin
+logic | phi logic | thông_báo | không hiểu
+dễ_chịu | khó_chịu | có_thể | không_thể tưởng_tượng được
+dễ_chịu | khó_chịu | năng_suất | không hiệu_quả
+dễ_chịu | khó_chịu | hợp_lý | không hợp_lý
+dễ_chịu | khó_chịu | chắc_chắn | không chắc_chắn
+dễ_chịu | khó_chịu | trang_nhã | phiền_nhiễu
+dễ_chịu | khó_chịu | nhận_thức | không biết
+dễ_chịu | khó_chịu | nhất_định | không chắc_chắn
+dễ_chịu | khó_chịu | rõ_ràng | không rõ
+dễ_chịu | khó_chịu | thoải_mái | khó_chịu
+dễ_chịu | khó_chịu | cạnh_tranh | không cạnh_tranh
+dễ_chịu | khó_chịu | nhất_quán | không nhất_quán
+dễ_chịu | khó_chịu | thuyết_phục | thiếu thuyết_phục
+dễ_chịu | khó_chịu | thuận_tiện | bất_tiện
+dễ_chịu | khó_chịu | quyết_định | chưa quyết_định
+dễ_chịu | khó_chịu | hiệu_quả | không hiệu_quả
+dễ_chịu | khó_chịu | đạo_đức | phi đạo_đức
+dễ_chịu | khó_chịu | may_mắn | không may
+dễ_chịu | khó_chịu | trung_thực | Không trung_thực
+dễ_chịu | khó_chịu | ấn_tượng | không ấn_tượng
+dễ_chịu | khó_chịu | thông_tin | không thông_tin
+dễ_chịu | khó_chịu | thông_báo | không hiểu
+dễ_chịu | khó_chịu | logic | phi logic
+có_thể | không_thể | có_thể | không_thể tưởng_tượng được
+có_thể | không_thể | năng_suất | không hiệu_quả
+có_thể | không_thể | hợp_lý | không hợp_lý
+có_thể | không_thể | chắc_chắn | không chắc_chắn
+có_thể | không_thể | trang_nhã | phiền_nhiễu
+có_thể | không_thể | nhận_thức | không biết
+có_thể | không_thể | nhất_định | không chắc_chắn
+có_thể | không_thể | rõ_ràng | không rõ
+có_thể | không_thể | thoải_mái | khó_chịu
+có_thể | không_thể | cạnh_tranh | không cạnh_tranh
+có_thể | không_thể | nhất_quán | không nhất_quán
+có_thể | không_thể | thuyết_phục | thiếu thuyết_phục
+có_thể | không_thể | thuận_tiện | bất_tiện
+có_thể | không_thể | quyết_định | chưa quyết_định
+có_thể | không_thể | hiệu_quả | không hiệu_quả
+có_thể | không_thể | đạo_đức | phi đạo_đức
+có_thể | không_thể | may_mắn | không may
+có_thể | không_thể | trung_thực | Không trung_thực
+có_thể | không_thể | ấn_tượng | không ấn_tượng
+có_thể | không_thể | thông_tin | không thông_tin
+có_thể | không_thể | thông_báo | không hiểu
+có_thể | không_thể | logic | phi logic
+có_thể | không_thể | dễ_chịu | khó_chịu
+có_thể | không_thể tưởng_tượng | năng_suất | không hiệu_quả
+có_thể | không_thể tưởng_tượng | hợp_lý | không hợp_lý
+có_thể | không_thể tưởng_tượng | chắc_chắn | không chắc_chắn
+có_thể | không_thể tưởng_tượng | trang_nhã | phiền_nhiễu
+có_thể | không_thể tưởng_tượng | nhận_thức | không biết
+có_thể | không_thể tưởng_tượng | nhất_định | không chắc_chắn
+có_thể | không_thể tưởng_tượng | rõ_ràng | không rõ
+có_thể | không_thể tưởng_tượng | thoải_mái | khó_chịu
+có_thể | không_thể tưởng_tượng | cạnh_tranh | không cạnh_tranh
+có_thể | không_thể tưởng_tượng | nhất_quán | không nhất_quán
+có_thể | không_thể tưởng_tượng | thuyết_phục | thiếu thuyết_phục
+có_thể | không_thể tưởng_tượng | thuận_tiện | bất_tiện
+có_thể | không_thể tưởng_tượng | quyết_định | chưa quyết_định
+có_thể | không_thể tưởng_tượng | hiệu_quả | không hiệu_quả
+có_thể | không_thể tưởng_tượng | đạo_đức | phi đạo_đức
+có_thể | không_thể tưởng_tượng | may_mắn | không may
+có_thể | không_thể tưởng_tượng | trung_thực | Không trung_thực
+có_thể | không_thể tưởng_tượng | ấn_tượng | không ấn_tượng
+có_thể | không_thể tưởng_tượng | thông_tin | không thông_tin
+có_thể | không_thể tưởng_tượng | thông_báo | không hiểu
+có_thể | không_thể tưởng_tượng | logic | phi logic
+có_thể | không_thể tưởng_tượng | dễ_chịu | khó_chịu
+năng_suất | không hiệu_quả | hợp_lý | không hợp_lý
+năng_suất | không hiệu_quả | chắc_chắn | không chắc_chắn
+năng_suất | không hiệu_quả | trang_nhã | phiền_nhiễu
+năng_suất | không hiệu_quả | nhận_thức | không biết
+năng_suất | không hiệu_quả | nhất_định | không chắc_chắn
+năng_suất | không hiệu_quả | rõ_ràng | không rõ
+năng_suất | không hiệu_quả | thoải_mái | khó_chịu
+năng_suất | không hiệu_quả | cạnh_tranh | không cạnh_tranh
+năng_suất | không hiệu_quả | nhất_quán | không nhất_quán
+năng_suất | không hiệu_quả | thuyết_phục | thiếu thuyết_phục
+năng_suất | không hiệu_quả | thuận_tiện | bất_tiện
+năng_suất | không hiệu_quả | quyết_định | chưa quyết_định
+năng_suất | không hiệu_quả | hiệu_quả | không hiệu_quả
+năng_suất | không hiệu_quả | đạo_đức | phi đạo_đức
+năng_suất | không hiệu_quả | may_mắn | không may
+năng_suất | không hiệu_quả | trung_thực | Không trung_thực
+năng_suất | không hiệu_quả | ấn_tượng | không ấn_tượng
+năng_suất | không hiệu_quả | thông_tin | không thông_tin
+năng_suất | không hiệu_quả | thông_báo | không hiểu
+năng_suất | không hiệu_quả | logic | phi logic
+năng_suất | không hiệu_quả | dễ_chịu | khó_chịu
+năng_suất | không hiệu_quả | có_thể | không_thể tưởng_tượng được
+hợp_lý | không hợp_lý | chắc_chắn | không chắc_chắn
+hợp_lý | không hợp_lý | trang_nhã | phiền_nhiễu
+hợp_lý | không hợp_lý | nhận_thức | không biết
+hợp_lý | không hợp_lý | nhất_định | không chắc_chắn
+hợp_lý | không hợp_lý | rõ_ràng | không rõ
+hợp_lý | không hợp_lý | thoải_mái | khó_chịu
+hợp_lý | không hợp_lý | cạnh_tranh | không cạnh_tranh
+hợp_lý | không hợp_lý | nhất_quán | không nhất_quán
+hợp_lý | không hợp_lý | thuyết_phục | thiếu thuyết_phục
+hợp_lý | không hợp_lý | thuận_tiện | bất_tiện
+hợp_lý | không hợp_lý | quyết_định | chưa quyết_định
+hợp_lý | không hợp_lý | hiệu_quả | không hiệu_quả
+hợp_lý | không hợp_lý | đạo_đức | phi đạo_đức
+hợp_lý | không hợp_lý | may_mắn | không may
+hợp_lý | không hợp_lý | trung_thực | Không trung_thực
+hợp_lý | không hợp_lý | ấn_tượng | không ấn_tượng
+hợp_lý | không hợp_lý | thông_tin | không thông_tin
+hợp_lý | không hợp_lý | thông_báo | không hiểu
+hợp_lý | không hợp_lý | logic | phi logic
+hợp_lý | không hợp_lý | dễ_chịu | khó_chịu
+hợp_lý | không hợp_lý | có_thể | không_thể tưởng_tượng được
+hợp_lý | không hợp_lý | năng_suất | không hiệu_quả
+chắc_chắn | không chắc_chắn | trang_nhã | phiền_nhiễu
+chắc_chắn | không chắc_chắn | nhận_thức | không biết
+chắc_chắn | không chắc_chắn | nhất_định | không chắc_chắn
+chắc_chắn | không chắc_chắn | rõ_ràng | không rõ
+chắc_chắn | không chắc_chắn | thoải_mái | khó_chịu
+chắc_chắn | không chắc_chắn | cạnh_tranh | không cạnh_tranh
+chắc_chắn | không chắc_chắn | nhất_quán | không nhất_quán
+chắc_chắn | không chắc_chắn | thuyết_phục | thiếu thuyết_phục
+chắc_chắn | không chắc_chắn | thuận_tiện | bất_tiện
+chắc_chắn | không chắc_chắn | quyết_định | chưa quyết_định
+chắc_chắn | không chắc_chắn | hiệu_quả | không hiệu_quả
+chắc_chắn | không chắc_chắn | đạo_đức | phi đạo_đức
+chắc_chắn | không chắc_chắn | may_mắn | không may
+chắc_chắn | không chắc_chắn | trung_thực | Không trung_thực
+chắc_chắn | không chắc_chắn | ấn_tượng | không ấn_tượng
+chắc_chắn | không chắc_chắn | thông_tin | không thông_tin
+chắc_chắn | không chắc_chắn | thông_báo | không hiểu
+chắc_chắn | không chắc_chắn | logic | phi logic
+chắc_chắn | không chắc_chắn | dễ_chịu | khó_chịu
+chắc_chắn | không chắc_chắn | có_thể | không_thể tưởng_tượng được
+chắc_chắn | không chắc_chắn | năng_suất | không hiệu_quả
+chắc_chắn | không chắc_chắn | hợp_lý | không hợp_lý
+xấu | tệ hơn | lớn | lớn hơn
+xấu | tệ hơn | sáng | sáng hơn
+xấu | tệ hơn | lạnh | lạnh hơn
+xấu | tệ hơn | mát_mẻ | mát
+xấu | tệ hơn | sâu | sâu_sắc hơn
+xấu | tệ hơn | dễ_dàng | dễ_dàng hơn
+xấu | tệ hơn | nhanh_chóng | nhanh hơn
+xấu | tệ hơn | tốt | tốt hơn
+xấu | tệ hơn | tuyệt_vời | lớn hơn
+xấu | tệ hơn | khó_khăn | khó hơn
+xấu | tệ hơn | nặng | nặng hơn
+xấu | tệ hơn | cao | cao hơn
+xấu | tệ hơn | nóng | nóng hơn
+xấu | tệ hơn | lớn | lớn hơn
+xấu | tệ hơn | dài | lâu hơn
+xấu | tệ hơn | to | to hơn
+xấu | tệ hơn | thấp | thấp hơn
+xấu | tệ hơn | mới | mới hơn
+xấu | tệ hơn | cũ | lớn hơn
+xấu | tệ hơn | nhanh_chóng | nhanh hơn
+xấu | tệ hơn | an_toàn | an_toàn hơn
+xấu | tệ hơn | ngắn | ngắn hơn
+xấu | tệ hơn | đơn_giản | đơn_giản hơn
+xấu | tệ hơn | chậm | chậm hơn
+xấu | tệ hơn | nhỏ | nhỏ hơn
+xấu | tệ hơn | thông_minh | thông_minh hơn
+xấu | tệ hơn | mạnh_mẽ | mạnh_mẽ hơn
+xấu | tệ hơn | cao | cao hơn
+xấu | tệ hơn | chặt_chẽ | chặt_chẽ hơn
+xấu | tệ hơn | khó_khăn | khó_khăn hơn
+xấu | tệ hơn | ấm_áp | ấm hơn
+xấu | tệ hơn | yếu | yếu hơn
+xấu | tệ hơn | rộng | rộng hơn
+xấu | tệ hơn | trẻ | trẻ hơn
+lớn | lớn hơn | sáng | sáng hơn
+lớn | lớn hơn | lạnh | lạnh hơn
+lớn | lớn hơn | mát_mẻ | mát
+lớn | lớn hơn | sâu | sâu_sắc hơn
+lớn | lớn hơn | dễ_dàng | dễ_dàng hơn
+lớn | lớn hơn | nhanh_chóng | nhanh hơn
+lớn | lớn hơn | tốt | tốt hơn
+lớn | lớn hơn | tuyệt_vời | lớn hơn
+lớn | lớn hơn | khó_khăn | khó hơn
+lớn | lớn hơn | nặng | nặng hơn
+lớn | lớn hơn | cao | cao hơn
+lớn | lớn hơn | nóng | nóng hơn
+lớn | lớn hơn | lớn | lớn hơn
+lớn | lớn hơn | dài | lâu hơn
+lớn | lớn hơn | to | to hơn
+lớn | lớn hơn | thấp | thấp hơn
+lớn | lớn hơn | mới | mới hơn
+lớn | lớn hơn | cũ | lớn hơn
+lớn | lớn hơn | nhanh_chóng | nhanh hơn
+lớn | lớn hơn | an_toàn | an_toàn hơn
+lớn | lớn hơn | ngắn | ngắn hơn
+lớn | lớn hơn | đơn_giản | đơn_giản hơn
+lớn | lớn hơn | chậm | chậm hơn
+lớn | lớn hơn | nhỏ | nhỏ hơn
+lớn | lớn hơn | thông_minh | thông_minh hơn
+lớn | lớn hơn | mạnh_mẽ | mạnh_mẽ hơn
+lớn | lớn hơn | cao | cao hơn
+lớn | lớn hơn | chặt_chẽ | chặt_chẽ hơn
+lớn | lớn hơn | khó_khăn | khó_khăn hơn
+lớn | lớn hơn | ấm_áp | ấm hơn
+lớn | lớn hơn | yếu | yếu hơn
+lớn | lớn hơn | rộng | rộng hơn
+lớn | lớn hơn | trẻ | trẻ hơn
+lớn | lớn hơn | xấu | tệ hơn
+sáng | sáng hơn | lạnh | lạnh hơn
+sáng | sáng hơn | mát_mẻ | mát
+sáng | sáng hơn | sâu | sâu_sắc hơn
+sáng | sáng hơn | dễ_dàng | dễ_dàng hơn
+sáng | sáng hơn | nhanh_chóng | nhanh hơn
+sáng | sáng hơn | tốt | tốt hơn
+sáng | sáng hơn | tuyệt_vời | lớn hơn
+sáng | sáng hơn | khó_khăn | khó hơn
+sáng | sáng hơn | nặng | nặng hơn
+sáng | sáng hơn | cao | cao hơn
+sáng | sáng hơn | nóng | nóng hơn
+sáng | sáng hơn | lớn | lớn hơn
+sáng | sáng hơn | dài | lâu hơn
+sáng | sáng hơn | to | to hơn
+sáng | sáng hơn | thấp | thấp hơn
+sáng | sáng hơn | mới | mới hơn
+sáng | sáng hơn | cũ | lớn hơn
+sáng | sáng hơn | nhanh_chóng | nhanh hơn
+sáng | sáng hơn | an_toàn | an_toàn hơn
+sáng | sáng hơn | ngắn | ngắn hơn
+sáng | sáng hơn | đơn_giản | đơn_giản hơn
+sáng | sáng hơn | chậm | chậm hơn
+sáng | sáng hơn | nhỏ | nhỏ hơn
+sáng | sáng hơn | thông_minh | thông_minh hơn
+sáng | sáng hơn | mạnh_mẽ | mạnh_mẽ hơn
+sáng | sáng hơn | cao | cao hơn
+sáng | sáng hơn | chặt_chẽ | chặt_chẽ hơn
+sáng | sáng hơn | khó_khăn | khó_khăn hơn
+sáng | sáng hơn | ấm_áp | ấm hơn
+sáng | sáng hơn | yếu | yếu hơn
+sáng | sáng hơn | rộng | rộng hơn
+sáng | sáng hơn | trẻ | trẻ hơn
+sáng | sáng hơn | xấu | tệ hơn
+sáng | sáng hơn | lớn | lớn hơn
+giá rẻ | rẻ hơn | lạnh | lạnh hơn
+giá rẻ | rẻ hơn | mát_mẻ | mát
+giá rẻ | rẻ hơn | sâu | sâu_sắc hơn
+giá rẻ | rẻ hơn | dễ_dàng | dễ_dàng hơn
+giá rẻ | rẻ hơn | nhanh_chóng | nhanh hơn
+giá rẻ | rẻ hơn | tốt | tốt hơn
+giá rẻ | rẻ hơn | tuyệt_vời | lớn hơn
+giá rẻ | rẻ hơn | khó_khăn | khó hơn
+giá rẻ | rẻ hơn | nặng | nặng hơn
+giá rẻ | rẻ hơn | cao | cao hơn
+giá rẻ | rẻ hơn | nóng | nóng hơn
+giá rẻ | rẻ hơn | lớn | lớn hơn
+giá rẻ | rẻ hơn | dài | lâu hơn
+giá rẻ | rẻ hơn | to | to hơn
+giá rẻ | rẻ hơn | thấp | thấp hơn
+giá rẻ | rẻ hơn | mới | mới hơn
+giá rẻ | rẻ hơn | cũ | lớn hơn
+giá rẻ | rẻ hơn | nhanh_chóng | nhanh hơn
+giá rẻ | rẻ hơn | an_toàn | an_toàn hơn
+giá rẻ | rẻ hơn | ngắn | ngắn hơn
+giá rẻ | rẻ hơn | đơn_giản | đơn_giản hơn
+giá rẻ | rẻ hơn | chậm | chậm hơn
+giá rẻ | rẻ hơn | nhỏ | nhỏ hơn
+giá rẻ | rẻ hơn | thông_minh | thông_minh hơn
+giá rẻ | rẻ hơn | mạnh_mẽ | mạnh_mẽ hơn
+giá rẻ | rẻ hơn | cao | cao hơn
+giá rẻ | rẻ hơn | chặt_chẽ | chặt_chẽ hơn
+giá rẻ | rẻ hơn | khó_khăn | khó_khăn hơn
+giá rẻ | rẻ hơn | ấm_áp | ấm hơn
+giá rẻ | rẻ hơn | yếu | yếu hơn
+giá rẻ | rẻ hơn | rộng | rộng hơn
+giá rẻ | rẻ hơn | trẻ | trẻ hơn
+giá rẻ | rẻ hơn | xấu | tệ hơn
+giá rẻ | rẻ hơn | lớn | lớn hơn
+giá rẻ | rẻ hơn | sáng | sáng hơn
+lạnh | lạnh hơn | mát_mẻ | mát
+lạnh | lạnh hơn | sâu | sâu_sắc hơn
+lạnh | lạnh hơn | dễ_dàng | dễ_dàng hơn
+lạnh | lạnh hơn | nhanh_chóng | nhanh hơn
+lạnh | lạnh hơn | tốt | tốt hơn
+lạnh | lạnh hơn | tuyệt_vời | lớn hơn
+lạnh | lạnh hơn | khó_khăn | khó hơn
+lạnh | lạnh hơn | nặng | nặng hơn
+lạnh | lạnh hơn | cao | cao hơn
+lạnh | lạnh hơn | nóng | nóng hơn
+lạnh | lạnh hơn | lớn | lớn hơn
+lạnh | lạnh hơn | dài | lâu hơn
+lạnh | lạnh hơn | to | to hơn
+lạnh | lạnh hơn | thấp | thấp hơn
+lạnh | lạnh hơn | mới | mới hơn
+lạnh | lạnh hơn | cũ | lớn hơn
+lạnh | lạnh hơn | nhanh_chóng | nhanh hơn
+lạnh | lạnh hơn | an_toàn | an_toàn hơn
+lạnh | lạnh hơn | ngắn | ngắn hơn
+lạnh | lạnh hơn | đơn_giản | đơn_giản hơn
+lạnh | lạnh hơn | chậm | chậm hơn
+lạnh | lạnh hơn | nhỏ | nhỏ hơn
+lạnh | lạnh hơn | thông_minh | thông_minh hơn
+lạnh | lạnh hơn | mạnh_mẽ | mạnh_mẽ hơn
+lạnh | lạnh hơn | cao | cao hơn
+lạnh | lạnh hơn | chặt_chẽ | chặt_chẽ hơn
+lạnh | lạnh hơn | khó_khăn | khó_khăn hơn
+lạnh | lạnh hơn | ấm_áp | ấm hơn
+lạnh | lạnh hơn | yếu | yếu hơn
+lạnh | lạnh hơn | rộng | rộng hơn
+lạnh | lạnh hơn | trẻ | trẻ hơn
+lạnh | lạnh hơn | xấu | tệ hơn
+lạnh | lạnh hơn | lớn | lớn hơn
+lạnh | lạnh hơn | sáng | sáng hơn
+mát_mẻ | mát hơn | sâu | sâu_sắc hơn
+mát_mẻ | mát hơn | dễ_dàng | dễ_dàng hơn
+mát_mẻ | mát hơn | nhanh_chóng | nhanh hơn
+mát_mẻ | mát hơn | tốt | tốt hơn
+mát_mẻ | mát hơn | tuyệt_vời | lớn hơn
+mát_mẻ | mát hơn | khó_khăn | khó hơn
+mát_mẻ | mát hơn | nặng | nặng hơn
+mát_mẻ | mát hơn | cao | cao hơn
+mát_mẻ | mát hơn | nóng | nóng hơn
+mát_mẻ | mát hơn | lớn | lớn hơn
+mát_mẻ | mát hơn | dài | lâu hơn
+mát_mẻ | mát hơn | to | to hơn
+mát_mẻ | mát hơn | thấp | thấp hơn
+mát_mẻ | mát hơn | mới | mới hơn
+mát_mẻ | mát hơn | cũ | lớn hơn
+mát_mẻ | mát hơn | nhanh_chóng | nhanh hơn
+mát_mẻ | mát hơn | an_toàn | an_toàn hơn
+mát_mẻ | mát hơn | ngắn | ngắn hơn
+mát_mẻ | mát hơn | đơn_giản | đơn_giản hơn
+mát_mẻ | mát hơn | chậm | chậm hơn
+mát_mẻ | mát hơn | nhỏ | nhỏ hơn
+mát_mẻ | mát hơn | thông_minh | thông_minh hơn
+mát_mẻ | mát hơn | mạnh_mẽ | mạnh_mẽ hơn
+mát_mẻ | mát hơn | cao | cao hơn
+mát_mẻ | mát hơn | chặt_chẽ | chặt_chẽ hơn
+mát_mẻ | mát hơn | khó_khăn | khó_khăn hơn
+mát_mẻ | mát hơn | ấm_áp | ấm hơn
+mát_mẻ | mát hơn | yếu | yếu hơn
+mát_mẻ | mát hơn | rộng | rộng hơn
+mát_mẻ | mát hơn | trẻ | trẻ hơn
+mát_mẻ | mát hơn | xấu | tệ hơn
+mát_mẻ | mát hơn | lớn | lớn hơn
+mát_mẻ | mát hơn | sáng | sáng hơn
+mát_mẻ | mát hơn | lạnh | lạnh hơn
+sâu | sâu hơn | dễ_dàng | dễ_dàng hơn
+sâu | sâu hơn | nhanh_chóng | nhanh hơn
+sâu | sâu hơn | tốt | tốt hơn
+sâu | sâu hơn | tuyệt_vời | lớn hơn
+sâu | sâu hơn | khó_khăn | khó hơn
+sâu | sâu hơn | nặng | nặng hơn
+sâu | sâu hơn | cao | cao hơn
+sâu | sâu hơn | nóng | nóng hơn
+sâu | sâu hơn | lớn | lớn hơn
+sâu | sâu hơn | dài | lâu hơn
+sâu | sâu hơn | to | to hơn
+sâu | sâu hơn | thấp | thấp hơn
+sâu | sâu hơn | mới | mới hơn
+sâu | sâu hơn | cũ | lớn hơn
+sâu | sâu hơn | nhanh_chóng | nhanh hơn
+sâu | sâu hơn | an_toàn | an_toàn hơn
+sâu | sâu hơn | ngắn | ngắn hơn
+sâu | sâu hơn | đơn_giản | đơn_giản hơn
+sâu | sâu hơn | chậm | chậm hơn
+sâu | sâu hơn | nhỏ | nhỏ hơn
+sâu | sâu hơn | thông_minh | thông_minh hơn
+sâu | sâu hơn | mạnh_mẽ | mạnh_mẽ hơn
+sâu | sâu hơn | cao | cao hơn
+sâu | sâu hơn | chặt_chẽ | chặt_chẽ hơn
+sâu | sâu hơn | khó_khăn | khó_khăn hơn
+sâu | sâu hơn | ấm_áp | ấm hơn
+sâu | sâu hơn | yếu | yếu hơn
+sâu | sâu hơn | rộng | rộng hơn
+sâu | sâu hơn | trẻ | trẻ hơn
+sâu | sâu hơn | xấu | tệ hơn
+sâu | sâu hơn | lớn | lớn hơn
+sâu | sâu hơn | sáng | sáng hơn
+sâu | sâu hơn | lạnh | lạnh hơn
+sâu | sâu hơn | mát_mẻ | mát
+dễ_dàng | dễ_dàng hơn | nhanh_chóng | nhanh hơn
+dễ_dàng | dễ_dàng hơn | tốt | tốt hơn
+dễ_dàng | dễ_dàng hơn | tuyệt_vời | lớn hơn
+dễ_dàng | dễ_dàng hơn | khó_khăn | khó hơn
+dễ_dàng | dễ_dàng hơn | nặng | nặng hơn
+dễ_dàng | dễ_dàng hơn | cao | cao hơn
+dễ_dàng | dễ_dàng hơn | nóng | nóng hơn
+dễ_dàng | dễ_dàng hơn | lớn | lớn hơn
+dễ_dàng | dễ_dàng hơn | dài | lâu hơn
+dễ_dàng | dễ_dàng hơn | to | to hơn
+dễ_dàng | dễ_dàng hơn | thấp | thấp hơn
+dễ_dàng | dễ_dàng hơn | mới | mới hơn
+dễ_dàng | dễ_dàng hơn | cũ | lớn hơn
+dễ_dàng | dễ_dàng hơn | nhanh_chóng | nhanh hơn
+dễ_dàng | dễ_dàng hơn | an_toàn | an_toàn hơn
+dễ_dàng | dễ_dàng hơn | ngắn | ngắn hơn
+dễ_dàng | dễ_dàng hơn | đơn_giản | đơn_giản hơn
+dễ_dàng | dễ_dàng hơn | chậm | chậm hơn
+dễ_dàng | dễ_dàng hơn | nhỏ | nhỏ hơn
+dễ_dàng | dễ_dàng hơn | thông_minh | thông_minh hơn
+dễ_dàng | dễ_dàng hơn | mạnh_mẽ | mạnh_mẽ hơn
+dễ_dàng | dễ_dàng hơn | cao | cao hơn
+dễ_dàng | dễ_dàng hơn | chặt_chẽ | chặt_chẽ hơn
+dễ_dàng | dễ_dàng hơn | khó_khăn | khó_khăn hơn
+dễ_dàng | dễ_dàng hơn | ấm_áp | ấm hơn
+dễ_dàng | dễ_dàng hơn | yếu | yếu hơn
+dễ_dàng | dễ_dàng hơn | rộng | rộng hơn
+dễ_dàng | dễ_dàng hơn | trẻ | trẻ hơn
+dễ_dàng | dễ_dàng hơn | xấu | tệ hơn
+dễ_dàng | dễ_dàng hơn | lớn | lớn hơn
+dễ_dàng | dễ_dàng hơn | sáng | sáng hơn
+dễ_dàng | dễ_dàng hơn | lạnh | lạnh hơn
+dễ_dàng | dễ_dàng hơn | mát_mẻ | mát
+dễ_dàng | dễ_dàng hơn | sâu | sâu_sắc hơn
+nhanh_chóng | nhanh hơn | tốt | tốt hơn
+nhanh_chóng | nhanh hơn | tuyệt_vời | lớn hơn
+nhanh_chóng | nhanh hơn | khó_khăn | khó hơn
+nhanh_chóng | nhanh hơn | nặng | nặng hơn
+nhanh_chóng | nhanh hơn | cao | cao hơn
+nhanh_chóng | nhanh hơn | nóng | nóng hơn
+nhanh_chóng | nhanh hơn | lớn | lớn hơn
+nhanh_chóng | nhanh hơn | dài | lâu hơn
+nhanh_chóng | nhanh hơn | to | to hơn
+nhanh_chóng | nhanh hơn | thấp | thấp hơn
+nhanh_chóng | nhanh hơn | mới | mới hơn
+nhanh_chóng | nhanh hơn | cũ | lớn hơn
+nhanh_chóng | nhanh hơn | nhanh_chóng | nhanh hơn
+nhanh_chóng | nhanh hơn | an_toàn | an_toàn hơn
+nhanh_chóng | nhanh hơn | ngắn | ngắn hơn
+nhanh_chóng | nhanh hơn | đơn_giản | đơn_giản hơn
+nhanh_chóng | nhanh hơn | chậm | chậm hơn
+nhanh_chóng | nhanh hơn | nhỏ | nhỏ hơn
+nhanh_chóng | nhanh hơn | thông_minh | thông_minh hơn
+nhanh_chóng | nhanh hơn | mạnh_mẽ | mạnh_mẽ hơn
+nhanh_chóng | nhanh hơn | cao | cao hơn
+nhanh_chóng | nhanh hơn | chặt_chẽ | chặt_chẽ hơn
+nhanh_chóng | nhanh hơn | khó_khăn | khó_khăn hơn
+nhanh_chóng | nhanh hơn | ấm_áp | ấm hơn
+nhanh_chóng | nhanh hơn | yếu | yếu hơn
+nhanh_chóng | nhanh hơn | rộng | rộng hơn
+nhanh_chóng | nhanh hơn | trẻ | trẻ hơn
+nhanh_chóng | nhanh hơn | xấu | tệ hơn
+nhanh_chóng | nhanh hơn | lớn | lớn hơn
+nhanh_chóng | nhanh hơn | sáng | sáng hơn
+nhanh_chóng | nhanh hơn | lạnh | lạnh hơn
+nhanh_chóng | nhanh hơn | mát_mẻ | mát
+nhanh_chóng | nhanh hơn | sâu | sâu_sắc hơn
+nhanh_chóng | nhanh hơn | dễ_dàng | dễ_dàng hơn
+tốt | tốt hơn | tuyệt_vời | lớn hơn
+tốt | tốt hơn | khó_khăn | khó hơn
+tốt | tốt hơn | nặng | nặng hơn
+tốt | tốt hơn | cao | cao hơn
+tốt | tốt hơn | nóng | nóng hơn
+tốt | tốt hơn | lớn | lớn hơn
+tốt | tốt hơn | dài | lâu hơn
+tốt | tốt hơn | to | to hơn
+tốt | tốt hơn | thấp | thấp hơn
+tốt | tốt hơn | mới | mới hơn
+tốt | tốt hơn | cũ | lớn hơn
+tốt | tốt hơn | nhanh_chóng | nhanh hơn
+tốt | tốt hơn | an_toàn | an_toàn hơn
+tốt | tốt hơn | ngắn | ngắn hơn
+tốt | tốt hơn | đơn_giản | đơn_giản hơn
+tốt | tốt hơn | chậm | chậm hơn
+tốt | tốt hơn | nhỏ | nhỏ hơn
+tốt | tốt hơn | thông_minh | thông_minh hơn
+tốt | tốt hơn | mạnh_mẽ | mạnh_mẽ hơn
+tốt | tốt hơn | cao | cao hơn
+tốt | tốt hơn | chặt_chẽ | chặt_chẽ hơn
+tốt | tốt hơn | khó_khăn | khó_khăn hơn
+tốt | tốt hơn | ấm_áp | ấm hơn
+tốt | tốt hơn | yếu | yếu hơn
+tốt | tốt hơn | rộng | rộng hơn
+tốt | tốt hơn | trẻ | trẻ hơn
+tốt | tốt hơn | xấu | tệ hơn
+tốt | tốt hơn | lớn | lớn hơn
+tốt | tốt hơn | sáng | sáng hơn
+tốt | tốt hơn | lạnh | lạnh hơn
+tốt | tốt hơn | mát_mẻ | mát
+tốt | tốt hơn | sâu | sâu_sắc hơn
+tốt | tốt hơn | dễ_dàng | dễ_dàng hơn
+tốt | tốt hơn | nhanh_chóng | nhanh hơn
+tuyệt_vời | lớn hơn | khó_khăn | khó hơn
+tuyệt_vời | lớn hơn | nặng | nặng hơn
+tuyệt_vời | lớn hơn | cao | cao hơn
+tuyệt_vời | lớn hơn | nóng | nóng hơn
+tuyệt_vời | lớn hơn | lớn | lớn hơn
+tuyệt_vời | lớn hơn | dài | lâu hơn
+tuyệt_vời | lớn hơn | to | to hơn
+tuyệt_vời | lớn hơn | thấp | thấp hơn
+tuyệt_vời | lớn hơn | mới | mới hơn
+tuyệt_vời | lớn hơn | cũ | lớn hơn
+tuyệt_vời | lớn hơn | nhanh_chóng | nhanh hơn
+tuyệt_vời | lớn hơn | an_toàn | an_toàn hơn
+tuyệt_vời | lớn hơn | ngắn | ngắn hơn
+tuyệt_vời | lớn hơn | đơn_giản | đơn_giản hơn
+tuyệt_vời | lớn hơn | chậm | chậm hơn
+tuyệt_vời | lớn hơn | nhỏ | nhỏ hơn
+tuyệt_vời | lớn hơn | thông_minh | thông_minh hơn
+tuyệt_vời | lớn hơn | mạnh_mẽ | mạnh_mẽ hơn
+tuyệt_vời | lớn hơn | cao | cao hơn
+tuyệt_vời | lớn hơn | chặt_chẽ | chặt_chẽ hơn
+tuyệt_vời | lớn hơn | khó_khăn | khó_khăn hơn
+tuyệt_vời | lớn hơn | ấm_áp | ấm hơn
+tuyệt_vời | lớn hơn | yếu | yếu hơn
+tuyệt_vời | lớn hơn | rộng | rộng hơn
+tuyệt_vời | lớn hơn | trẻ | trẻ hơn
+tuyệt_vời | lớn hơn | xấu | tệ hơn
+tuyệt_vời | lớn hơn | lớn | lớn hơn
+tuyệt_vời | lớn hơn | sáng | sáng hơn
+tuyệt_vời | lớn hơn | lạnh | lạnh hơn
+tuyệt_vời | lớn hơn | mát_mẻ | mát
+tuyệt_vời | lớn hơn | sâu | sâu_sắc hơn
+tuyệt_vời | lớn hơn | dễ_dàng | dễ_dàng hơn
+tuyệt_vời | lớn hơn | nhanh_chóng | nhanh hơn
+tuyệt_vời | lớn hơn | tốt | tốt hơn
+khó_khăn | khó hơn | nặng | nặng hơn
+khó_khăn | khó hơn | cao | cao hơn
+khó_khăn | khó hơn | nóng | nóng hơn
+khó_khăn | khó hơn | lớn | lớn hơn
+khó_khăn | khó hơn | dài | lâu hơn
+khó_khăn | khó hơn | to | to hơn
+khó_khăn | khó hơn | thấp | thấp hơn
+khó_khăn | khó hơn | mới | mới hơn
+khó_khăn | khó hơn | cũ | lớn hơn
+khó_khăn | khó hơn | nhanh_chóng | nhanh hơn
+khó_khăn | khó hơn | an_toàn | an_toàn hơn
+khó_khăn | khó hơn | ngắn | ngắn hơn
+khó_khăn | khó hơn | đơn_giản | đơn_giản hơn
+khó_khăn | khó hơn | chậm | chậm hơn
+khó_khăn | khó hơn | nhỏ | nhỏ hơn
+khó_khăn | khó hơn | thông_minh | thông_minh hơn
+khó_khăn | khó hơn | mạnh_mẽ | mạnh_mẽ hơn
+khó_khăn | khó hơn | cao | cao hơn
+khó_khăn | khó hơn | chặt_chẽ | chặt_chẽ hơn
+khó_khăn | khó hơn | khó_khăn | khó_khăn hơn
+khó_khăn | khó hơn | ấm_áp | ấm hơn
+khó_khăn | khó hơn | yếu | yếu hơn
+khó_khăn | khó hơn | rộng | rộng hơn
+khó_khăn | khó hơn | trẻ | trẻ hơn
+khó_khăn | khó hơn | xấu | tệ hơn
+khó_khăn | khó hơn | lớn | lớn hơn
+khó_khăn | khó hơn | sáng | sáng hơn
+khó_khăn | khó hơn | lạnh | lạnh hơn
+khó_khăn | khó hơn | mát_mẻ | mát
+khó_khăn | khó hơn | sâu | sâu_sắc hơn
+khó_khăn | khó hơn | dễ_dàng | dễ_dàng hơn
+khó_khăn | khó hơn | nhanh_chóng | nhanh hơn
+khó_khăn | khó hơn | tốt | tốt hơn
+khó_khăn | khó hơn | tuyệt_vời | lớn hơn
+nặng | nặng hơn | cao | cao hơn
+nặng | nặng hơn | nóng | nóng hơn
+nặng | nặng hơn | lớn | lớn hơn
+nặng | nặng hơn | dài | lâu hơn
+nặng | nặng hơn | to | to hơn
+nặng | nặng hơn | thấp | thấp hơn
+nặng | nặng hơn | mới | mới hơn
+nặng | nặng hơn | cũ | lớn hơn
+nặng | nặng hơn | nhanh_chóng | nhanh hơn
+nặng | nặng hơn | an_toàn | an_toàn hơn
+nặng | nặng hơn | ngắn | ngắn hơn
+nặng | nặng hơn | đơn_giản | đơn_giản hơn
+nặng | nặng hơn | chậm | chậm hơn
+nặng | nặng hơn | nhỏ | nhỏ hơn
+nặng | nặng hơn | thông_minh | thông_minh hơn
+nặng | nặng hơn | mạnh_mẽ | mạnh_mẽ hơn
+nặng | nặng hơn | cao | cao hơn
+nặng | nặng hơn | chặt_chẽ | chặt_chẽ hơn
+nặng | nặng hơn | khó_khăn | khó_khăn hơn
+nặng | nặng hơn | ấm_áp | ấm hơn
+nặng | nặng hơn | yếu | yếu hơn
+nặng | nặng hơn | rộng | rộng hơn
+nặng | nặng hơn | trẻ | trẻ hơn
+nặng | nặng hơn | xấu | tệ hơn
+nặng | nặng hơn | lớn | lớn hơn
+nặng | nặng hơn | sáng | sáng hơn
+nặng | nặng hơn | lạnh | lạnh hơn
+nặng | nặng hơn | mát_mẻ | mát
+nặng | nặng hơn | sâu | sâu_sắc hơn
+nặng | nặng hơn | dễ_dàng | dễ_dàng hơn
+nặng | nặng hơn | nhanh_chóng | nhanh hơn
+nặng | nặng hơn | tốt | tốt hơn
+nặng | nặng hơn | tuyệt_vời | lớn hơn
+nặng | nặng hơn | khó_khăn | khó hơn
+cao | cao hơn | nóng | nóng hơn
+cao | cao hơn | lớn | lớn hơn
+cao | cao hơn | dài | lâu hơn
+cao | cao hơn | to | to hơn
+cao | cao hơn | thấp | thấp hơn
+cao | cao hơn | mới | mới hơn
+cao | cao hơn | cũ | lớn hơn
+cao | cao hơn | nhanh_chóng | nhanh hơn
+cao | cao hơn | an_toàn | an_toàn hơn
+cao | cao hơn | ngắn | ngắn hơn
+cao | cao hơn | đơn_giản | đơn_giản hơn
+cao | cao hơn | chậm | chậm hơn
+cao | cao hơn | nhỏ | nhỏ hơn
+cao | cao hơn | thông_minh | thông_minh hơn
+cao | cao hơn | mạnh_mẽ | mạnh_mẽ hơn
+cao | cao hơn | cao | cao hơn
+cao | cao hơn | chặt_chẽ | chặt_chẽ hơn
+cao | cao hơn | khó_khăn | khó_khăn hơn
+cao | cao hơn | ấm_áp | ấm hơn
+cao | cao hơn | yếu | yếu hơn
+cao | cao hơn | rộng | rộng hơn
+cao | cao hơn | trẻ | trẻ hơn
+cao | cao hơn | xấu | tệ hơn
+cao | cao hơn | lớn | lớn hơn
+cao | cao hơn | sáng | sáng hơn
+cao | cao hơn | lạnh | lạnh hơn
+cao | cao hơn | mát_mẻ | mát
+cao | cao hơn | sâu | sâu_sắc hơn
+cao | cao hơn | dễ_dàng | dễ_dàng hơn
+cao | cao hơn | nhanh_chóng | nhanh hơn
+cao | cao hơn | tốt | tốt hơn
+cao | cao hơn | tuyệt_vời | lớn hơn
+cao | cao hơn | khó_khăn | khó hơn
+cao | cao hơn | nặng | nặng hơn
+nóng | nóng hơn | lớn | lớn hơn
+nóng | nóng hơn | dài | lâu hơn
+nóng | nóng hơn | to | to hơn
+nóng | nóng hơn | thấp | thấp hơn
+nóng | nóng hơn | mới | mới hơn
+nóng | nóng hơn | cũ | lớn hơn
+nóng | nóng hơn | nhanh_chóng | nhanh hơn
+nóng | nóng hơn | an_toàn | an_toàn hơn
+nóng | nóng hơn | ngắn | ngắn hơn
+nóng | nóng hơn | đơn_giản | đơn_giản hơn
+nóng | nóng hơn | chậm | chậm hơn
+nóng | nóng hơn | nhỏ | nhỏ hơn
+nóng | nóng hơn | thông_minh | thông_minh hơn
+nóng | nóng hơn | mạnh_mẽ | mạnh_mẽ hơn
+nóng | nóng hơn | cao | cao hơn
+nóng | nóng hơn | chặt_chẽ | chặt_chẽ hơn
+nóng | nóng hơn | khó_khăn | khó_khăn hơn
+nóng | nóng hơn | ấm_áp | ấm hơn
+nóng | nóng hơn | yếu | yếu hơn
+nóng | nóng hơn | rộng | rộng hơn
+nóng | nóng hơn | trẻ | trẻ hơn
+nóng | nóng hơn | xấu | tệ hơn
+nóng | nóng hơn | lớn | lớn hơn
+nóng | nóng hơn | sáng | sáng hơn
+nóng | nóng hơn | lạnh | lạnh hơn
+nóng | nóng hơn | mát_mẻ | mát
+nóng | nóng hơn | sâu | sâu_sắc hơn
+nóng | nóng hơn | dễ_dàng | dễ_dàng hơn
+nóng | nóng hơn | nhanh_chóng | nhanh hơn
+nóng | nóng hơn | tốt | tốt hơn
+nóng | nóng hơn | tuyệt_vời | lớn hơn
+nóng | nóng hơn | khó_khăn | khó hơn
+nóng | nóng hơn | nặng | nặng hơn
+nóng | nóng hơn | cao | cao hơn
+lớn | lớn hơn | dài | lâu hơn
+lớn | lớn hơn | to | to hơn
+lớn | lớn hơn | thấp | thấp hơn
+lớn | lớn hơn | mới | mới hơn
+lớn | lớn hơn | cũ | lớn hơn
+lớn | lớn hơn | nhanh_chóng | nhanh hơn
+lớn | lớn hơn | an_toàn | an_toàn hơn
+lớn | lớn hơn | ngắn | ngắn hơn
+lớn | lớn hơn | đơn_giản | đơn_giản hơn
+lớn | lớn hơn | chậm | chậm hơn
+lớn | lớn hơn | nhỏ | nhỏ hơn
+lớn | lớn hơn | thông_minh | thông_minh hơn
+lớn | lớn hơn | mạnh_mẽ | mạnh_mẽ hơn
+lớn | lớn hơn | cao | cao hơn
+lớn | lớn hơn | chặt_chẽ | chặt_chẽ hơn
+lớn | lớn hơn | khó_khăn | khó_khăn hơn
+lớn | lớn hơn | ấm_áp | ấm hơn
+lớn | lớn hơn | yếu | yếu hơn
+lớn | lớn hơn | rộng | rộng hơn
+lớn | lớn hơn | trẻ | trẻ hơn
+lớn | lớn hơn | xấu | tệ hơn
+lớn | lớn hơn | lớn | lớn hơn
+lớn | lớn hơn | sáng | sáng hơn
+lớn | lớn hơn | lạnh | lạnh hơn
+lớn | lớn hơn | mát_mẻ | mát
+lớn | lớn hơn | sâu | sâu_sắc hơn
+lớn | lớn hơn | dễ_dàng | dễ_dàng hơn
+lớn | lớn hơn | nhanh_chóng | nhanh hơn
+lớn | lớn hơn | tốt | tốt hơn
+lớn | lớn hơn | tuyệt_vời | lớn hơn
+lớn | lớn hơn | khó_khăn | khó hơn
+lớn | lớn hơn | nặng | nặng hơn
+lớn | lớn hơn | cao | cao hơn
+lớn | lớn hơn | nóng | nóng hơn
+dài | lâu hơn | to | to hơn
+dài | lâu hơn | thấp | thấp hơn
+dài | lâu hơn | mới | mới hơn
+dài | lâu hơn | cũ | lớn hơn
+dài | lâu hơn | nhanh_chóng | nhanh hơn
+dài | lâu hơn | an_toàn | an_toàn hơn
+dài | lâu hơn | ngắn | ngắn hơn
+dài | lâu hơn | đơn_giản | đơn_giản hơn
+dài | lâu hơn | chậm | chậm hơn
+dài | lâu hơn | nhỏ | nhỏ hơn
+dài | lâu hơn | thông_minh | thông_minh hơn
+dài | lâu hơn | mạnh_mẽ | mạnh_mẽ hơn
+dài | lâu hơn | cao | cao hơn
+dài | lâu hơn | chặt_chẽ | chặt_chẽ hơn
+dài | lâu hơn | khó_khăn | khó_khăn hơn
+dài | lâu hơn | ấm_áp | ấm hơn
+dài | lâu hơn | yếu | yếu hơn
+dài | lâu hơn | rộng | rộng hơn
+dài | lâu hơn | trẻ | trẻ hơn
+dài | lâu hơn | xấu | tệ hơn
+dài | lâu hơn | lớn | lớn hơn
+dài | lâu hơn | sáng | sáng hơn
+dài | lâu hơn | lạnh | lạnh hơn
+dài | lâu hơn | mát_mẻ | mát
+dài | lâu hơn | sâu | sâu_sắc hơn
+dài | lâu hơn | dễ_dàng | dễ_dàng hơn
+dài | lâu hơn | nhanh_chóng | nhanh hơn
+dài | lâu hơn | tốt | tốt hơn
+dài | lâu hơn | tuyệt_vời | lớn hơn
+dài | lâu hơn | khó_khăn | khó hơn
+dài | lâu hơn | nặng | nặng hơn
+dài | lâu hơn | cao | cao hơn
+dài | lâu hơn | nóng | nóng hơn
+dài | lâu hơn | lớn | lớn hơn
+to | to hơn | thấp | thấp hơn
+to | to hơn | mới | mới hơn
+to | to hơn | cũ | lớn hơn
+to | to hơn | nhanh_chóng | nhanh hơn
+to | to hơn | an_toàn | an_toàn hơn
+to | to hơn | ngắn | ngắn hơn
+to | to hơn | đơn_giản | đơn_giản hơn
+to | to hơn | chậm | chậm hơn
+to | to hơn | nhỏ | nhỏ hơn
+to | to hơn | thông_minh | thông_minh hơn
+to | to hơn | mạnh_mẽ | mạnh_mẽ hơn
+to | to hơn | cao | cao hơn
+to | to hơn | chặt_chẽ | chặt_chẽ hơn
+to | to hơn | khó_khăn | khó_khăn hơn
+to | to hơn | ấm_áp | ấm hơn
+to | to hơn | yếu | yếu hơn
+to | to hơn | rộng | rộng hơn
+to | to hơn | trẻ | trẻ hơn
+to | to hơn | xấu | tệ hơn
+to | to hơn | lớn | lớn hơn
+to | to hơn | sáng | sáng hơn
+to | to hơn | lạnh | lạnh hơn
+to | to hơn | mát_mẻ | mát
+to | to hơn | sâu | sâu_sắc hơn
+to | to hơn | dễ_dàng | dễ_dàng hơn
+to | to hơn | nhanh_chóng | nhanh hơn
+to | to hơn | tốt | tốt hơn
+to | to hơn | tuyệt_vời | lớn hơn
+to | to hơn | khó_khăn | khó hơn
+to | to hơn | nặng | nặng hơn
+to | to hơn | cao | cao hơn
+to | to hơn | nóng | nóng hơn
+to | to hơn | lớn | lớn hơn
+to | to hơn | dài | lâu hơn
+thấp | thấp hơn | mới | mới hơn
+thấp | thấp hơn | cũ | lớn hơn
+thấp | thấp hơn | nhanh_chóng | nhanh hơn
+thấp | thấp hơn | an_toàn | an_toàn hơn
+thấp | thấp hơn | ngắn | ngắn hơn
+thấp | thấp hơn | đơn_giản | đơn_giản hơn
+thấp | thấp hơn | chậm | chậm hơn
+thấp | thấp hơn | nhỏ | nhỏ hơn
+thấp | thấp hơn | thông_minh | thông_minh hơn
+thấp | thấp hơn | mạnh_mẽ | mạnh_mẽ hơn
+thấp | thấp hơn | cao | cao hơn
+thấp | thấp hơn | chặt_chẽ | chặt_chẽ hơn
+thấp | thấp hơn | khó_khăn | khó_khăn hơn
+thấp | thấp hơn | ấm_áp | ấm hơn
+thấp | thấp hơn | yếu | yếu hơn
+thấp | thấp hơn | rộng | rộng hơn
+thấp | thấp hơn | trẻ | trẻ hơn
+thấp | thấp hơn | xấu | tệ hơn
+thấp | thấp hơn | lớn | lớn hơn
+thấp | thấp hơn | sáng | sáng hơn
+thấp | thấp hơn | lạnh | lạnh hơn
+thấp | thấp hơn | mát_mẻ | mát
+thấp | thấp hơn | sâu | sâu_sắc hơn
+thấp | thấp hơn | dễ_dàng | dễ_dàng hơn
+thấp | thấp hơn | nhanh_chóng | nhanh hơn
+thấp | thấp hơn | tốt | tốt hơn
+thấp | thấp hơn | tuyệt_vời | lớn hơn
+thấp | thấp hơn | khó_khăn | khó hơn
+thấp | thấp hơn | nặng | nặng hơn
+thấp | thấp hơn | cao | cao hơn
+thấp | thấp hơn | nóng | nóng hơn
+thấp | thấp hơn | lớn | lớn hơn
+thấp | thấp hơn | dài | lâu hơn
+thấp | thấp hơn | to | to hơn
+mới | mới hơn | cũ | lớn hơn
+mới | mới hơn | nhanh_chóng | nhanh hơn
+mới | mới hơn | an_toàn | an_toàn hơn
+mới | mới hơn | ngắn | ngắn hơn
+mới | mới hơn | đơn_giản | đơn_giản hơn
+mới | mới hơn | chậm | chậm hơn
+mới | mới hơn | nhỏ | nhỏ hơn
+mới | mới hơn | thông_minh | thông_minh hơn
+mới | mới hơn | mạnh_mẽ | mạnh_mẽ hơn
+mới | mới hơn | cao | cao hơn
+mới | mới hơn | chặt_chẽ | chặt_chẽ hơn
+mới | mới hơn | khó_khăn | khó_khăn hơn
+mới | mới hơn | ấm_áp | ấm hơn
+mới | mới hơn | yếu | yếu hơn
+mới | mới hơn | rộng | rộng hơn
+mới | mới hơn | trẻ | trẻ hơn
+mới | mới hơn | xấu | tệ hơn
+mới | mới hơn | lớn | lớn hơn
+mới | mới hơn | sáng | sáng hơn
+mới | mới hơn | lạnh | lạnh hơn
+mới | mới hơn | mát_mẻ | mát
+mới | mới hơn | sâu | sâu_sắc hơn
+mới | mới hơn | dễ_dàng | dễ_dàng hơn
+mới | mới hơn | nhanh_chóng | nhanh hơn
+mới | mới hơn | tốt | tốt hơn
+mới | mới hơn | tuyệt_vời | lớn hơn
+mới | mới hơn | khó_khăn | khó hơn
+mới | mới hơn | nặng | nặng hơn
+mới | mới hơn | cao | cao hơn
+mới | mới hơn | nóng | nóng hơn
+mới | mới hơn | lớn | lớn hơn
+mới | mới hơn | dài | lâu hơn
+mới | mới hơn | to | to hơn
+mới | mới hơn | thấp | thấp hơn
+cũ | cũ hơn | nhanh_chóng | nhanh hơn
+cũ | cũ hơn | an_toàn | an_toàn hơn
+cũ | cũ hơn | ngắn | ngắn hơn
+cũ | cũ hơn | đơn_giản | đơn_giản hơn
+cũ | cũ hơn | chậm | chậm hơn
+cũ | cũ hơn | nhỏ | nhỏ hơn
+cũ | cũ hơn | thông_minh | thông_minh hơn
+cũ | cũ hơn | mạnh_mẽ | mạnh_mẽ hơn
+cũ | cũ hơn | cao | cao hơn
+cũ | cũ hơn | chặt_chẽ | chặt_chẽ hơn
+cũ | cũ hơn | khó_khăn | khó_khăn hơn
+cũ | cũ hơn | ấm_áp | ấm hơn
+cũ | cũ hơn | yếu | yếu hơn
+cũ | cũ hơn | rộng | rộng hơn
+cũ | cũ hơn | trẻ | trẻ hơn
+cũ | cũ hơn | xấu | tệ hơn
+cũ | cũ hơn | lớn | lớn hơn
+cũ | cũ hơn | sáng | sáng hơn
+cũ | cũ hơn | lạnh | lạnh hơn
+cũ | cũ hơn | mát_mẻ | mát
+cũ | cũ hơn | sâu | sâu_sắc hơn
+cũ | cũ hơn | dễ_dàng | dễ_dàng hơn
+cũ | cũ hơn | nhanh_chóng | nhanh hơn
+cũ | cũ hơn | tốt | tốt hơn
+cũ | cũ hơn | tuyệt_vời | lớn hơn
+cũ | cũ hơn | khó_khăn | khó hơn
+cũ | cũ hơn | nặng | nặng hơn
+cũ | cũ hơn | cao | cao hơn
+cũ | cũ hơn | nóng | nóng hơn
+cũ | cũ hơn | lớn | lớn hơn
+cũ | cũ hơn | dài | lâu hơn
+cũ | cũ hơn | to | to hơn
+cũ | cũ hơn | thấp | thấp hơn
+cũ | cũ hơn | mới | mới hơn
+nhanh_chóng | nhanh hơn | an_toàn | an_toàn hơn
+nhanh_chóng | nhanh hơn | ngắn | ngắn hơn
+nhanh_chóng | nhanh hơn | đơn_giản | đơn_giản hơn
+nhanh_chóng | nhanh hơn | chậm | chậm hơn
+nhanh_chóng | nhanh hơn | nhỏ | nhỏ hơn
+nhanh_chóng | nhanh hơn | thông_minh | thông_minh hơn
+nhanh_chóng | nhanh hơn | mạnh_mẽ | mạnh_mẽ hơn
+nhanh_chóng | nhanh hơn | cao | cao hơn
+nhanh_chóng | nhanh hơn | chặt_chẽ | chặt_chẽ hơn
+nhanh_chóng | nhanh hơn | khó_khăn | khó_khăn hơn
+nhanh_chóng | nhanh hơn | ấm_áp | ấm hơn
+nhanh_chóng | nhanh hơn | yếu | yếu hơn
+nhanh_chóng | nhanh hơn | rộng | rộng hơn
+nhanh_chóng | nhanh hơn | trẻ | trẻ hơn
+nhanh_chóng | nhanh hơn | xấu | tệ hơn
+nhanh_chóng | nhanh hơn | lớn | lớn hơn
+nhanh_chóng | nhanh hơn | sáng | sáng hơn
+nhanh_chóng | nhanh hơn | lạnh | lạnh hơn
+nhanh_chóng | nhanh hơn | mát_mẻ | mát
+nhanh_chóng | nhanh hơn | sâu | sâu_sắc hơn
+nhanh_chóng | nhanh hơn | dễ_dàng | dễ_dàng hơn
+nhanh_chóng | nhanh hơn | nhanh_chóng | nhanh hơn
+nhanh_chóng | nhanh hơn | tốt | tốt hơn
+nhanh_chóng | nhanh hơn | tuyệt_vời | lớn hơn
+nhanh_chóng | nhanh hơn | khó_khăn | khó hơn
+nhanh_chóng | nhanh hơn | nặng | nặng hơn
+nhanh_chóng | nhanh hơn | cao | cao hơn
+nhanh_chóng | nhanh hơn | nóng | nóng hơn
+nhanh_chóng | nhanh hơn | lớn | lớn hơn
+nhanh_chóng | nhanh hơn | dài | lâu hơn
+nhanh_chóng | nhanh hơn | to | to hơn
+nhanh_chóng | nhanh hơn | thấp | thấp hơn
+nhanh_chóng | nhanh hơn | mới | mới hơn
+nhanh_chóng | nhanh hơn | cũ | lớn hơn
+an_toàn | an_toàn hơn | ngắn | ngắn hơn
+an_toàn | an_toàn hơn | đơn_giản | đơn_giản hơn
+an_toàn | an_toàn hơn | chậm | chậm hơn
+an_toàn | an_toàn hơn | nhỏ | nhỏ hơn
+an_toàn | an_toàn hơn | thông_minh | thông_minh hơn
+an_toàn | an_toàn hơn | mạnh_mẽ | mạnh_mẽ hơn
+an_toàn | an_toàn hơn | cao | cao hơn
+an_toàn | an_toàn hơn | chặt_chẽ | chặt_chẽ hơn
+an_toàn | an_toàn hơn | khó_khăn | khó_khăn hơn
+an_toàn | an_toàn hơn | ấm_áp | ấm hơn
+an_toàn | an_toàn hơn | yếu | yếu hơn
+an_toàn | an_toàn hơn | rộng | rộng hơn
+an_toàn | an_toàn hơn | trẻ | trẻ hơn
+an_toàn | an_toàn hơn | xấu | tệ hơn
+an_toàn | an_toàn hơn | lớn | lớn hơn
+an_toàn | an_toàn hơn | sáng | sáng hơn
+an_toàn | an_toàn hơn | lạnh | lạnh hơn
+an_toàn | an_toàn hơn | mát_mẻ | mát
+an_toàn | an_toàn hơn | sâu | sâu_sắc hơn
+an_toàn | an_toàn hơn | dễ_dàng | dễ_dàng hơn
+an_toàn | an_toàn hơn | nhanh_chóng | nhanh hơn
+an_toàn | an_toàn hơn | tốt | tốt hơn
+an_toàn | an_toàn hơn | tuyệt_vời | lớn hơn
+an_toàn | an_toàn hơn | khó_khăn | khó hơn
+an_toàn | an_toàn hơn | nặng | nặng hơn
+an_toàn | an_toàn hơn | cao | cao hơn
+an_toàn | an_toàn hơn | nóng | nóng hơn
+an_toàn | an_toàn hơn | lớn | lớn hơn
+an_toàn | an_toàn hơn | dài | lâu hơn
+an_toàn | an_toàn hơn | to | to hơn
+an_toàn | an_toàn hơn | thấp | thấp hơn
+an_toàn | an_toàn hơn | mới | mới hơn
+an_toàn | an_toàn hơn | cũ | lớn hơn
+an_toàn | an_toàn hơn | nhanh_chóng | nhanh hơn
+sắc nét | sắc nét hơn | ngắn | ngắn hơn
+sắc nét | sắc nét hơn | đơn_giản | đơn_giản hơn
+sắc nét | sắc nét hơn | chậm | chậm hơn
+sắc nét | sắc nét hơn | nhỏ | nhỏ hơn
+sắc nét | sắc nét hơn | thông_minh | thông_minh hơn
+sắc nét | sắc nét hơn | mạnh_mẽ | mạnh_mẽ hơn
+sắc nét | sắc nét hơn | cao | cao hơn
+sắc nét | sắc nét hơn | chặt_chẽ | chặt_chẽ hơn
+sắc nét | sắc nét hơn | khó_khăn | khó_khăn hơn
+sắc nét | sắc nét hơn | ấm_áp | ấm hơn
+sắc nét | sắc nét hơn | yếu | yếu hơn
+sắc nét | sắc nét hơn | rộng | rộng hơn
+sắc nét | sắc nét hơn | trẻ | trẻ hơn
+sắc nét | sắc nét hơn | xấu | tệ hơn
+sắc nét | sắc nét hơn | lớn | lớn hơn
+sắc nét | sắc nét hơn | sáng | sáng hơn
+sắc nét | sắc nét hơn | lạnh | lạnh hơn
+sắc nét | sắc nét hơn | mát_mẻ | mát
+sắc nét | sắc nét hơn | sâu | sâu_sắc hơn
+sắc nét | sắc nét hơn | dễ_dàng | dễ_dàng hơn
+sắc nét | sắc nét hơn | nhanh_chóng | nhanh hơn
+sắc nét | sắc nét hơn | tốt | tốt hơn
+sắc nét | sắc nét hơn | tuyệt_vời | lớn hơn
+sắc nét | sắc nét hơn | khó_khăn | khó hơn
+sắc nét | sắc nét hơn | nặng | nặng hơn
+sắc nét | sắc nét hơn | cao | cao hơn
+sắc nét | sắc nét hơn | nóng | nóng hơn
+sắc nét | sắc nét hơn | lớn | lớn hơn
+sắc nét | sắc nét hơn | dài | lâu hơn
+sắc nét | sắc nét hơn | to | to hơn
+sắc nét | sắc nét hơn | thấp | thấp hơn
+sắc nét | sắc nét hơn | mới | mới hơn
+sắc nét | sắc nét hơn | cũ | lớn hơn
+sắc nét | sắc nét hơn | nhanh_chóng | nhanh hơn
+sắc nét | sắc nét hơn | an_toàn | an_toàn hơn
+ngắn | ngắn hơn | đơn_giản | đơn_giản hơn
+ngắn | ngắn hơn | chậm | chậm hơn
+ngắn | ngắn hơn | nhỏ | nhỏ hơn
+ngắn | ngắn hơn | thông_minh | thông_minh hơn
+ngắn | ngắn hơn | mạnh_mẽ | mạnh_mẽ hơn
+ngắn | ngắn hơn | cao | cao hơn
+ngắn | ngắn hơn | chặt_chẽ | chặt_chẽ hơn
+ngắn | ngắn hơn | khó_khăn | khó_khăn hơn
+ngắn | ngắn hơn | ấm_áp | ấm hơn
+ngắn | ngắn hơn | yếu | yếu hơn
+ngắn | ngắn hơn | rộng | rộng hơn
+ngắn | ngắn hơn | trẻ | trẻ hơn
+ngắn | ngắn hơn | xấu | tệ hơn
+ngắn | ngắn hơn | lớn | lớn hơn
+ngắn | ngắn hơn | sáng | sáng hơn
+ngắn | ngắn hơn | lạnh | lạnh hơn
+ngắn | ngắn hơn | mát_mẻ | mát
+ngắn | ngắn hơn | sâu | sâu_sắc hơn
+ngắn | ngắn hơn | dễ_dàng | dễ_dàng hơn
+ngắn | ngắn hơn | nhanh_chóng | nhanh hơn
+ngắn | ngắn hơn | tốt | tốt hơn
+ngắn | ngắn hơn | tuyệt_vời | lớn hơn
+ngắn | ngắn hơn | khó_khăn | khó hơn
+ngắn | ngắn hơn | nặng | nặng hơn
+ngắn | ngắn hơn | cao | cao hơn
+ngắn | ngắn hơn | nóng | nóng hơn
+ngắn | ngắn hơn | lớn | lớn hơn
+ngắn | ngắn hơn | dài | lâu hơn
+ngắn | ngắn hơn | to | to hơn
+ngắn | ngắn hơn | thấp | thấp hơn
+ngắn | ngắn hơn | mới | mới hơn
+ngắn | ngắn hơn | cũ | lớn hơn
+ngắn | ngắn hơn | nhanh_chóng | nhanh hơn
+ngắn | ngắn hơn | an_toàn | an_toàn hơn
+đơn_giản | đơn_giản hơn | chậm | chậm hơn
+đơn_giản | đơn_giản hơn | nhỏ | nhỏ hơn
+đơn_giản | đơn_giản hơn | thông_minh | thông_minh hơn
+đơn_giản | đơn_giản hơn | mạnh_mẽ | mạnh_mẽ hơn
+đơn_giản | đơn_giản hơn | cao | cao hơn
+đơn_giản | đơn_giản hơn | chặt_chẽ | chặt_chẽ hơn
+đơn_giản | đơn_giản hơn | khó_khăn | khó_khăn hơn
+đơn_giản | đơn_giản hơn | ấm_áp | ấm hơn
+đơn_giản | đơn_giản hơn | yếu | yếu hơn
+đơn_giản | đơn_giản hơn | rộng | rộng hơn
+đơn_giản | đơn_giản hơn | trẻ | trẻ hơn
+đơn_giản | đơn_giản hơn | xấu | tệ hơn
+đơn_giản | đơn_giản hơn | lớn | lớn hơn
+đơn_giản | đơn_giản hơn | sáng | sáng hơn
+đơn_giản | đơn_giản hơn | lạnh | lạnh hơn
+đơn_giản | đơn_giản hơn | mát_mẻ | mát
+đơn_giản | đơn_giản hơn | sâu | sâu_sắc hơn
+đơn_giản | đơn_giản hơn | dễ_dàng | dễ_dàng hơn
+đơn_giản | đơn_giản hơn | nhanh_chóng | nhanh hơn
+đơn_giản | đơn_giản hơn | tốt | tốt hơn
+đơn_giản | đơn_giản hơn | tuyệt_vời | lớn hơn
+đơn_giản | đơn_giản hơn | khó_khăn | khó hơn
+đơn_giản | đơn_giản hơn | nặng | nặng hơn
+đơn_giản | đơn_giản hơn | cao | cao hơn
+đơn_giản | đơn_giản hơn | nóng | nóng hơn
+đơn_giản | đơn_giản hơn | lớn | lớn hơn
+đơn_giản | đơn_giản hơn | dài | lâu hơn
+đơn_giản | đơn_giản hơn | to | to hơn
+đơn_giản | đơn_giản hơn | thấp | thấp hơn
+đơn_giản | đơn_giản hơn | mới | mới hơn
+đơn_giản | đơn_giản hơn | cũ | lớn hơn
+đơn_giản | đơn_giản hơn | nhanh_chóng | nhanh hơn
+đơn_giản | đơn_giản hơn | an_toàn | an_toàn hơn
+đơn_giản | đơn_giản hơn | ngắn | ngắn hơn
+chậm | chậm hơn | nhỏ | nhỏ hơn
+chậm | chậm hơn | thông_minh | thông_minh hơn
+chậm | chậm hơn | mạnh_mẽ | mạnh_mẽ hơn
+chậm | chậm hơn | cao | cao hơn
+chậm | chậm hơn | chặt_chẽ | chặt_chẽ hơn
+chậm | chậm hơn | khó_khăn | khó_khăn hơn
+chậm | chậm hơn | ấm_áp | ấm hơn
+chậm | chậm hơn | yếu | yếu hơn
+chậm | chậm hơn | rộng | rộng hơn
+chậm | chậm hơn | trẻ | trẻ hơn
+chậm | chậm hơn | xấu | tệ hơn
+chậm | chậm hơn | lớn | lớn hơn
+chậm | chậm hơn | sáng | sáng hơn
+chậm | chậm hơn | lạnh | lạnh hơn
+chậm | chậm hơn | mát_mẻ | mát
+chậm | chậm hơn | sâu | sâu_sắc hơn
+chậm | chậm hơn | dễ_dàng | dễ_dàng hơn
+chậm | chậm hơn | nhanh_chóng | nhanh hơn
+chậm | chậm hơn | tốt | tốt hơn
+chậm | chậm hơn | tuyệt_vời | lớn hơn
+chậm | chậm hơn | khó_khăn | khó hơn
+chậm | chậm hơn | nặng | nặng hơn
+chậm | chậm hơn | cao | cao hơn
+chậm | chậm hơn | nóng | nóng hơn
+chậm | chậm hơn | lớn | lớn hơn
+chậm | chậm hơn | dài | lâu hơn
+chậm | chậm hơn | to | to hơn
+chậm | chậm hơn | thấp | thấp hơn
+chậm | chậm hơn | mới | mới hơn
+chậm | chậm hơn | cũ | lớn hơn
+chậm | chậm hơn | nhanh_chóng | nhanh hơn
+chậm | chậm hơn | an_toàn | an_toàn hơn
+chậm | chậm hơn | ngắn | ngắn hơn
+chậm | chậm hơn | đơn_giản | đơn_giản hơn
+nhỏ | nhỏ hơn | thông_minh | thông_minh hơn
+nhỏ | nhỏ hơn | mạnh_mẽ | mạnh_mẽ hơn
+nhỏ | nhỏ hơn | cao | cao hơn
+nhỏ | nhỏ hơn | chặt_chẽ | chặt_chẽ hơn
+nhỏ | nhỏ hơn | khó_khăn | khó_khăn hơn
+nhỏ | nhỏ hơn | ấm_áp | ấm hơn
+nhỏ | nhỏ hơn | yếu | yếu hơn
+nhỏ | nhỏ hơn | rộng | rộng hơn
+nhỏ | nhỏ hơn | trẻ | trẻ hơn
+nhỏ | nhỏ hơn | xấu | tệ hơn
+nhỏ | nhỏ hơn | lớn | lớn hơn
+nhỏ | nhỏ hơn | sáng | sáng hơn
+nhỏ | nhỏ hơn | lạnh | lạnh hơn
+nhỏ | nhỏ hơn | mát_mẻ | mát
+nhỏ | nhỏ hơn | sâu | sâu_sắc hơn
+nhỏ | nhỏ hơn | dễ_dàng | dễ_dàng hơn
+nhỏ | nhỏ hơn | nhanh_chóng | nhanh hơn
+nhỏ | nhỏ hơn | tốt | tốt hơn
+nhỏ | nhỏ hơn | tuyệt_vời | lớn hơn
+nhỏ | nhỏ hơn | khó_khăn | khó hơn
+nhỏ | nhỏ hơn | nặng | nặng hơn
+nhỏ | nhỏ hơn | cao | cao hơn
+nhỏ | nhỏ hơn | nóng | nóng hơn
+nhỏ | nhỏ hơn | lớn | lớn hơn
+nhỏ | nhỏ hơn | dài | lâu hơn
+nhỏ | nhỏ hơn | to | to hơn
+nhỏ | nhỏ hơn | thấp | thấp hơn
+nhỏ | nhỏ hơn | mới | mới hơn
+nhỏ | nhỏ hơn | cũ | lớn hơn
+nhỏ | nhỏ hơn | nhanh_chóng | nhanh hơn
+nhỏ | nhỏ hơn | an_toàn | an_toàn hơn
+nhỏ | nhỏ hơn | ngắn | ngắn hơn
+nhỏ | nhỏ hơn | đơn_giản | đơn_giản hơn
+nhỏ | nhỏ hơn | chậm | chậm hơn
+thông_minh | thông_minh hơn | mạnh_mẽ | mạnh_mẽ hơn
+thông_minh | thông_minh hơn | cao | cao hơn
+thông_minh | thông_minh hơn | chặt_chẽ | chặt_chẽ hơn
+thông_minh | thông_minh hơn | khó_khăn | khó_khăn hơn
+thông_minh | thông_minh hơn | ấm_áp | ấm hơn
+thông_minh | thông_minh hơn | yếu | yếu hơn
+thông_minh | thông_minh hơn | rộng | rộng hơn
+thông_minh | thông_minh hơn | trẻ | trẻ hơn
+thông_minh | thông_minh hơn | xấu | tệ hơn
+thông_minh | thông_minh hơn | lớn | lớn hơn
+thông_minh | thông_minh hơn | sáng | sáng hơn
+thông_minh | thông_minh hơn | lạnh | lạnh hơn
+thông_minh | thông_minh hơn | mát_mẻ | mát
+thông_minh | thông_minh hơn | sâu | sâu_sắc hơn
+thông_minh | thông_minh hơn | dễ_dàng | dễ_dàng hơn
+thông_minh | thông_minh hơn | nhanh_chóng | nhanh hơn
+thông_minh | thông_minh hơn | tốt | tốt hơn
+thông_minh | thông_minh hơn | tuyệt_vời | lớn hơn
+thông_minh | thông_minh hơn | khó_khăn | khó hơn
+thông_minh | thông_minh hơn | nặng | nặng hơn
+thông_minh | thông_minh hơn | cao | cao hơn
+thông_minh | thông_minh hơn | nóng | nóng hơn
+thông_minh | thông_minh hơn | lớn | lớn hơn
+thông_minh | thông_minh hơn | dài | lâu hơn
+thông_minh | thông_minh hơn | to | to hơn
+thông_minh | thông_minh hơn | thấp | thấp hơn
+thông_minh | thông_minh hơn | mới | mới hơn
+thông_minh | thông_minh hơn | cũ | lớn hơn
+thông_minh | thông_minh hơn | nhanh_chóng | nhanh hơn
+thông_minh | thông_minh hơn | an_toàn | an_toàn hơn
+thông_minh | thông_minh hơn | ngắn | ngắn hơn
+thông_minh | thông_minh hơn | đơn_giản | đơn_giản hơn
+thông_minh | thông_minh hơn | chậm | chậm hơn
+thông_minh | thông_minh hơn | nhỏ | nhỏ hơn
+mạnh_mẽ | mạnh hơn | cao | cao hơn
+mạnh_mẽ | mạnh hơn | chặt_chẽ | chặt_chẽ hơn
+mạnh_mẽ | mạnh hơn | khó_khăn | khó_khăn hơn
+mạnh_mẽ | mạnh hơn | ấm_áp | ấm hơn
+mạnh_mẽ | mạnh hơn | yếu | yếu hơn
+mạnh_mẽ | mạnh hơn | rộng | rộng hơn
+mạnh_mẽ | mạnh hơn | trẻ | trẻ hơn
+mạnh_mẽ | mạnh hơn | xấu | tệ hơn
+mạnh_mẽ | mạnh hơn | lớn | lớn hơn
+mạnh_mẽ | mạnh hơn | sáng | sáng hơn
+mạnh_mẽ | mạnh hơn | lạnh | lạnh hơn
+mạnh_mẽ | mạnh hơn | mát_mẻ | mát
+mạnh_mẽ | mạnh hơn | sâu | sâu_sắc hơn
+mạnh_mẽ | mạnh hơn | dễ_dàng | dễ_dàng hơn
+mạnh_mẽ | mạnh hơn | nhanh_chóng | nhanh hơn
+mạnh_mẽ | mạnh hơn | tốt | tốt hơn
+mạnh_mẽ | mạnh hơn | tuyệt_vời | lớn hơn
+mạnh_mẽ | mạnh hơn | khó_khăn | khó hơn
+mạnh_mẽ | mạnh hơn | nặng | nặng hơn
+mạnh_mẽ | mạnh hơn | cao | cao hơn
+mạnh_mẽ | mạnh hơn | nóng | nóng hơn
+mạnh_mẽ | mạnh hơn | lớn | lớn hơn
+mạnh_mẽ | mạnh hơn | dài | lâu hơn
+mạnh_mẽ | mạnh hơn | to | to hơn
+mạnh_mẽ | mạnh hơn | thấp | thấp hơn
+mạnh_mẽ | mạnh hơn | mới | mới hơn
+mạnh_mẽ | mạnh hơn | cũ | lớn hơn
+mạnh_mẽ | mạnh hơn | nhanh_chóng | nhanh hơn
+mạnh_mẽ | mạnh hơn | an_toàn | an_toàn hơn
+mạnh_mẽ | mạnh hơn | ngắn | ngắn hơn
+mạnh_mẽ | mạnh hơn | đơn_giản | đơn_giản hơn
+mạnh_mẽ | mạnh hơn | chậm | chậm hơn
+mạnh_mẽ | mạnh hơn | nhỏ | nhỏ hơn
+mạnh_mẽ | mạnh hơn | thông_minh | thông_minh hơn
+cao | cao hơn | chặt_chẽ | chặt_chẽ hơn
+cao | cao hơn | khó_khăn | khó_khăn hơn
+cao | cao hơn | ấm_áp | ấm hơn
+cao | cao hơn | yếu | yếu hơn
+cao | cao hơn | rộng | rộng hơn
+cao | cao hơn | trẻ | trẻ hơn
+cao | cao hơn | xấu | tệ hơn
+cao | cao hơn | lớn | lớn hơn
+cao | cao hơn | sáng | sáng hơn
+cao | cao hơn | lạnh | lạnh hơn
+cao | cao hơn | mát_mẻ | mát
+cao | cao hơn | sâu | sâu_sắc hơn
+cao | cao hơn | dễ_dàng | dễ_dàng hơn
+cao | cao hơn | nhanh_chóng | nhanh hơn
+cao | cao hơn | tốt | tốt hơn
+cao | cao hơn | tuyệt_vời | lớn hơn
+cao | cao hơn | khó_khăn | khó hơn
+cao | cao hơn | nặng | nặng hơn
+cao | cao hơn | cao | cao hơn
+cao | cao hơn | nóng | nóng hơn
+cao | cao hơn | lớn | lớn hơn
+cao | cao hơn | dài | lâu hơn
+cao | cao hơn | to | to hơn
+cao | cao hơn | thấp | thấp hơn
+cao | cao hơn | mới | mới hơn
+cao | cao hơn | cũ | lớn hơn
+cao | cao hơn | nhanh_chóng | nhanh hơn
+cao | cao hơn | an_toàn | an_toàn hơn
+cao | cao hơn | ngắn | ngắn hơn
+cao | cao hơn | đơn_giản | đơn_giản hơn
+cao | cao hơn | chậm | chậm hơn
+cao | cao hơn | nhỏ | nhỏ hơn
+cao | cao hơn | thông_minh | thông_minh hơn
+cao | cao hơn | mạnh_mẽ | mạnh_mẽ hơn
+chặt_chẽ | chặt_chẽ hơn | khó_khăn | khó_khăn hơn
+chặt_chẽ | chặt_chẽ hơn | ấm_áp | ấm hơn
+chặt_chẽ | chặt_chẽ hơn | yếu | yếu hơn
+chặt_chẽ | chặt_chẽ hơn | rộng | rộng hơn
+chặt_chẽ | chặt_chẽ hơn | trẻ | trẻ hơn
+chặt_chẽ | chặt_chẽ hơn | xấu | tệ hơn
+chặt_chẽ | chặt_chẽ hơn | lớn | lớn hơn
+chặt_chẽ | chặt_chẽ hơn | sáng | sáng hơn
+chặt_chẽ | chặt_chẽ hơn | lạnh | lạnh hơn
+chặt_chẽ | chặt_chẽ hơn | mát_mẻ | mát
+chặt_chẽ | chặt_chẽ hơn | sâu | sâu_sắc hơn
+chặt_chẽ | chặt_chẽ hơn | dễ_dàng | dễ_dàng hơn
+chặt_chẽ | chặt_chẽ hơn | nhanh_chóng | nhanh hơn
+chặt_chẽ | chặt_chẽ hơn | tốt | tốt hơn
+chặt_chẽ | chặt_chẽ hơn | tuyệt_vời | lớn hơn
+chặt_chẽ | chặt_chẽ hơn | khó_khăn | khó hơn
+chặt_chẽ | chặt_chẽ hơn | nặng | nặng hơn
+chặt_chẽ | chặt_chẽ hơn | cao | cao hơn
+chặt_chẽ | chặt_chẽ hơn | nóng | nóng hơn
+chặt_chẽ | chặt_chẽ hơn | lớn | lớn hơn
+chặt_chẽ | chặt_chẽ hơn | dài | lâu hơn
+chặt_chẽ | chặt_chẽ hơn | to | to hơn
+chặt_chẽ | chặt_chẽ hơn | thấp | thấp hơn
+chặt_chẽ | chặt_chẽ hơn | mới | mới hơn
+chặt_chẽ | chặt_chẽ hơn | cũ | lớn hơn
+chặt_chẽ | chặt_chẽ hơn | nhanh_chóng | nhanh hơn
+chặt_chẽ | chặt_chẽ hơn | an_toàn | an_toàn hơn
+chặt_chẽ | chặt_chẽ hơn | ngắn | ngắn hơn
+chặt_chẽ | chặt_chẽ hơn | đơn_giản | đơn_giản hơn
+chặt_chẽ | chặt_chẽ hơn | chậm | chậm hơn
+chặt_chẽ | chặt_chẽ hơn | nhỏ | nhỏ hơn
+chặt_chẽ | chặt_chẽ hơn | thông_minh | thông_minh hơn
+chặt_chẽ | chặt_chẽ hơn | mạnh_mẽ | mạnh_mẽ hơn
+chặt_chẽ | chặt_chẽ hơn | cao | cao hơn
+khó_khăn | khó_khăn hơn | ấm_áp | ấm hơn
+khó_khăn | khó_khăn hơn | yếu | yếu hơn
+khó_khăn | khó_khăn hơn | rộng | rộng hơn
+khó_khăn | khó_khăn hơn | trẻ | trẻ hơn
+khó_khăn | khó_khăn hơn | xấu | tệ hơn
+khó_khăn | khó_khăn hơn | lớn | lớn hơn
+khó_khăn | khó_khăn hơn | sáng | sáng hơn
+khó_khăn | khó_khăn hơn | lạnh | lạnh hơn
+khó_khăn | khó_khăn hơn | mát_mẻ | mát
+khó_khăn | khó_khăn hơn | sâu | sâu_sắc hơn
+khó_khăn | khó_khăn hơn | dễ_dàng | dễ_dàng hơn
+khó_khăn | khó_khăn hơn | nhanh_chóng | nhanh hơn
+khó_khăn | khó_khăn hơn | tốt | tốt hơn
+khó_khăn | khó_khăn hơn | tuyệt_vời | lớn hơn
+khó_khăn | khó_khăn hơn | khó_khăn | khó hơn
+khó_khăn | khó_khăn hơn | nặng | nặng hơn
+khó_khăn | khó_khăn hơn | cao | cao hơn
+khó_khăn | khó_khăn hơn | nóng | nóng hơn
+khó_khăn | khó_khăn hơn | lớn | lớn hơn
+khó_khăn | khó_khăn hơn | dài | lâu hơn
+khó_khăn | khó_khăn hơn | to | to hơn
+khó_khăn | khó_khăn hơn | thấp | thấp hơn
+khó_khăn | khó_khăn hơn | mới | mới hơn
+khó_khăn | khó_khăn hơn | cũ | lớn hơn
+khó_khăn | khó_khăn hơn | nhanh_chóng | nhanh hơn
+khó_khăn | khó_khăn hơn | an_toàn | an_toàn hơn
+khó_khăn | khó_khăn hơn | ngắn | ngắn hơn
+khó_khăn | khó_khăn hơn | đơn_giản | đơn_giản hơn
+khó_khăn | khó_khăn hơn | chậm | chậm hơn
+khó_khăn | khó_khăn hơn | nhỏ | nhỏ hơn
+khó_khăn | khó_khăn hơn | thông_minh | thông_minh hơn
+khó_khăn | khó_khăn hơn | mạnh_mẽ | mạnh_mẽ hơn
+khó_khăn | khó_khăn hơn | cao | cao hơn
+khó_khăn | khó_khăn hơn | chặt_chẽ | chặt_chẽ hơn
+ấm_áp | ấm hơn | yếu | yếu hơn
+ấm_áp | ấm hơn | rộng | rộng hơn
+ấm_áp | ấm hơn | trẻ | trẻ hơn
+ấm_áp | ấm hơn | xấu | tệ hơn
+ấm_áp | ấm hơn | lớn | lớn hơn
+ấm_áp | ấm hơn | sáng | sáng hơn
+ấm_áp | ấm hơn | lạnh | lạnh hơn
+ấm_áp | ấm hơn | mát_mẻ | mát
+ấm_áp | ấm hơn | sâu | sâu_sắc hơn
+ấm_áp | ấm hơn | dễ_dàng | dễ_dàng hơn
+ấm_áp | ấm hơn | nhanh_chóng | nhanh hơn
+ấm_áp | ấm hơn | tốt | tốt hơn
+ấm_áp | ấm hơn | tuyệt_vời | lớn hơn
+ấm_áp | ấm hơn | khó_khăn | khó hơn
+ấm_áp | ấm hơn | nặng | nặng hơn
+ấm_áp | ấm hơn | cao | cao hơn
+ấm_áp | ấm hơn | nóng | nóng hơn
+ấm_áp | ấm hơn | lớn | lớn hơn
+ấm_áp | ấm hơn | dài | lâu hơn
+ấm_áp | ấm hơn | to | to hơn
+ấm_áp | ấm hơn | thấp | thấp hơn
+ấm_áp | ấm hơn | mới | mới hơn
+ấm_áp | ấm hơn | cũ | lớn hơn
+ấm_áp | ấm hơn | nhanh_chóng | nhanh hơn
+ấm_áp | ấm hơn | an_toàn | an_toàn hơn
+ấm_áp | ấm hơn | ngắn | ngắn hơn
+ấm_áp | ấm hơn | đơn_giản | đơn_giản hơn
+ấm_áp | ấm hơn | chậm | chậm hơn
+ấm_áp | ấm hơn | nhỏ | nhỏ hơn
+ấm_áp | ấm hơn | thông_minh | thông_minh hơn
+ấm_áp | ấm hơn | mạnh_mẽ | mạnh_mẽ hơn
+ấm_áp | ấm hơn | cao | cao hơn
+ấm_áp | ấm hơn | chặt_chẽ | chặt_chẽ hơn
+ấm_áp | ấm hơn | khó_khăn | khó_khăn hơn
+yếu | yếu hơn | rộng | rộng hơn
+yếu | yếu hơn | trẻ | trẻ hơn
+yếu | yếu hơn | xấu | tệ hơn
+yếu | yếu hơn | lớn | lớn hơn
+yếu | yếu hơn | sáng | sáng hơn
+yếu | yếu hơn | lạnh | lạnh hơn
+yếu | yếu hơn | mát_mẻ | mát
+yếu | yếu hơn | sâu | sâu_sắc hơn
+yếu | yếu hơn | dễ_dàng | dễ_dàng hơn
+yếu | yếu hơn | nhanh_chóng | nhanh hơn
+yếu | yếu hơn | tốt | tốt hơn
+yếu | yếu hơn | tuyệt_vời | lớn hơn
+yếu | yếu hơn | khó_khăn | khó hơn
+yếu | yếu hơn | nặng | nặng hơn
+yếu | yếu hơn | cao | cao hơn
+yếu | yếu hơn | nóng | nóng hơn
+yếu | yếu hơn | lớn | lớn hơn
+yếu | yếu hơn | dài | lâu hơn
+yếu | yếu hơn | to | to hơn
+yếu | yếu hơn | thấp | thấp hơn
+yếu | yếu hơn | mới | mới hơn
+yếu | yếu hơn | cũ | lớn hơn
+yếu | yếu hơn | nhanh_chóng | nhanh hơn
+yếu | yếu hơn | an_toàn | an_toàn hơn
+yếu | yếu hơn | ngắn | ngắn hơn
+yếu | yếu hơn | đơn_giản | đơn_giản hơn
+yếu | yếu hơn | chậm | chậm hơn
+yếu | yếu hơn | nhỏ | nhỏ hơn
+yếu | yếu hơn | thông_minh | thông_minh hơn
+yếu | yếu hơn | mạnh_mẽ | mạnh_mẽ hơn
+yếu | yếu hơn | cao | cao hơn
+yếu | yếu hơn | chặt_chẽ | chặt_chẽ hơn
+yếu | yếu hơn | khó_khăn | khó_khăn hơn
+yếu | yếu hơn | ấm_áp | ấm hơn
+rộng | rộng hơn | trẻ | trẻ hơn
+rộng | rộng hơn | xấu | tệ hơn
+rộng | rộng hơn | lớn | lớn hơn
+rộng | rộng hơn | sáng | sáng hơn
+rộng | rộng hơn | lạnh | lạnh hơn
+rộng | rộng hơn | mát_mẻ | mát
+rộng | rộng hơn | sâu | sâu_sắc hơn
+rộng | rộng hơn | dễ_dàng | dễ_dàng hơn
+rộng | rộng hơn | nhanh_chóng | nhanh hơn
+rộng | rộng hơn | tốt | tốt hơn
+rộng | rộng hơn | tuyệt_vời | lớn hơn
+rộng | rộng hơn | khó_khăn | khó hơn
+rộng | rộng hơn | nặng | nặng hơn
+rộng | rộng hơn | cao | cao hơn
+rộng | rộng hơn | nóng | nóng hơn
+rộng | rộng hơn | lớn | lớn hơn
+rộng | rộng hơn | dài | lâu hơn
+rộng | rộng hơn | to | to hơn
+rộng | rộng hơn | thấp | thấp hơn
+rộng | rộng hơn | mới | mới hơn
+rộng | rộng hơn | cũ | lớn hơn
+rộng | rộng hơn | nhanh_chóng | nhanh hơn
+rộng | rộng hơn | an_toàn | an_toàn hơn
+rộng | rộng hơn | ngắn | ngắn hơn
+rộng | rộng hơn | đơn_giản | đơn_giản hơn
+rộng | rộng hơn | chậm | chậm hơn
+rộng | rộng hơn | nhỏ | nhỏ hơn
+rộng | rộng hơn | thông_minh | thông_minh hơn
+rộng | rộng hơn | mạnh_mẽ | mạnh_mẽ hơn
+rộng | rộng hơn | cao | cao hơn
+rộng | rộng hơn | chặt_chẽ | chặt_chẽ hơn
+rộng | rộng hơn | khó_khăn | khó_khăn hơn
+rộng | rộng hơn | ấm_áp | ấm hơn
+rộng | rộng hơn | yếu | yếu hơn
+trẻ | trẻ hơn | xấu | tệ hơn
+trẻ | trẻ hơn | lớn | lớn hơn
+trẻ | trẻ hơn | sáng | sáng hơn
+trẻ | trẻ hơn | lạnh | lạnh hơn
+trẻ | trẻ hơn | mát_mẻ | mát
+trẻ | trẻ hơn | sâu | sâu_sắc hơn
+trẻ | trẻ hơn | dễ_dàng | dễ_dàng hơn
+trẻ | trẻ hơn | nhanh_chóng | nhanh hơn
+trẻ | trẻ hơn | tốt | tốt hơn
+trẻ | trẻ hơn | tuyệt_vời | lớn hơn
+trẻ | trẻ hơn | khó_khăn | khó hơn
+trẻ | trẻ hơn | nặng | nặng hơn
+trẻ | trẻ hơn | cao | cao hơn
+trẻ | trẻ hơn | nóng | nóng hơn
+trẻ | trẻ hơn | lớn | lớn hơn
+trẻ | trẻ hơn | dài | lâu hơn
+trẻ | trẻ hơn | to | to hơn
+trẻ | trẻ hơn | thấp | thấp hơn
+trẻ | trẻ hơn | mới | mới hơn
+trẻ | trẻ hơn | cũ | lớn hơn
+trẻ | trẻ hơn | nhanh_chóng | nhanh hơn
+trẻ | trẻ hơn | an_toàn | an_toàn hơn
+trẻ | trẻ hơn | ngắn | ngắn hơn
+trẻ | trẻ hơn | đơn_giản | đơn_giản hơn
+trẻ | trẻ hơn | chậm | chậm hơn
+trẻ | trẻ hơn | nhỏ | nhỏ hơn
+trẻ | trẻ hơn | thông_minh | thông_minh hơn
+trẻ | trẻ hơn | mạnh_mẽ | mạnh_mẽ hơn
+trẻ | trẻ hơn | cao | cao hơn
+trẻ | trẻ hơn | chặt_chẽ | chặt_chẽ hơn
+trẻ | trẻ hơn | khó_khăn | khó_khăn hơn
+trẻ | trẻ hơn | ấm_áp | ấm hơn
+trẻ | trẻ hơn | yếu | yếu hơn
+trẻ | trẻ hơn | rộng | rộng hơn
+xấu | tệ nhất | lớn | lớn nhất
+xấu | tệ nhất | sáng | sáng nhất
+xấu | tệ nhất | lạnh | lạnh nhất
+xấu | tệ nhất | mát_mẻ | lạnh nhất
+xấu | tệ nhất | tối | tối nhất
+xấu | tệ nhất | dễ_dàng | dễ nhất
+xấu | tệ nhất | nhanh_chóng | nhanh nhất
+xấu | tệ nhất | tốt | tốt
+xấu | tệ nhất | tuyệt_vời | vĩ_đại nhất
+xấu | tệ nhất | cao | cao nhất
+xấu | tệ nhất | nóng | nóng nhất
+xấu | tệ nhất | lớn | lớn nhất
+xấu | tệ nhất | dài | dài nhất
+xấu | tệ nhất | thấp | thấp nhất
+xấu | tệ nhất | may_mắn | may_mắn nhất
+xấu | tệ nhất | cũ | lâu_đời nhất
+xấu | tệ nhất | nhanh_chóng | nhanh nhất
+xấu | tệ nhất | đơn_giản | đơn_giản nhất
+xấu | tệ nhất | ngắn | ngắn nhất
+xấu | tệ nhất | chậm | chậm nhất
+xấu | tệ nhất | nhỏ | nhỏ nhất
+xấu | tệ nhất | thông_minh | thông_minh nhất
+xấu | tệ nhất | lạ | lạ_lùng nhất
+xấu | tệ nhất | mạnh_mẽ | mạnh nhất
+xấu | tệ nhất | ngọt_ngào | ngọt_ngào nhất
+xấu | tệ nhất | cao | cao nhất
+xấu | tệ nhất | ngon | ngon nhất
+xấu | tệ nhất | ấm_áp | ấm nhất
+xấu | tệ nhất | yếu | yếu nhất
+xấu | tệ nhất | kỳ_lạ | kỳ_lạ nhất
+xấu | tệ nhất | rộng | rộng nhất
+xấu | tệ nhất | trẻ | út
+lớn | lớn nhất | sáng | sáng nhất
+lớn | lớn nhất | lạnh | lạnh nhất
+lớn | lớn nhất | mát_mẻ | lạnh nhất
+lớn | lớn nhất | tối | tối nhất
+lớn | lớn nhất | dễ_dàng | dễ nhất
+lớn | lớn nhất | nhanh_chóng | nhanh nhất
+lớn | lớn nhất | tốt | tốt
+lớn | lớn nhất | tuyệt_vời | vĩ_đại nhất
+lớn | lớn nhất | cao | cao nhất
+lớn | lớn nhất | nóng | nóng nhất
+lớn | lớn nhất | lớn | lớn nhất
+lớn | lớn nhất | dài | dài nhất
+lớn | lớn nhất | thấp | thấp nhất
+lớn | lớn nhất | may_mắn | may_mắn nhất
+lớn | lớn nhất | cũ | lâu_đời nhất
+lớn | lớn nhất | nhanh_chóng | nhanh nhất
+lớn | lớn nhất | đơn_giản | đơn_giản nhất
+lớn | lớn nhất | ngắn | ngắn nhất
+lớn | lớn nhất | chậm | chậm nhất
+lớn | lớn nhất | nhỏ | nhỏ nhất
+lớn | lớn nhất | thông_minh | thông_minh nhất
+lớn | lớn nhất | lạ | lạ_lùng nhất
+lớn | lớn nhất | mạnh_mẽ | mạnh nhất
+lớn | lớn nhất | ngọt_ngào | ngọt_ngào nhất
+lớn | lớn nhất | cao | cao nhất
+lớn | lớn nhất | ngon | ngon nhất
+lớn | lớn nhất | ấm_áp | ấm nhất
+lớn | lớn nhất | yếu | yếu nhất
+lớn | lớn nhất | kỳ_lạ | kỳ_lạ nhất
+lớn | lớn nhất | rộng | rộng nhất
+lớn | lớn nhất | trẻ | út
+lớn | lớn nhất | xấu | tệ nhất
+sáng | sáng nhất | lạnh | lạnh nhất
+sáng | sáng nhất | mát_mẻ | lạnh nhất
+sáng | sáng nhất | tối | tối nhất
+sáng | sáng nhất | dễ_dàng | dễ nhất
+sáng | sáng nhất | nhanh_chóng | nhanh nhất
+sáng | sáng nhất | tốt | tốt
+sáng | sáng nhất | tuyệt_vời | vĩ_đại nhất
+sáng | sáng nhất | cao | cao nhất
+sáng | sáng nhất | nóng | nóng nhất
+sáng | sáng nhất | lớn | lớn nhất
+sáng | sáng nhất | dài | dài nhất
+sáng | sáng nhất | thấp | thấp nhất
+sáng | sáng nhất | may_mắn | may_mắn nhất
+sáng | sáng nhất | cũ | lâu_đời nhất
+sáng | sáng nhất | nhanh_chóng | nhanh nhất
+sáng | sáng nhất | đơn_giản | đơn_giản nhất
+sáng | sáng nhất | ngắn | ngắn nhất
+sáng | sáng nhất | chậm | chậm nhất
+sáng | sáng nhất | nhỏ | nhỏ nhất
+sáng | sáng nhất | thông_minh | thông_minh nhất
+sáng | sáng nhất | lạ | lạ_lùng nhất
+sáng | sáng nhất | mạnh_mẽ | mạnh nhất
+sáng | sáng nhất | ngọt_ngào | ngọt_ngào nhất
+sáng | sáng nhất | cao | cao nhất
+sáng | sáng nhất | ngon | ngon nhất
+sáng | sáng nhất | ấm_áp | ấm nhất
+sáng | sáng nhất | yếu | yếu nhất
+sáng | sáng nhất | kỳ_lạ | kỳ_lạ nhất
+sáng | sáng nhất | rộng | rộng nhất
+sáng | sáng nhất | trẻ | út
+sáng | sáng nhất | xấu | tệ nhất
+sáng | sáng nhất | lớn | lớn nhất
+lạnh | lạnh nhất | mát_mẻ | lạnh nhất
+lạnh | lạnh nhất | tối | tối nhất
+lạnh | lạnh nhất | dễ_dàng | dễ nhất
+lạnh | lạnh nhất | nhanh_chóng | nhanh nhất
+lạnh | lạnh nhất | tốt | tốt
+lạnh | lạnh nhất | tuyệt_vời | vĩ_đại nhất
+lạnh | lạnh nhất | cao | cao nhất
+lạnh | lạnh nhất | nóng | nóng nhất
+lạnh | lạnh nhất | lớn | lớn nhất
+lạnh | lạnh nhất | dài | dài nhất
+lạnh | lạnh nhất | thấp | thấp nhất
+lạnh | lạnh nhất | may_mắn | may_mắn nhất
+lạnh | lạnh nhất | cũ | lâu_đời nhất
+lạnh | lạnh nhất | nhanh_chóng | nhanh nhất
+lạnh | lạnh nhất | đơn_giản | đơn_giản nhất
+lạnh | lạnh nhất | ngắn | ngắn nhất
+lạnh | lạnh nhất | chậm | chậm nhất
+lạnh | lạnh nhất | nhỏ | nhỏ nhất
+lạnh | lạnh nhất | thông_minh | thông_minh nhất
+lạnh | lạnh nhất | lạ | lạ_lùng nhất
+lạnh | lạnh nhất | mạnh_mẽ | mạnh nhất
+lạnh | lạnh nhất | ngọt_ngào | ngọt_ngào nhất
+lạnh | lạnh nhất | cao | cao nhất
+lạnh | lạnh nhất | ngon | ngon nhất
+lạnh | lạnh nhất | ấm_áp | ấm nhất
+lạnh | lạnh nhất | yếu | yếu nhất
+lạnh | lạnh nhất | kỳ_lạ | kỳ_lạ nhất
+lạnh | lạnh nhất | rộng | rộng nhất
+lạnh | lạnh nhất | trẻ | út
+lạnh | lạnh nhất | xấu | tệ nhất
+lạnh | lạnh nhất | lớn | lớn nhất
+lạnh | lạnh nhất | sáng | sáng nhất
+mát_mẻ | tuyệt nhất | tối | tối nhất
+mát_mẻ | tuyệt nhất | dễ_dàng | dễ nhất
+mát_mẻ | tuyệt nhất | nhanh_chóng | nhanh nhất
+mát_mẻ | tuyệt nhất | tốt | tốt
+mát_mẻ | tuyệt nhất | tuyệt_vời | vĩ_đại nhất
+mát_mẻ | tuyệt nhất | cao | cao nhất
+mát_mẻ | tuyệt nhất | nóng | nóng nhất
+mát_mẻ | tuyệt nhất | lớn | lớn nhất
+mát_mẻ | tuyệt nhất | dài | dài nhất
+mát_mẻ | tuyệt nhất | thấp | thấp nhất
+mát_mẻ | tuyệt nhất | may_mắn | may_mắn nhất
+mát_mẻ | tuyệt nhất | cũ | lâu_đời nhất
+mát_mẻ | tuyệt nhất | nhanh_chóng | nhanh nhất
+mát_mẻ | tuyệt nhất | đơn_giản | đơn_giản nhất
+mát_mẻ | tuyệt nhất | ngắn | ngắn nhất
+mát_mẻ | tuyệt nhất | chậm | chậm nhất
+mát_mẻ | tuyệt nhất | nhỏ | nhỏ nhất
+mát_mẻ | tuyệt nhất | thông_minh | thông_minh nhất
+mát_mẻ | tuyệt nhất | lạ | lạ_lùng nhất
+mát_mẻ | tuyệt nhất | mạnh_mẽ | mạnh nhất
+mát_mẻ | tuyệt nhất | ngọt_ngào | ngọt_ngào nhất
+mát_mẻ | tuyệt nhất | cao | cao nhất
+mát_mẻ | tuyệt nhất | ngon | ngon nhất
+mát_mẻ | tuyệt nhất | ấm_áp | ấm nhất
+mát_mẻ | tuyệt nhất | yếu | yếu nhất
+mát_mẻ | tuyệt nhất | kỳ_lạ | kỳ_lạ nhất
+mát_mẻ | tuyệt nhất | rộng | rộng nhất
+mát_mẻ | tuyệt nhất | trẻ | út
+mát_mẻ | tuyệt nhất | xấu | tệ nhất
+mát_mẻ | tuyệt nhất | lớn | lớn nhất
+mát_mẻ | tuyệt nhất | sáng | sáng nhất
+mát_mẻ | tuyệt nhất | lạnh | lạnh nhất
+tối | tối nhất | dễ_dàng | dễ nhất
+tối | tối nhất | nhanh_chóng | nhanh nhất
+tối | tối nhất | tốt | tốt
+tối | tối nhất | tuyệt_vời | vĩ_đại nhất
+tối | tối nhất | cao | cao nhất
+tối | tối nhất | nóng | nóng nhất
+tối | tối nhất | lớn | lớn nhất
+tối | tối nhất | dài | dài nhất
+tối | tối nhất | thấp | thấp nhất
+tối | tối nhất | may_mắn | may_mắn nhất
+tối | tối nhất | cũ | lâu_đời nhất
+tối | tối nhất | nhanh_chóng | nhanh nhất
+tối | tối nhất | đơn_giản | đơn_giản nhất
+tối | tối nhất | ngắn | ngắn nhất
+tối | tối nhất | chậm | chậm nhất
+tối | tối nhất | nhỏ | nhỏ nhất
+tối | tối nhất | thông_minh | thông_minh nhất
+tối | tối nhất | lạ | lạ_lùng nhất
+tối | tối nhất | mạnh_mẽ | mạnh nhất
+tối | tối nhất | ngọt_ngào | ngọt_ngào nhất
+tối | tối nhất | cao | cao nhất
+tối | tối nhất | ngon | ngon nhất
+tối | tối nhất | ấm_áp | ấm nhất
+tối | tối nhất | yếu | yếu nhất
+tối | tối nhất | kỳ_lạ | kỳ_lạ nhất
+tối | tối nhất | rộng | rộng nhất
+tối | tối nhất | trẻ | út
+tối | tối nhất | xấu | tệ nhất
+tối | tối nhất | lớn | lớn nhất
+tối | tối nhất | sáng | sáng nhất
+tối | tối nhất | lạnh | lạnh nhất
+tối | tối nhất | mát_mẻ | lạnh nhất
+dễ_dàng | dễ nhất | nhanh_chóng | nhanh nhất
+dễ_dàng | dễ nhất | tốt | tốt
+dễ_dàng | dễ nhất | tuyệt_vời | vĩ_đại nhất
+dễ_dàng | dễ nhất | cao | cao nhất
+dễ_dàng | dễ nhất | nóng | nóng nhất
+dễ_dàng | dễ nhất | lớn | lớn nhất
+dễ_dàng | dễ nhất | dài | dài nhất
+dễ_dàng | dễ nhất | thấp | thấp nhất
+dễ_dàng | dễ nhất | may_mắn | may_mắn nhất
+dễ_dàng | dễ nhất | cũ | lâu_đời nhất
+dễ_dàng | dễ nhất | nhanh_chóng | nhanh nhất
+dễ_dàng | dễ nhất | đơn_giản | đơn_giản nhất
+dễ_dàng | dễ nhất | ngắn | ngắn nhất
+dễ_dàng | dễ nhất | chậm | chậm nhất
+dễ_dàng | dễ nhất | nhỏ | nhỏ nhất
+dễ_dàng | dễ nhất | thông_minh | thông_minh nhất
+dễ_dàng | dễ nhất | lạ | lạ_lùng nhất
+dễ_dàng | dễ nhất | mạnh_mẽ | mạnh nhất
+dễ_dàng | dễ nhất | ngọt_ngào | ngọt_ngào nhất
+dễ_dàng | dễ nhất | cao | cao nhất
+dễ_dàng | dễ nhất | ngon | ngon nhất
+dễ_dàng | dễ nhất | ấm_áp | ấm nhất
+dễ_dàng | dễ nhất | yếu | yếu nhất
+dễ_dàng | dễ nhất | kỳ_lạ | kỳ_lạ nhất
+dễ_dàng | dễ nhất | rộng | rộng nhất
+dễ_dàng | dễ nhất | trẻ | út
+dễ_dàng | dễ nhất | xấu | tệ nhất
+dễ_dàng | dễ nhất | lớn | lớn nhất
+dễ_dàng | dễ nhất | sáng | sáng nhất
+dễ_dàng | dễ nhất | lạnh | lạnh nhất
+dễ_dàng | dễ nhất | mát_mẻ | lạnh nhất
+dễ_dàng | dễ nhất | tối | tối nhất
+nhanh_chóng | nhanh nhất | tốt | tốt
+nhanh_chóng | nhanh nhất | tuyệt_vời | vĩ_đại nhất
+nhanh_chóng | nhanh nhất | cao | cao nhất
+nhanh_chóng | nhanh nhất | nóng | nóng nhất
+nhanh_chóng | nhanh nhất | lớn | lớn nhất
+nhanh_chóng | nhanh nhất | dài | dài nhất
+nhanh_chóng | nhanh nhất | thấp | thấp nhất
+nhanh_chóng | nhanh nhất | may_mắn | may_mắn nhất
+nhanh_chóng | nhanh nhất | cũ | lâu_đời nhất
+nhanh_chóng | nhanh nhất | nhanh_chóng | nhanh nhất
+nhanh_chóng | nhanh nhất | đơn_giản | đơn_giản nhất
+nhanh_chóng | nhanh nhất | ngắn | ngắn nhất
+nhanh_chóng | nhanh nhất | chậm | chậm nhất
+nhanh_chóng | nhanh nhất | nhỏ | nhỏ nhất
+nhanh_chóng | nhanh nhất | thông_minh | thông_minh nhất
+nhanh_chóng | nhanh nhất | lạ | lạ_lùng nhất
+nhanh_chóng | nhanh nhất | mạnh_mẽ | mạnh nhất
+nhanh_chóng | nhanh nhất | ngọt_ngào | ngọt_ngào nhất
+nhanh_chóng | nhanh nhất | cao | cao nhất
+nhanh_chóng | nhanh nhất | ngon | ngon nhất
+nhanh_chóng | nhanh nhất | ấm_áp | ấm nhất
+nhanh_chóng | nhanh nhất | yếu | yếu nhất
+nhanh_chóng | nhanh nhất | kỳ_lạ | kỳ_lạ nhất
+nhanh_chóng | nhanh nhất | rộng | rộng nhất
+nhanh_chóng | nhanh nhất | trẻ | út
+nhanh_chóng | nhanh nhất | xấu | tệ nhất
+nhanh_chóng | nhanh nhất | lớn | lớn nhất
+nhanh_chóng | nhanh nhất | sáng | sáng nhất
+nhanh_chóng | nhanh nhất | lạnh | lạnh nhất
+nhanh_chóng | nhanh nhất | mát_mẻ | lạnh nhất
+nhanh_chóng | nhanh nhất | tối | tối nhất
+nhanh_chóng | nhanh nhất | dễ_dàng | dễ nhất
+tốt | tốt nhất | tuyệt_vời | vĩ_đại nhất
+tốt | tốt nhất | cao | cao nhất
+tốt | tốt nhất | nóng | nóng nhất
+tốt | tốt nhất | lớn | lớn nhất
+tốt | tốt nhất | dài | dài nhất
+tốt | tốt nhất | thấp | thấp nhất
+tốt | tốt nhất | may_mắn | may_mắn nhất
+tốt | tốt nhất | cũ | lâu_đời nhất
+tốt | tốt nhất | nhanh_chóng | nhanh nhất
+tốt | tốt nhất | đơn_giản | đơn_giản nhất
+tốt | tốt nhất | ngắn | ngắn nhất
+tốt | tốt nhất | chậm | chậm nhất
+tốt | tốt nhất | nhỏ | nhỏ nhất
+tốt | tốt nhất | thông_minh | thông_minh nhất
+tốt | tốt nhất | lạ | lạ_lùng nhất
+tốt | tốt nhất | mạnh_mẽ | mạnh nhất
+tốt | tốt nhất | ngọt_ngào | ngọt_ngào nhất
+tốt | tốt nhất | cao | cao nhất
+tốt | tốt nhất | ngon | ngon nhất
+tốt | tốt nhất | ấm_áp | ấm nhất
+tốt | tốt nhất | yếu | yếu nhất
+tốt | tốt nhất | kỳ_lạ | kỳ_lạ nhất
+tốt | tốt nhất | rộng | rộng nhất
+tốt | tốt nhất | trẻ | út
+tốt | tốt nhất | xấu | tệ nhất
+tốt | tốt nhất | lớn | lớn nhất
+tốt | tốt nhất | sáng | sáng nhất
+tốt | tốt nhất | lạnh | lạnh nhất
+tốt | tốt nhất | mát_mẻ | lạnh nhất
+tốt | tốt nhất | tối | tối nhất
+tốt | tốt nhất | dễ_dàng | dễ nhất
+tốt | tốt nhất | nhanh_chóng | nhanh nhất
+tuyệt_vời | vĩ_đại nhất | cao | cao nhất
+tuyệt_vời | vĩ_đại nhất | nóng | nóng nhất
+tuyệt_vời | vĩ_đại nhất | lớn | lớn nhất
+tuyệt_vời | vĩ_đại nhất | dài | dài nhất
+tuyệt_vời | vĩ_đại nhất | thấp | thấp nhất
+tuyệt_vời | vĩ_đại nhất | may_mắn | may_mắn nhất
+tuyệt_vời | vĩ_đại nhất | cũ | lâu_đời nhất
+tuyệt_vời | vĩ_đại nhất | nhanh_chóng | nhanh nhất
+tuyệt_vời | vĩ_đại nhất | đơn_giản | đơn_giản nhất
+tuyệt_vời | vĩ_đại nhất | ngắn | ngắn nhất
+tuyệt_vời | vĩ_đại nhất | chậm | chậm nhất
+tuyệt_vời | vĩ_đại nhất | nhỏ | nhỏ nhất
+tuyệt_vời | vĩ_đại nhất | thông_minh | thông_minh nhất
+tuyệt_vời | vĩ_đại nhất | lạ | lạ_lùng nhất
+tuyệt_vời | vĩ_đại nhất | mạnh_mẽ | mạnh nhất
+tuyệt_vời | vĩ_đại nhất | ngọt_ngào | ngọt_ngào nhất
+tuyệt_vời | vĩ_đại nhất | cao | cao nhất
+tuyệt_vời | vĩ_đại nhất | ngon | ngon nhất
+tuyệt_vời | vĩ_đại nhất | ấm_áp | ấm nhất
+tuyệt_vời | vĩ_đại nhất | yếu | yếu nhất
+tuyệt_vời | vĩ_đại nhất | kỳ_lạ | kỳ_lạ nhất
+tuyệt_vời | vĩ_đại nhất | rộng | rộng nhất
+tuyệt_vời | vĩ_đại nhất | trẻ | út
+tuyệt_vời | vĩ_đại nhất | xấu | tệ nhất
+tuyệt_vời | vĩ_đại nhất | lớn | lớn nhất
+tuyệt_vời | vĩ_đại nhất | sáng | sáng nhất
+tuyệt_vời | vĩ_đại nhất | lạnh | lạnh nhất
+tuyệt_vời | vĩ_đại nhất | mát_mẻ | lạnh nhất
+tuyệt_vời | vĩ_đại nhất | tối | tối nhất
+tuyệt_vời | vĩ_đại nhất | dễ_dàng | dễ nhất
+tuyệt_vời | vĩ_đại nhất | nhanh_chóng | nhanh nhất
+tuyệt_vời | vĩ_đại nhất | tốt | tốt
+cao | cao nhất | nóng | nóng nhất
+cao | cao nhất | lớn | lớn nhất
+cao | cao nhất | dài | dài nhất
+cao | cao nhất | thấp | thấp nhất
+cao | cao nhất | may_mắn | may_mắn nhất
+cao | cao nhất | cũ | lâu_đời nhất
+cao | cao nhất | nhanh_chóng | nhanh nhất
+cao | cao nhất | đơn_giản | đơn_giản nhất
+cao | cao nhất | ngắn | ngắn nhất
+cao | cao nhất | chậm | chậm nhất
+cao | cao nhất | nhỏ | nhỏ nhất
+cao | cao nhất | thông_minh | thông_minh nhất
+cao | cao nhất | lạ | lạ_lùng nhất
+cao | cao nhất | mạnh_mẽ | mạnh nhất
+cao | cao nhất | ngọt_ngào | ngọt_ngào nhất
+cao | cao nhất | cao | cao nhất
+cao | cao nhất | ngon | ngon nhất
+cao | cao nhất | ấm_áp | ấm nhất
+cao | cao nhất | yếu | yếu nhất
+cao | cao nhất | kỳ_lạ | kỳ_lạ nhất
+cao | cao nhất | rộng | rộng nhất
+cao | cao nhất | trẻ | út
+cao | cao nhất | xấu | tệ nhất
+cao | cao nhất | lớn | lớn nhất
+cao | cao nhất | sáng | sáng nhất
+cao | cao nhất | lạnh | lạnh nhất
+cao | cao nhất | mát_mẻ | lạnh nhất
+cao | cao nhất | tối | tối nhất
+cao | cao nhất | dễ_dàng | dễ nhất
+cao | cao nhất | nhanh_chóng | nhanh nhất
+cao | cao nhất | tốt | tốt
+cao | cao nhất | tuyệt_vời | vĩ_đại nhất
+nóng | nóng nhất | lớn | lớn nhất
+nóng | nóng nhất | dài | dài nhất
+nóng | nóng nhất | thấp | thấp nhất
+nóng | nóng nhất | may_mắn | may_mắn nhất
+nóng | nóng nhất | cũ | lâu_đời nhất
+nóng | nóng nhất | nhanh_chóng | nhanh nhất
+nóng | nóng nhất | đơn_giản | đơn_giản nhất
+nóng | nóng nhất | ngắn | ngắn nhất
+nóng | nóng nhất | chậm | chậm nhất
+nóng | nóng nhất | nhỏ | nhỏ nhất
+nóng | nóng nhất | thông_minh | thông_minh nhất
+nóng | nóng nhất | lạ | lạ_lùng nhất
+nóng | nóng nhất | mạnh_mẽ | mạnh nhất
+nóng | nóng nhất | ngọt_ngào | ngọt_ngào nhất
+nóng | nóng nhất | cao | cao nhất
+nóng | nóng nhất | ngon | ngon nhất
+nóng | nóng nhất | ấm_áp | ấm nhất
+nóng | nóng nhất | yếu | yếu nhất
+nóng | nóng nhất | kỳ_lạ | kỳ_lạ nhất
+nóng | nóng nhất | rộng | rộng nhất
+nóng | nóng nhất | trẻ | út
+nóng | nóng nhất | xấu | tệ nhất
+nóng | nóng nhất | lớn | lớn nhất
+nóng | nóng nhất | sáng | sáng nhất
+nóng | nóng nhất | lạnh | lạnh nhất
+nóng | nóng nhất | mát_mẻ | lạnh nhất
+nóng | nóng nhất | tối | tối nhất
+nóng | nóng nhất | dễ_dàng | dễ nhất
+nóng | nóng nhất | nhanh_chóng | nhanh nhất
+nóng | nóng nhất | tốt | tốt
+nóng | nóng nhất | tuyệt_vời | vĩ_đại nhất
+nóng | nóng nhất | cao | cao nhất
+lớn | lớn nhất | dài | dài nhất
+lớn | lớn nhất | thấp | thấp nhất
+lớn | lớn nhất | may_mắn | may_mắn nhất
+lớn | lớn nhất | cũ | lâu_đời nhất
+lớn | lớn nhất | nhanh_chóng | nhanh nhất
+lớn | lớn nhất | đơn_giản | đơn_giản nhất
+lớn | lớn nhất | ngắn | ngắn nhất
+lớn | lớn nhất | chậm | chậm nhất
+lớn | lớn nhất | nhỏ | nhỏ nhất
+lớn | lớn nhất | thông_minh | thông_minh nhất
+lớn | lớn nhất | lạ | lạ_lùng nhất
+lớn | lớn nhất | mạnh_mẽ | mạnh nhất
+lớn | lớn nhất | ngọt_ngào | ngọt_ngào nhất
+lớn | lớn nhất | cao | cao nhất
+lớn | lớn nhất | ngon | ngon nhất
+lớn | lớn nhất | ấm_áp | ấm nhất
+lớn | lớn nhất | yếu | yếu nhất
+lớn | lớn nhất | kỳ_lạ | kỳ_lạ nhất
+lớn | lớn nhất | rộng | rộng nhất
+lớn | lớn nhất | trẻ | út
+lớn | lớn nhất | xấu | tệ nhất
+lớn | lớn nhất | lớn | lớn nhất
+lớn | lớn nhất | sáng | sáng nhất
+lớn | lớn nhất | lạnh | lạnh nhất
+lớn | lớn nhất | mát_mẻ | lạnh nhất
+lớn | lớn nhất | tối | tối nhất
+lớn | lớn nhất | dễ_dàng | dễ nhất
+lớn | lớn nhất | nhanh_chóng | nhanh nhất
+lớn | lớn nhất | tốt | tốt
+lớn | lớn nhất | tuyệt_vời | vĩ_đại nhất
+lớn | lớn nhất | cao | cao nhất
+lớn | lớn nhất | nóng | nóng nhất
+dài | dài nhất | thấp | thấp nhất
+dài | dài nhất | may_mắn | may_mắn nhất
+dài | dài nhất | cũ | lâu_đời nhất
+dài | dài nhất | nhanh_chóng | nhanh nhất
+dài | dài nhất | đơn_giản | đơn_giản nhất
+dài | dài nhất | ngắn | ngắn nhất
+dài | dài nhất | chậm | chậm nhất
+dài | dài nhất | nhỏ | nhỏ nhất
+dài | dài nhất | thông_minh | thông_minh nhất
+dài | dài nhất | lạ | lạ_lùng nhất
+dài | dài nhất | mạnh_mẽ | mạnh nhất
+dài | dài nhất | ngọt_ngào | ngọt_ngào nhất
+dài | dài nhất | cao | cao nhất
+dài | dài nhất | ngon | ngon nhất
+dài | dài nhất | ấm_áp | ấm nhất
+dài | dài nhất | yếu | yếu nhất
+dài | dài nhất | kỳ_lạ | kỳ_lạ nhất
+dài | dài nhất | rộng | rộng nhất
+dài | dài nhất | trẻ | út
+dài | dài nhất | xấu | tệ nhất
+dài | dài nhất | lớn | lớn nhất
+dài | dài nhất | sáng | sáng nhất
+dài | dài nhất | lạnh | lạnh nhất
+dài | dài nhất | mát_mẻ | lạnh nhất
+dài | dài nhất | tối | tối nhất
+dài | dài nhất | dễ_dàng | dễ nhất
+dài | dài nhất | nhanh_chóng | nhanh nhất
+dài | dài nhất | tốt | tốt
+dài | dài nhất | tuyệt_vời | vĩ_đại nhất
+dài | dài nhất | cao | cao nhất
+dài | dài nhất | nóng | nóng nhất
+dài | dài nhất | lớn | lớn nhất
+thấp | thấp nhất | may_mắn | may_mắn nhất
+thấp | thấp nhất | cũ | lâu_đời nhất
+thấp | thấp nhất | nhanh_chóng | nhanh nhất
+thấp | thấp nhất | đơn_giản | đơn_giản nhất
+thấp | thấp nhất | ngắn | ngắn nhất
+thấp | thấp nhất | chậm | chậm nhất
+thấp | thấp nhất | nhỏ | nhỏ nhất
+thấp | thấp nhất | thông_minh | thông_minh nhất
+thấp | thấp nhất | lạ | lạ_lùng nhất
+thấp | thấp nhất | mạnh_mẽ | mạnh nhất
+thấp | thấp nhất | ngọt_ngào | ngọt_ngào nhất
+thấp | thấp nhất | cao | cao nhất
+thấp | thấp nhất | ngon | ngon nhất
+thấp | thấp nhất | ấm_áp | ấm nhất
+thấp | thấp nhất | yếu | yếu nhất
+thấp | thấp nhất | kỳ_lạ | kỳ_lạ nhất
+thấp | thấp nhất | rộng | rộng nhất
+thấp | thấp nhất | trẻ | út
+thấp | thấp nhất | xấu | tệ nhất
+thấp | thấp nhất | lớn | lớn nhất
+thấp | thấp nhất | sáng | sáng nhất
+thấp | thấp nhất | lạnh | lạnh nhất
+thấp | thấp nhất | mát_mẻ | lạnh nhất
+thấp | thấp nhất | tối | tối nhất
+thấp | thấp nhất | dễ_dàng | dễ nhất
+thấp | thấp nhất | nhanh_chóng | nhanh nhất
+thấp | thấp nhất | tốt | tốt
+thấp | thấp nhất | tuyệt_vời | vĩ_đại nhất
+thấp | thấp nhất | cao | cao nhất
+thấp | thấp nhất | nóng | nóng nhất
+thấp | thấp nhất | lớn | lớn nhất
+thấp | thấp nhất | dài | dài nhất
+may_mắn | may_mắn nhất | cũ | lâu_đời nhất
+may_mắn | may_mắn nhất | nhanh_chóng | nhanh nhất
+may_mắn | may_mắn nhất | đơn_giản | đơn_giản nhất
+may_mắn | may_mắn nhất | ngắn | ngắn nhất
+may_mắn | may_mắn nhất | chậm | chậm nhất
+may_mắn | may_mắn nhất | nhỏ | nhỏ nhất
+may_mắn | may_mắn nhất | thông_minh | thông_minh nhất
+may_mắn | may_mắn nhất | lạ | lạ_lùng nhất
+may_mắn | may_mắn nhất | mạnh_mẽ | mạnh nhất
+may_mắn | may_mắn nhất | ngọt_ngào | ngọt_ngào nhất
+may_mắn | may_mắn nhất | cao | cao nhất
+may_mắn | may_mắn nhất | ngon | ngon nhất
+may_mắn | may_mắn nhất | ấm_áp | ấm nhất
+may_mắn | may_mắn nhất | yếu | yếu nhất
+may_mắn | may_mắn nhất | kỳ_lạ | kỳ_lạ nhất
+may_mắn | may_mắn nhất | rộng | rộng nhất
+may_mắn | may_mắn nhất | trẻ | út
+may_mắn | may_mắn nhất | xấu | tệ nhất
+may_mắn | may_mắn nhất | lớn | lớn nhất
+may_mắn | may_mắn nhất | sáng | sáng nhất
+may_mắn | may_mắn nhất | lạnh | lạnh nhất
+may_mắn | may_mắn nhất | mát_mẻ | lạnh nhất
+may_mắn | may_mắn nhất | tối | tối nhất
+may_mắn | may_mắn nhất | dễ_dàng | dễ nhất
+may_mắn | may_mắn nhất | nhanh_chóng | nhanh nhất
+may_mắn | may_mắn nhất | tốt | tốt
+may_mắn | may_mắn nhất | tuyệt_vời | vĩ_đại nhất
+may_mắn | may_mắn nhất | cao | cao nhất
+may_mắn | may_mắn nhất | nóng | nóng nhất
+may_mắn | may_mắn nhất | lớn | lớn nhất
+may_mắn | may_mắn nhất | dài | dài nhất
+may_mắn | may_mắn nhất | thấp | thấp nhất
+cũ | lâu_đời nhất | nhanh_chóng | nhanh nhất
+cũ | lâu_đời nhất | đơn_giản | đơn_giản nhất
+cũ | lâu_đời nhất | ngắn | ngắn nhất
+cũ | lâu_đời nhất | chậm | chậm nhất
+cũ | lâu_đời nhất | nhỏ | nhỏ nhất
+cũ | lâu_đời nhất | thông_minh | thông_minh nhất
+cũ | lâu_đời nhất | lạ | lạ_lùng nhất
+cũ | lâu_đời nhất | mạnh_mẽ | mạnh nhất
+cũ | lâu_đời nhất | ngọt_ngào | ngọt_ngào nhất
+cũ | lâu_đời nhất | cao | cao nhất
+cũ | lâu_đời nhất | ngon | ngon nhất
+cũ | lâu_đời nhất | ấm_áp | ấm nhất
+cũ | lâu_đời nhất | yếu | yếu nhất
+cũ | lâu_đời nhất | kỳ_lạ | kỳ_lạ nhất
+cũ | lâu_đời nhất | rộng | rộng nhất
+cũ | lâu_đời nhất | trẻ | út
+cũ | lâu_đời nhất | xấu | tệ nhất
+cũ | lâu_đời nhất | lớn | lớn nhất
+cũ | lâu_đời nhất | sáng | sáng nhất
+cũ | lâu_đời nhất | lạnh | lạnh nhất
+cũ | lâu_đời nhất | mát_mẻ | lạnh nhất
+cũ | lâu_đời nhất | tối | tối nhất
+cũ | lâu_đời nhất | dễ_dàng | dễ nhất
+cũ | lâu_đời nhất | nhanh_chóng | nhanh nhất
+cũ | lâu_đời nhất | tốt | tốt
+cũ | lâu_đời nhất | tuyệt_vời | vĩ_đại nhất
+cũ | lâu_đời nhất | cao | cao nhất
+cũ | lâu_đời nhất | nóng | nóng nhất
+cũ | lâu_đời nhất | lớn | lớn nhất
+cũ | lâu_đời nhất | dài | dài nhất
+cũ | lâu_đời nhất | thấp | thấp nhất
+cũ | lâu_đời nhất | may_mắn | may_mắn nhất
+nhanh_chóng | nhanh nhất | đơn_giản | đơn_giản nhất
+nhanh_chóng | nhanh nhất | ngắn | ngắn nhất
+nhanh_chóng | nhanh nhất | chậm | chậm nhất
+nhanh_chóng | nhanh nhất | nhỏ | nhỏ nhất
+nhanh_chóng | nhanh nhất | thông_minh | thông_minh nhất
+nhanh_chóng | nhanh nhất | lạ | lạ_lùng nhất
+nhanh_chóng | nhanh nhất | mạnh_mẽ | mạnh nhất
+nhanh_chóng | nhanh nhất | ngọt_ngào | ngọt_ngào nhất
+nhanh_chóng | nhanh nhất | cao | cao nhất
+nhanh_chóng | nhanh nhất | ngon | ngon nhất
+nhanh_chóng | nhanh nhất | ấm_áp | ấm nhất
+nhanh_chóng | nhanh nhất | yếu | yếu nhất
+nhanh_chóng | nhanh nhất | kỳ_lạ | kỳ_lạ nhất
+nhanh_chóng | nhanh nhất | rộng | rộng nhất
+nhanh_chóng | nhanh nhất | trẻ | út
+nhanh_chóng | nhanh nhất | xấu | tệ nhất
+nhanh_chóng | nhanh nhất | lớn | lớn nhất
+nhanh_chóng | nhanh nhất | sáng | sáng nhất
+nhanh_chóng | nhanh nhất | lạnh | lạnh nhất
+nhanh_chóng | nhanh nhất | mát_mẻ | lạnh nhất
+nhanh_chóng | nhanh nhất | tối | tối nhất
+nhanh_chóng | nhanh nhất | dễ_dàng | dễ nhất
+nhanh_chóng | nhanh nhất | nhanh_chóng | nhanh nhất
+nhanh_chóng | nhanh nhất | tốt | tốt
+nhanh_chóng | nhanh nhất | tuyệt_vời | vĩ_đại nhất
+nhanh_chóng | nhanh nhất | cao | cao nhất
+nhanh_chóng | nhanh nhất | nóng | nóng nhất
+nhanh_chóng | nhanh nhất | lớn | lớn nhất
+nhanh_chóng | nhanh nhất | dài | dài nhất
+nhanh_chóng | nhanh nhất | thấp | thấp nhất
+nhanh_chóng | nhanh nhất | may_mắn | may_mắn nhất
+nhanh_chóng | nhanh nhất | cũ | lâu_đời nhất
+sắc nét | sắc nét nhất | đơn_giản | đơn_giản nhất
+sắc nét | sắc nét nhất | ngắn | ngắn nhất
+sắc nét | sắc nét nhất | chậm | chậm nhất
+sắc nét | sắc nét nhất | nhỏ | nhỏ nhất
+sắc nét | sắc nét nhất | thông_minh | thông_minh nhất
+sắc nét | sắc nét nhất | lạ | lạ_lùng nhất
+sắc nét | sắc nét nhất | mạnh_mẽ | mạnh nhất
+sắc nét | sắc nét nhất | ngọt_ngào | ngọt_ngào nhất
+sắc nét | sắc nét nhất | cao | cao nhất
+sắc nét | sắc nét nhất | ngon | ngon nhất
+sắc nét | sắc nét nhất | ấm_áp | ấm nhất
+sắc nét | sắc nét nhất | yếu | yếu nhất
+sắc nét | sắc nét nhất | kỳ_lạ | kỳ_lạ nhất
+sắc nét | sắc nét nhất | rộng | rộng nhất
+sắc nét | sắc nét nhất | trẻ | út
+sắc nét | sắc nét nhất | xấu | tệ nhất
+sắc nét | sắc nét nhất | lớn | lớn nhất
+sắc nét | sắc nét nhất | sáng | sáng nhất
+sắc nét | sắc nét nhất | lạnh | lạnh nhất
+sắc nét | sắc nét nhất | mát_mẻ | lạnh nhất
+sắc nét | sắc nét nhất | tối | tối nhất
+sắc nét | sắc nét nhất | dễ_dàng | dễ nhất
+sắc nét | sắc nét nhất | nhanh_chóng | nhanh nhất
+sắc nét | sắc nét nhất | tốt | tốt
+sắc nét | sắc nét nhất | tuyệt_vời | vĩ_đại nhất
+sắc nét | sắc nét nhất | cao | cao nhất
+sắc nét | sắc nét nhất | nóng | nóng nhất
+sắc nét | sắc nét nhất | lớn | lớn nhất
+sắc nét | sắc nét nhất | dài | dài nhất
+sắc nét | sắc nét nhất | thấp | thấp nhất
+sắc nét | sắc nét nhất | may_mắn | may_mắn nhất
+sắc nét | sắc nét nhất | cũ | lâu_đời nhất
+sắc nét | sắc nét nhất | nhanh_chóng | nhanh nhất
+đơn_giản | đơn_giản nhất | ngắn | ngắn nhất
+đơn_giản | đơn_giản nhất | chậm | chậm nhất
+đơn_giản | đơn_giản nhất | nhỏ | nhỏ nhất
+đơn_giản | đơn_giản nhất | thông_minh | thông_minh nhất
+đơn_giản | đơn_giản nhất | lạ | lạ_lùng nhất
+đơn_giản | đơn_giản nhất | mạnh_mẽ | mạnh nhất
+đơn_giản | đơn_giản nhất | ngọt_ngào | ngọt_ngào nhất
+đơn_giản | đơn_giản nhất | cao | cao nhất
+đơn_giản | đơn_giản nhất | ngon | ngon nhất
+đơn_giản | đơn_giản nhất | ấm_áp | ấm nhất
+đơn_giản | đơn_giản nhất | yếu | yếu nhất
+đơn_giản | đơn_giản nhất | kỳ_lạ | kỳ_lạ nhất
+đơn_giản | đơn_giản nhất | rộng | rộng nhất
+đơn_giản | đơn_giản nhất | trẻ | út
+đơn_giản | đơn_giản nhất | xấu | tệ nhất
+đơn_giản | đơn_giản nhất | lớn | lớn nhất
+đơn_giản | đơn_giản nhất | sáng | sáng nhất
+đơn_giản | đơn_giản nhất | lạnh | lạnh nhất
+đơn_giản | đơn_giản nhất | mát_mẻ | lạnh nhất
+đơn_giản | đơn_giản nhất | tối | tối nhất
+đơn_giản | đơn_giản nhất | dễ_dàng | dễ nhất
+đơn_giản | đơn_giản nhất | nhanh_chóng | nhanh nhất
+đơn_giản | đơn_giản nhất | tốt | tốt
+đơn_giản | đơn_giản nhất | tuyệt_vời | vĩ_đại nhất
+đơn_giản | đơn_giản nhất | cao | cao nhất
+đơn_giản | đơn_giản nhất | nóng | nóng nhất
+đơn_giản | đơn_giản nhất | lớn | lớn nhất
+đơn_giản | đơn_giản nhất | dài | dài nhất
+đơn_giản | đơn_giản nhất | thấp | thấp nhất
+đơn_giản | đơn_giản nhất | may_mắn | may_mắn nhất
+đơn_giản | đơn_giản nhất | cũ | lâu_đời nhất
+đơn_giản | đơn_giản nhất | nhanh_chóng | nhanh nhất
+ngắn | ngắn nhất | chậm | chậm nhất
+ngắn | ngắn nhất | nhỏ | nhỏ nhất
+ngắn | ngắn nhất | thông_minh | thông_minh nhất
+ngắn | ngắn nhất | lạ | lạ_lùng nhất
+ngắn | ngắn nhất | mạnh_mẽ | mạnh nhất
+ngắn | ngắn nhất | ngọt_ngào | ngọt_ngào nhất
+ngắn | ngắn nhất | cao | cao nhất
+ngắn | ngắn nhất | ngon | ngon nhất
+ngắn | ngắn nhất | ấm_áp | ấm nhất
+ngắn | ngắn nhất | yếu | yếu nhất
+ngắn | ngắn nhất | kỳ_lạ | kỳ_lạ nhất
+ngắn | ngắn nhất | rộng | rộng nhất
+ngắn | ngắn nhất | trẻ | út
+ngắn | ngắn nhất | xấu | tệ nhất
+ngắn | ngắn nhất | lớn | lớn nhất
+ngắn | ngắn nhất | sáng | sáng nhất
+ngắn | ngắn nhất | lạnh | lạnh nhất
+ngắn | ngắn nhất | mát_mẻ | lạnh nhất
+ngắn | ngắn nhất | tối | tối nhất
+ngắn | ngắn nhất | dễ_dàng | dễ nhất
+ngắn | ngắn nhất | nhanh_chóng | nhanh nhất
+ngắn | ngắn nhất | tốt | tốt
+ngắn | ngắn nhất | tuyệt_vời | vĩ_đại nhất
+ngắn | ngắn nhất | cao | cao nhất
+ngắn | ngắn nhất | nóng | nóng nhất
+ngắn | ngắn nhất | lớn | lớn nhất
+ngắn | ngắn nhất | dài | dài nhất
+ngắn | ngắn nhất | thấp | thấp nhất
+ngắn | ngắn nhất | may_mắn | may_mắn nhất
+ngắn | ngắn nhất | cũ | lâu_đời nhất
+ngắn | ngắn nhất | nhanh_chóng | nhanh nhất
+ngắn | ngắn nhất | đơn_giản | đơn_giản nhất
+chậm | chậm nhất | nhỏ | nhỏ nhất
+chậm | chậm nhất | thông_minh | thông_minh nhất
+chậm | chậm nhất | lạ | lạ_lùng nhất
+chậm | chậm nhất | mạnh_mẽ | mạnh nhất
+chậm | chậm nhất | ngọt_ngào | ngọt_ngào nhất
+chậm | chậm nhất | cao | cao nhất
+chậm | chậm nhất | ngon | ngon nhất
+chậm | chậm nhất | ấm_áp | ấm nhất
+chậm | chậm nhất | yếu | yếu nhất
+chậm | chậm nhất | kỳ_lạ | kỳ_lạ nhất
+chậm | chậm nhất | rộng | rộng nhất
+chậm | chậm nhất | trẻ | út
+chậm | chậm nhất | xấu | tệ nhất
+chậm | chậm nhất | lớn | lớn nhất
+chậm | chậm nhất | sáng | sáng nhất
+chậm | chậm nhất | lạnh | lạnh nhất
+chậm | chậm nhất | mát_mẻ | lạnh nhất
+chậm | chậm nhất | tối | tối nhất
+chậm | chậm nhất | dễ_dàng | dễ nhất
+chậm | chậm nhất | nhanh_chóng | nhanh nhất
+chậm | chậm nhất | tốt | tốt
+chậm | chậm nhất | tuyệt_vời | vĩ_đại nhất
+chậm | chậm nhất | cao | cao nhất
+chậm | chậm nhất | nóng | nóng nhất
+chậm | chậm nhất | lớn | lớn nhất
+chậm | chậm nhất | dài | dài nhất
+chậm | chậm nhất | thấp | thấp nhất
+chậm | chậm nhất | may_mắn | may_mắn nhất
+chậm | chậm nhất | cũ | lâu_đời nhất
+chậm | chậm nhất | nhanh_chóng | nhanh nhất
+chậm | chậm nhất | đơn_giản | đơn_giản nhất
+chậm | chậm nhất | ngắn | ngắn nhất
+nhỏ | nhỏ nhất | thông_minh | thông_minh nhất
+nhỏ | nhỏ nhất | lạ | lạ_lùng nhất
+nhỏ | nhỏ nhất | mạnh_mẽ | mạnh nhất
+nhỏ | nhỏ nhất | ngọt_ngào | ngọt_ngào nhất
+nhỏ | nhỏ nhất | cao | cao nhất
+nhỏ | nhỏ nhất | ngon | ngon nhất
+nhỏ | nhỏ nhất | ấm_áp | ấm nhất
+nhỏ | nhỏ nhất | yếu | yếu nhất
+nhỏ | nhỏ nhất | kỳ_lạ | kỳ_lạ nhất
+nhỏ | nhỏ nhất | rộng | rộng nhất
+nhỏ | nhỏ nhất | trẻ | út
+nhỏ | nhỏ nhất | xấu | tệ nhất
+nhỏ | nhỏ nhất | lớn | lớn nhất
+nhỏ | nhỏ nhất | sáng | sáng nhất
+nhỏ | nhỏ nhất | lạnh | lạnh nhất
+nhỏ | nhỏ nhất | mát_mẻ | lạnh nhất
+nhỏ | nhỏ nhất | tối | tối nhất
+nhỏ | nhỏ nhất | dễ_dàng | dễ nhất
+nhỏ | nhỏ nhất | nhanh_chóng | nhanh nhất
+nhỏ | nhỏ nhất | tốt | tốt
+nhỏ | nhỏ nhất | tuyệt_vời | vĩ_đại nhất
+nhỏ | nhỏ nhất | cao | cao nhất
+nhỏ | nhỏ nhất | nóng | nóng nhất
+nhỏ | nhỏ nhất | lớn | lớn nhất
+nhỏ | nhỏ nhất | dài | dài nhất
+nhỏ | nhỏ nhất | thấp | thấp nhất
+nhỏ | nhỏ nhất | may_mắn | may_mắn nhất
+nhỏ | nhỏ nhất | cũ | lâu_đời nhất
+nhỏ | nhỏ nhất | nhanh_chóng | nhanh nhất
+nhỏ | nhỏ nhất | đơn_giản | đơn_giản nhất
+nhỏ | nhỏ nhất | ngắn | ngắn nhất
+nhỏ | nhỏ nhất | chậm | chậm nhất
+thông_minh | thông_minh nhất | lạ | lạ_lùng nhất
+thông_minh | thông_minh nhất | mạnh_mẽ | mạnh nhất
+thông_minh | thông_minh nhất | ngọt_ngào | ngọt_ngào nhất
+thông_minh | thông_minh nhất | cao | cao nhất
+thông_minh | thông_minh nhất | ngon | ngon nhất
+thông_minh | thông_minh nhất | ấm_áp | ấm nhất
+thông_minh | thông_minh nhất | yếu | yếu nhất
+thông_minh | thông_minh nhất | kỳ_lạ | kỳ_lạ nhất
+thông_minh | thông_minh nhất | rộng | rộng nhất
+thông_minh | thông_minh nhất | trẻ | út
+thông_minh | thông_minh nhất | xấu | tệ nhất
+thông_minh | thông_minh nhất | lớn | lớn nhất
+thông_minh | thông_minh nhất | sáng | sáng nhất
+thông_minh | thông_minh nhất | lạnh | lạnh nhất
+thông_minh | thông_minh nhất | mát_mẻ | lạnh nhất
+thông_minh | thông_minh nhất | tối | tối nhất
+thông_minh | thông_minh nhất | dễ_dàng | dễ nhất
+thông_minh | thông_minh nhất | nhanh_chóng | nhanh nhất
+thông_minh | thông_minh nhất | tốt | tốt
+thông_minh | thông_minh nhất | tuyệt_vời | vĩ_đại nhất
+thông_minh | thông_minh nhất | cao | cao nhất
+thông_minh | thông_minh nhất | nóng | nóng nhất
+thông_minh | thông_minh nhất | lớn | lớn nhất
+thông_minh | thông_minh nhất | dài | dài nhất
+thông_minh | thông_minh nhất | thấp | thấp nhất
+thông_minh | thông_minh nhất | may_mắn | may_mắn nhất
+thông_minh | thông_minh nhất | cũ | lâu_đời nhất
+thông_minh | thông_minh nhất | nhanh_chóng | nhanh nhất
+thông_minh | thông_minh nhất | đơn_giản | đơn_giản nhất
+thông_minh | thông_minh nhất | ngắn | ngắn nhất
+thông_minh | thông_minh nhất | chậm | chậm nhất
+thông_minh | thông_minh nhất | nhỏ | nhỏ nhất
+lạ | lạ nhất | mạnh_mẽ | mạnh nhất
+lạ | lạ nhất | ngọt_ngào | ngọt_ngào nhất
+lạ | lạ nhất | cao | cao nhất
+lạ | lạ nhất | ngon | ngon nhất
+lạ | lạ nhất | ấm_áp | ấm nhất
+lạ | lạ nhất | yếu | yếu nhất
+lạ | lạ nhất | kỳ_lạ | kỳ_lạ nhất
+lạ | lạ nhất | rộng | rộng nhất
+lạ | lạ nhất | trẻ | út
+lạ | lạ nhất | xấu | tệ nhất
+lạ | lạ nhất | lớn | lớn nhất
+lạ | lạ nhất | sáng | sáng nhất
+lạ | lạ nhất | lạnh | lạnh nhất
+lạ | lạ nhất | mát_mẻ | lạnh nhất
+lạ | lạ nhất | tối | tối nhất
+lạ | lạ nhất | dễ_dàng | dễ nhất
+lạ | lạ nhất | nhanh_chóng | nhanh nhất
+lạ | lạ nhất | tốt | tốt
+lạ | lạ nhất | tuyệt_vời | vĩ_đại nhất
+lạ | lạ nhất | cao | cao nhất
+lạ | lạ nhất | nóng | nóng nhất
+lạ | lạ nhất | lớn | lớn nhất
+lạ | lạ nhất | dài | dài nhất
+lạ | lạ nhất | thấp | thấp nhất
+lạ | lạ nhất | may_mắn | may_mắn nhất
+lạ | lạ nhất | cũ | lâu_đời nhất
+lạ | lạ nhất | nhanh_chóng | nhanh nhất
+lạ | lạ nhất | đơn_giản | đơn_giản nhất
+lạ | lạ nhất | ngắn | ngắn nhất
+lạ | lạ nhất | chậm | chậm nhất
+lạ | lạ nhất | nhỏ | nhỏ nhất
+lạ | lạ nhất | thông_minh | thông_minh nhất
+mạnh_mẽ | mạnh nhất | ngọt_ngào | ngọt_ngào nhất
+mạnh_mẽ | mạnh nhất | cao | cao nhất
+mạnh_mẽ | mạnh nhất | ngon | ngon nhất
+mạnh_mẽ | mạnh nhất | ấm_áp | ấm nhất
+mạnh_mẽ | mạnh nhất | yếu | yếu nhất
+mạnh_mẽ | mạnh nhất | kỳ_lạ | kỳ_lạ nhất
+mạnh_mẽ | mạnh nhất | rộng | rộng nhất
+mạnh_mẽ | mạnh nhất | trẻ | út
+mạnh_mẽ | mạnh nhất | xấu | tệ nhất
+mạnh_mẽ | mạnh nhất | lớn | lớn nhất
+mạnh_mẽ | mạnh nhất | sáng | sáng nhất
+mạnh_mẽ | mạnh nhất | lạnh | lạnh nhất
+mạnh_mẽ | mạnh nhất | mát_mẻ | lạnh nhất
+mạnh_mẽ | mạnh nhất | tối | tối nhất
+mạnh_mẽ | mạnh nhất | dễ_dàng | dễ nhất
+mạnh_mẽ | mạnh nhất | nhanh_chóng | nhanh nhất
+mạnh_mẽ | mạnh nhất | tốt | tốt
+mạnh_mẽ | mạnh nhất | tuyệt_vời | vĩ_đại nhất
+mạnh_mẽ | mạnh nhất | cao | cao nhất
+mạnh_mẽ | mạnh nhất | nóng | nóng nhất
+mạnh_mẽ | mạnh nhất | lớn | lớn nhất
+mạnh_mẽ | mạnh nhất | dài | dài nhất
+mạnh_mẽ | mạnh nhất | thấp | thấp nhất
+mạnh_mẽ | mạnh nhất | may_mắn | may_mắn nhất
+mạnh_mẽ | mạnh nhất | cũ | lâu_đời nhất
+mạnh_mẽ | mạnh nhất | nhanh_chóng | nhanh nhất
+mạnh_mẽ | mạnh nhất | đơn_giản | đơn_giản nhất
+mạnh_mẽ | mạnh nhất | ngắn | ngắn nhất
+mạnh_mẽ | mạnh nhất | chậm | chậm nhất
+mạnh_mẽ | mạnh nhất | nhỏ | nhỏ nhất
+mạnh_mẽ | mạnh nhất | thông_minh | thông_minh nhất
+mạnh_mẽ | mạnh nhất | lạ | lạ_lùng nhất
+ngọt_ngào | ngọt_ngào nhất | cao | cao nhất
+ngọt_ngào | ngọt_ngào nhất | ngon | ngon nhất
+ngọt_ngào | ngọt_ngào nhất | ấm_áp | ấm nhất
+ngọt_ngào | ngọt_ngào nhất | yếu | yếu nhất
+ngọt_ngào | ngọt_ngào nhất | kỳ_lạ | kỳ_lạ nhất
+ngọt_ngào | ngọt_ngào nhất | rộng | rộng nhất
+ngọt_ngào | ngọt_ngào nhất | trẻ | út
+ngọt_ngào | ngọt_ngào nhất | xấu | tệ nhất
+ngọt_ngào | ngọt_ngào nhất | lớn | lớn nhất
+ngọt_ngào | ngọt_ngào nhất | sáng | sáng nhất
+ngọt_ngào | ngọt_ngào nhất | lạnh | lạnh nhất
+ngọt_ngào | ngọt_ngào nhất | mát_mẻ | lạnh nhất
+ngọt_ngào | ngọt_ngào nhất | tối | tối nhất
+ngọt_ngào | ngọt_ngào nhất | dễ_dàng | dễ nhất
+ngọt_ngào | ngọt_ngào nhất | nhanh_chóng | nhanh nhất
+ngọt_ngào | ngọt_ngào nhất | tốt | tốt
+ngọt_ngào | ngọt_ngào nhất | tuyệt_vời | vĩ_đại nhất
+ngọt_ngào | ngọt_ngào nhất | cao | cao nhất
+ngọt_ngào | ngọt_ngào nhất | nóng | nóng nhất
+ngọt_ngào | ngọt_ngào nhất | lớn | lớn nhất
+ngọt_ngào | ngọt_ngào nhất | dài | dài nhất
+ngọt_ngào | ngọt_ngào nhất | thấp | thấp nhất
+ngọt_ngào | ngọt_ngào nhất | may_mắn | may_mắn nhất
+ngọt_ngào | ngọt_ngào nhất | cũ | lâu_đời nhất
+ngọt_ngào | ngọt_ngào nhất | nhanh_chóng | nhanh nhất
+ngọt_ngào | ngọt_ngào nhất | đơn_giản | đơn_giản nhất
+ngọt_ngào | ngọt_ngào nhất | ngắn | ngắn nhất
+ngọt_ngào | ngọt_ngào nhất | chậm | chậm nhất
+ngọt_ngào | ngọt_ngào nhất | nhỏ | nhỏ nhất
+ngọt_ngào | ngọt_ngào nhất | thông_minh | thông_minh nhất
+ngọt_ngào | ngọt_ngào nhất | lạ | lạ_lùng nhất
+ngọt_ngào | ngọt_ngào nhất | mạnh_mẽ | mạnh nhất
+cao | cao nhất | ngon | ngon nhất
+cao | cao nhất | ấm_áp | ấm nhất
+cao | cao nhất | yếu | yếu nhất
+cao | cao nhất | kỳ_lạ | kỳ_lạ nhất
+cao | cao nhất | rộng | rộng nhất
+cao | cao nhất | trẻ | út
+cao | cao nhất | xấu | tệ nhất
+cao | cao nhất | lớn | lớn nhất
+cao | cao nhất | sáng | sáng nhất
+cao | cao nhất | lạnh | lạnh nhất
+cao | cao nhất | mát_mẻ | lạnh nhất
+cao | cao nhất | tối | tối nhất
+cao | cao nhất | dễ_dàng | dễ nhất
+cao | cao nhất | nhanh_chóng | nhanh nhất
+cao | cao nhất | tốt | tốt
+cao | cao nhất | tuyệt_vời | vĩ_đại nhất
+cao | cao nhất | cao | cao nhất
+cao | cao nhất | nóng | nóng nhất
+cao | cao nhất | lớn | lớn nhất
+cao | cao nhất | dài | dài nhất
+cao | cao nhất | thấp | thấp nhất
+cao | cao nhất | may_mắn | may_mắn nhất
+cao | cao nhất | cũ | lâu_đời nhất
+cao | cao nhất | nhanh_chóng | nhanh nhất
+cao | cao nhất | đơn_giản | đơn_giản nhất
+cao | cao nhất | ngắn | ngắn nhất
+cao | cao nhất | chậm | chậm nhất
+cao | cao nhất | nhỏ | nhỏ nhất
+cao | cao nhất | thông_minh | thông_minh nhất
+cao | cao nhất | lạ | lạ_lùng nhất
+cao | cao nhất | mạnh_mẽ | mạnh nhất
+cao | cao nhất | ngọt_ngào | ngọt_ngào nhất
+ngon | ngon nhất | ấm_áp | ấm nhất
+ngon | ngon nhất | yếu | yếu nhất
+ngon | ngon nhất | kỳ_lạ | kỳ_lạ nhất
+ngon | ngon nhất | rộng | rộng nhất
+ngon | ngon nhất | trẻ | út
+ngon | ngon nhất | xấu | tệ nhất
+ngon | ngon nhất | lớn | lớn nhất
+ngon | ngon nhất | sáng | sáng nhất
+ngon | ngon nhất | lạnh | lạnh nhất
+ngon | ngon nhất | mát_mẻ | lạnh nhất
+ngon | ngon nhất | tối | tối nhất
+ngon | ngon nhất | dễ_dàng | dễ nhất
+ngon | ngon nhất | nhanh_chóng | nhanh nhất
+ngon | ngon nhất | tốt | tốt
+ngon | ngon nhất | tuyệt_vời | vĩ_đại nhất
+ngon | ngon nhất | cao | cao nhất
+ngon | ngon nhất | nóng | nóng nhất
+ngon | ngon nhất | lớn | lớn nhất
+ngon | ngon nhất | dài | dài nhất
+ngon | ngon nhất | thấp | thấp nhất
+ngon | ngon nhất | may_mắn | may_mắn nhất
+ngon | ngon nhất | cũ | lâu_đời nhất
+ngon | ngon nhất | nhanh_chóng | nhanh nhất
+ngon | ngon nhất | đơn_giản | đơn_giản nhất
+ngon | ngon nhất | ngắn | ngắn nhất
+ngon | ngon nhất | chậm | chậm nhất
+ngon | ngon nhất | nhỏ | nhỏ nhất
+ngon | ngon nhất | thông_minh | thông_minh nhất
+ngon | ngon nhất | lạ | lạ_lùng nhất
+ngon | ngon nhất | mạnh_mẽ | mạnh nhất
+ngon | ngon nhất | ngọt_ngào | ngọt_ngào nhất
+ngon | ngon nhất | cao | cao nhất
+ấm_áp | ấm nhất | yếu | yếu nhất
+ấm_áp | ấm nhất | kỳ_lạ | kỳ_lạ nhất
+ấm_áp | ấm nhất | rộng | rộng nhất
+ấm_áp | ấm nhất | trẻ | út
+ấm_áp | ấm nhất | xấu | tệ nhất
+ấm_áp | ấm nhất | lớn | lớn nhất
+ấm_áp | ấm nhất | sáng | sáng nhất
+ấm_áp | ấm nhất | lạnh | lạnh nhất
+ấm_áp | ấm nhất | mát_mẻ | lạnh nhất
+ấm_áp | ấm nhất | tối | tối nhất
+ấm_áp | ấm nhất | dễ_dàng | dễ nhất
+ấm_áp | ấm nhất | nhanh_chóng | nhanh nhất
+ấm_áp | ấm nhất | tốt | tốt
+ấm_áp | ấm nhất | tuyệt_vời | vĩ_đại nhất
+ấm_áp | ấm nhất | cao | cao nhất
+ấm_áp | ấm nhất | nóng | nóng nhất
+ấm_áp | ấm nhất | lớn | lớn nhất
+ấm_áp | ấm nhất | dài | dài nhất
+ấm_áp | ấm nhất | thấp | thấp nhất
+ấm_áp | ấm nhất | may_mắn | may_mắn nhất
+ấm_áp | ấm nhất | cũ | lâu_đời nhất
+ấm_áp | ấm nhất | nhanh_chóng | nhanh nhất
+ấm_áp | ấm nhất | đơn_giản | đơn_giản nhất
+ấm_áp | ấm nhất | ngắn | ngắn nhất
+ấm_áp | ấm nhất | chậm | chậm nhất
+ấm_áp | ấm nhất | nhỏ | nhỏ nhất
+ấm_áp | ấm nhất | thông_minh | thông_minh nhất
+ấm_áp | ấm nhất | lạ | lạ_lùng nhất
+ấm_áp | ấm nhất | mạnh_mẽ | mạnh nhất
+ấm_áp | ấm nhất | ngọt_ngào | ngọt_ngào nhất
+ấm_áp | ấm nhất | cao | cao nhất
+ấm_áp | ấm nhất | ngon | ngon nhất
+yếu | yếu nhất | kỳ_lạ | kỳ_lạ nhất
+yếu | yếu nhất | rộng | rộng nhất
+yếu | yếu nhất | trẻ | út
+yếu | yếu nhất | xấu | tệ nhất
+yếu | yếu nhất | lớn | lớn nhất
+yếu | yếu nhất | sáng | sáng nhất
+yếu | yếu nhất | lạnh | lạnh nhất
+yếu | yếu nhất | mát_mẻ | lạnh nhất
+yếu | yếu nhất | tối | tối nhất
+yếu | yếu nhất | dễ_dàng | dễ nhất
+yếu | yếu nhất | nhanh_chóng | nhanh nhất
+yếu | yếu nhất | tốt | tốt
+yếu | yếu nhất | tuyệt_vời | vĩ_đại nhất
+yếu | yếu nhất | cao | cao nhất
+yếu | yếu nhất | nóng | nóng nhất
+yếu | yếu nhất | lớn | lớn nhất
+yếu | yếu nhất | dài | dài nhất
+yếu | yếu nhất | thấp | thấp nhất
+yếu | yếu nhất | may_mắn | may_mắn nhất
+yếu | yếu nhất | cũ | lâu_đời nhất
+yếu | yếu nhất | nhanh_chóng | nhanh nhất
+yếu | yếu nhất | đơn_giản | đơn_giản nhất
+yếu | yếu nhất | ngắn | ngắn nhất
+yếu | yếu nhất | chậm | chậm nhất
+yếu | yếu nhất | nhỏ | nhỏ nhất
+yếu | yếu nhất | thông_minh | thông_minh nhất
+yếu | yếu nhất | lạ | lạ_lùng nhất
+yếu | yếu nhất | mạnh_mẽ | mạnh nhất
+yếu | yếu nhất | ngọt_ngào | ngọt_ngào nhất
+yếu | yếu nhất | cao | cao nhất
+yếu | yếu nhất | ngon | ngon nhất
+yếu | yếu nhất | ấm_áp | ấm nhất
+kỳ_lạ | kỳ_lạ nhất | rộng | rộng nhất
+kỳ_lạ | kỳ_lạ nhất | trẻ | út
+kỳ_lạ | kỳ_lạ nhất | xấu | tệ nhất
+kỳ_lạ | kỳ_lạ nhất | lớn | lớn nhất
+kỳ_lạ | kỳ_lạ nhất | sáng | sáng nhất
+kỳ_lạ | kỳ_lạ nhất | lạnh | lạnh nhất
+kỳ_lạ | kỳ_lạ nhất | mát_mẻ | lạnh nhất
+kỳ_lạ | kỳ_lạ nhất | tối | tối nhất
+kỳ_lạ | kỳ_lạ nhất | dễ_dàng | dễ nhất
+kỳ_lạ | kỳ_lạ nhất | nhanh_chóng | nhanh nhất
+kỳ_lạ | kỳ_lạ nhất | tốt | tốt
+kỳ_lạ | kỳ_lạ nhất | tuyệt_vời | vĩ_đại nhất
+kỳ_lạ | kỳ_lạ nhất | cao | cao nhất
+kỳ_lạ | kỳ_lạ nhất | nóng | nóng nhất
+kỳ_lạ | kỳ_lạ nhất | lớn | lớn nhất
+kỳ_lạ | kỳ_lạ nhất | dài | dài nhất
+kỳ_lạ | kỳ_lạ nhất | thấp | thấp nhất
+kỳ_lạ | kỳ_lạ nhất | may_mắn | may_mắn nhất
+kỳ_lạ | kỳ_lạ nhất | cũ | lâu_đời nhất
+kỳ_lạ | kỳ_lạ nhất | nhanh_chóng | nhanh nhất
+kỳ_lạ | kỳ_lạ nhất | đơn_giản | đơn_giản nhất
+kỳ_lạ | kỳ_lạ nhất | ngắn | ngắn nhất
+kỳ_lạ | kỳ_lạ nhất | chậm | chậm nhất
+kỳ_lạ | kỳ_lạ nhất | nhỏ | nhỏ nhất
+kỳ_lạ | kỳ_lạ nhất | thông_minh | thông_minh nhất
+kỳ_lạ | kỳ_lạ nhất | lạ | lạ_lùng nhất
+kỳ_lạ | kỳ_lạ nhất | mạnh_mẽ | mạnh nhất
+kỳ_lạ | kỳ_lạ nhất | ngọt_ngào | ngọt_ngào nhất
+kỳ_lạ | kỳ_lạ nhất | cao | cao nhất
+kỳ_lạ | kỳ_lạ nhất | ngon | ngon nhất
+kỳ_lạ | kỳ_lạ nhất | ấm_áp | ấm nhất
+kỳ_lạ | kỳ_lạ nhất | yếu | yếu nhất
+rộng | rộng nhất | trẻ | út
+rộng | rộng nhất | xấu | tệ nhất
+rộng | rộng nhất | lớn | lớn nhất
+rộng | rộng nhất | sáng | sáng nhất
+rộng | rộng nhất | lạnh | lạnh nhất
+rộng | rộng nhất | mát_mẻ | lạnh nhất
+rộng | rộng nhất | tối | tối nhất
+rộng | rộng nhất | dễ_dàng | dễ nhất
+rộng | rộng nhất | nhanh_chóng | nhanh nhất
+rộng | rộng nhất | tốt | tốt
+rộng | rộng nhất | tuyệt_vời | vĩ_đại nhất
+rộng | rộng nhất | cao | cao nhất
+rộng | rộng nhất | nóng | nóng nhất
+rộng | rộng nhất | lớn | lớn nhất
+rộng | rộng nhất | dài | dài nhất
+rộng | rộng nhất | thấp | thấp nhất
+rộng | rộng nhất | may_mắn | may_mắn nhất
+rộng | rộng nhất | cũ | lâu_đời nhất
+rộng | rộng nhất | nhanh_chóng | nhanh nhất
+rộng | rộng nhất | đơn_giản | đơn_giản nhất
+rộng | rộng nhất | ngắn | ngắn nhất
+rộng | rộng nhất | chậm | chậm nhất
+rộng | rộng nhất | nhỏ | nhỏ nhất
+rộng | rộng nhất | thông_minh | thông_minh nhất
+rộng | rộng nhất | lạ | lạ_lùng nhất
+rộng | rộng nhất | mạnh_mẽ | mạnh nhất
+rộng | rộng nhất | ngọt_ngào | ngọt_ngào nhất
+rộng | rộng nhất | cao | cao nhất
+rộng | rộng nhất | ngon | ngon nhất
+rộng | rộng nhất | ấm_áp | ấm nhất
+rộng | rộng nhất | yếu | yếu nhất
+rộng | rộng nhất | kỳ_lạ | kỳ_lạ nhất
+trẻ | trẻ nhất | xấu | tệ nhất
+trẻ | trẻ nhất | lớn | lớn nhất
+trẻ | trẻ nhất | sáng | sáng nhất
+trẻ | trẻ nhất | lạnh | lạnh nhất
+trẻ | trẻ nhất | mát_mẻ | lạnh nhất
+trẻ | trẻ nhất | tối | tối nhất
+trẻ | trẻ nhất | dễ_dàng | dễ nhất
+trẻ | trẻ nhất | nhanh_chóng | nhanh nhất
+trẻ | trẻ nhất | tốt | tốt
+trẻ | trẻ nhất | tuyệt_vời | vĩ_đại nhất
+trẻ | trẻ nhất | cao | cao nhất
+trẻ | trẻ nhất | nóng | nóng nhất
+trẻ | trẻ nhất | lớn | lớn nhất
+trẻ | trẻ nhất | dài | dài nhất
+trẻ | trẻ nhất | thấp | thấp nhất
+trẻ | trẻ nhất | may_mắn | may_mắn nhất
+trẻ | trẻ nhất | cũ | lâu_đời nhất
+trẻ | trẻ nhất | nhanh_chóng | nhanh nhất
+trẻ | trẻ nhất | đơn_giản | đơn_giản nhất
+trẻ | trẻ nhất | ngắn | ngắn nhất
+trẻ | trẻ nhất | chậm | chậm nhất
+trẻ | trẻ nhất | nhỏ | nhỏ nhất
+trẻ | trẻ nhất | thông_minh | thông_minh nhất
+trẻ | trẻ nhất | lạ | lạ_lùng nhất
+trẻ | trẻ nhất | mạnh_mẽ | mạnh nhất
+trẻ | trẻ nhất | ngọt_ngào | ngọt_ngào nhất
+trẻ | trẻ nhất | cao | cao nhất
+trẻ | trẻ nhất | ngon | ngon nhất
+trẻ | trẻ nhất | ấm_áp | ấm nhất
+trẻ | trẻ nhất | yếu | yếu nhất
+trẻ | trẻ nhất | kỳ_lạ | kỳ_lạ nhất
+trẻ | trẻ nhất | rộng | rộng nhất
