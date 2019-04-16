@@ -87,6 +87,12 @@ Since most of this process is automatically done, it can be applied in other lan
 > 4. python test3_etnlp_evaluator.py
 > 5. python test4_etnlp_visualizer.py
 
+### 3. Visualization
+Side-by-side visualization:
+> 1. cd src/codes/04.run_etnlp_visualizer_sbs.sh
+Interactive visualization:
+> 1. cd src/codes/04.run_etnlp_visualizer_inter.sh
+
 
 # IV. Available Lexical Resources <a name="Download_Resources"></a>
 ## 1. Word Analogy List for Vietnamese
