@@ -77,20 +77,15 @@ Since most of this process is automatically done, it can be applied in other lan
 
 # III. Installation and How to use ETNLP <a name="installation_and_howtouse"></a>
 ## 1. Installation:
-> cd src/codes/
-
-> python setup.py install
+> 1. cd src/codes/
+> 2. python setup.py install
 
 ## 2. Examples
-> cd src/examples
-
-> python test1_etnlp_preprocessing.py
-
-> python test2_etnlp_extractor.py
-
-> python test3_etnlp_evaluator.py
-
-> python test4_etnlp_visualizer.py
+> 1. cd src/examples
+> 2. python test1_etnlp_preprocessing.py
+> 3. python test2_etnlp_extractor.py
+> 4. python test3_etnlp_evaluator.py
+> 5. python test4_etnlp_visualizer.py
 
 
 # IV. Available Lexical Resources <a name="Download_Resources"></a>
