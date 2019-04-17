@@ -29,9 +29,9 @@ def most_similar(base_vector: Vector, words: List[Word]) -> List[Tuple[float, Wo
 def print_most_similar(words: List[Word], text: str) -> None:
     base_word = find_word(text, words)
     if not base_word:
-        print(f"Unknown word: {text}")
+        print("Unknown word: %s"%(text))
         return
-    print(f"Words related to {base_word.text}:")
+    print("Words related to %s:" % (base_word.text))
     sorted_by_distance = [
         word.text for (dist, word) in
         most_similar(base_word.vector, words)
@@ -360,11 +360,13 @@ def eval_word_analogies(word_analogies_file, words: List[Word], embedding_name):
 def print_analogy(left2: str, left1: str, right2: str, words: List[Word]) -> None:
     analogies = closest_analogies_OLD(left2, left1, right2, words)
     if (len(analogies) == 0):
-        print(f"{left2}-{left1} is like {right2}-?")
+        # print(f"{left2}-{left1} is like {right2}-?")
+        print("%s-%s is like %s-?"%(left2, left1, right2)
         # man-king is like woman-king
         # input: man is to king is like woman is to ___?(queen).
     else:
         (dist, w) = analogies[0]
         # alternatives = ', '.join([f"{w.text} ({dist})" for (dist, w) in analogies])
-        print(f"{left2}-{left1} is like {right2}-{w.text}")
+        # print(f"{left2}-{left1} is like {right2}-{w.text}")
+        print("%s-%s is like %s-%s"%(left2, left1, right2, w.text))
 

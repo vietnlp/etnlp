@@ -58,9 +58,11 @@ def load_word_embedding(file_path: str, emb_config: EmbeddingConfigs) -> List[Wo
     :param emb_config:
     :return:
     """
-    print(f"Loading {file_path}...")
+    # print(f"Loading {file_path}...")
+    print("Loading %s ..."%(file_path))
     words = load_words_raw(file_path, emb_config)
-    print(f"Loaded {len(words)} words.")
+    # print(f"Loaded {len(words)} words.")
+    print("Loaded %s words." %(len(words)))
 
     # Test
     word1 = words[1]
@@ -176,7 +178,8 @@ def most_common_dimension(words: List[Word]) -> int:
     dimensions = [(k, iter_len(v)) for k, v in groupby(lengths)]
     print("Dimensions:")
     for (dim, num_vectors) in dimensions:
-        print(f"{num_vectors} {dim}-dimensional vectors")
+        # print(f"{num_vectors} {dim}-dimensional vectors")
+        print("%s %s-dimensional vectors"%(num_vectors, dim))
     most_common = sorted(dimensions, key=lambda t: t[1], reverse=True)[0]
     return most_common[0]
 

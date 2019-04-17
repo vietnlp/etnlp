@@ -78,11 +78,12 @@ Since most of this process is automatically done, it can be applied in other lan
 # III. Installation and How to use ETNLP <a name="installation_and_howtouse"></a>
 ## 1. Installation:
 
-From source codes:
+From source codes (Python 3.6.x):
 > 1. cd src/codes/
-> 2. python setup.py install
+> 2. pip install -r requirements.txt
+> 3. python setup.py install
 
-From pip
+From pip (python 3.6.x)
 > 1. pip install etnlp 
 
 ## 2. Examples
