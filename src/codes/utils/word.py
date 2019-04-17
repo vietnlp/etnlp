@@ -14,4 +14,5 @@ class Word:
 
     def __repr__(self) -> str:
         vector_preview = ', '.join(map(str, self.vector[:2]))
-        return f"{self.text} [{vector_preview}, ...]"
+        # return f"{self.text} [{vector_preview}, ...]"
+        return "%s [%s, ...]"%(self.text, vector_preview)

@@ -361,7 +361,7 @@ def print_analogy(left2: str, left1: str, right2: str, words: List[Word]) -> Non
     analogies = closest_analogies_OLD(left2, left1, right2, words)
     if (len(analogies) == 0):
         # print(f"{left2}-{left1} is like {right2}-?")
-        print("%s-%s is like %s-?"%(left2, left1, right2)
+        print("%s-%s is like %s-?"%(left2, left1, right2))
         # man-king is like woman-king
         # input: man is to king is like woman is to ___?(queen).
     else:
