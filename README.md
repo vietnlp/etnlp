@@ -109,8 +109,8 @@ Interactive visualization:
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
 |------------------------------|---------------|---------------|
-| Vietnamese (This work)       | [Link1](https://drive.google.com/open?id=1cBYVGwU59slI6bTe2maOW0_xj_e7XugW)| [Link1]|
-| English (Mirkolov et al. [2]) | [Link2]| [Link2]|
+| Vietnamese (This work)       | [Link1](https://drive.google.com/open?id=1cBYVGwU59slI6bTe2maOW0_xj_e7XugW)| [Link1](https://raw.githubusercontent.com/vietnlp/etnlp/master/src/data/embedding_analogies/vi/analogy_list_vi_ner.txt)|
+| English (Mirkolov et al. [2]) | [Link2]| [Link2](https://drive.google.com/file/d/1UV6HDVT9jm4AzpXPbPGfhdb1KtqQjSgq/view?usp=sharing)|
 | Portuguese (Hartmann et al. [3]) | [Link3]| [Link3](https://github.com/nathanshartmann/portuguese_word_embeddings/blob/master/analogies/testset/LX-4WAnalogies.txt)|
 
 
