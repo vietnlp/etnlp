@@ -68,13 +68,13 @@ Since most of this process is automatically done, it can be applied in other lan
 
 ## 3. Visualizer: to explore the embedding space and compare between different embeddings.
 
-### Screenshot of viewing multiple-embeddings side-by-side (Vietnamese)
+### Screenshot of viewing multiple-embeddings side-by-side (Vietnamese):
 ![Alt text](images/etnlp_view_multi_embeddings.png "Screenshot multiple-embeddings side-by-side")
 
-### Screenshot of viewing each embedding interactively (Vietnamese)
+### Screenshot of viewing each embedding interactively (Vietnamese):
 ![Alt text](images/etnlp_view_embs.png "Screenshot example of viewing each embedding interactively")
 
-### Screenshot of viewing each embedding side-by-side (English)
+### Screenshot of viewing each embedding side-by-side (English):
 ![Alt text](images/english_sbs.png "Screenshot example of viewing each embedding interactively")
 
 
