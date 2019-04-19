@@ -1,3 +1,5 @@
+ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings
+=====
 
 .. image:: https://travis-ci.org/vietnlp/etnlp.svg?branch=master
 
@@ -8,7 +10,7 @@
 4. [Download Resources](#Download_Resources)
 
 
-# I. ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings <a name="introduction"></a>
+# I. Overview <a name="introduction"></a>
 ## A glimpse of ETNLP:
 - Github: https://github.com/vietnlp/etnlp
 - Video: https://vimeo.com/317599106
