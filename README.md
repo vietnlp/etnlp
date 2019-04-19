@@ -1,3 +1,6 @@
+
+.. image:: https://travis-ci.org/vietnlp/etnlp.svg?branch=master
+
 # Table of contents
 1. [Introduction](#introduction)
 2. [More about ETNLP](#moreaboutETNLP)
