@@ -42,6 +42,7 @@ def convert_multiple_emb_models_2_tf(emb_name_arr, w2v_model_arr, output_path, p
     idx = 0
     # define the model without training
     sess = tf.InteractiveSession()
+    config = projector.ProjectorConfig()
 
     for w2v_model in w2v_model_arr:
         emb_name = emb_name_arr[idx]
@@ -64,7 +65,6 @@ def convert_multiple_emb_models_2_tf(emb_name_arr, w2v_model_arr, output_path, p
         sess.run(word_embedding_var)
 
         # adding into projector
-        config = projector.ProjectorConfig()
         embed = config.embeddings.add()
         embed.tensor_name = emb_name
         embed.metadata_path = meta_file
