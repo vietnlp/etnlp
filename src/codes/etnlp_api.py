@@ -4,7 +4,7 @@ from visualizer import visualizer_sbs
 import logging
 import os
 from embeddings.embedding_configs import EmbeddingConfigs
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 
 embedding_config = EmbeddingConfigs()
