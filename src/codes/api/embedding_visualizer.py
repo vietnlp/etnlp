@@ -171,9 +171,9 @@ def visualize_multiple_embeddings_individually(paths_of_emb_models):
     return
 
 
-def visualize_multiple_embeddings_all_in_one(paths_of_emb_models):
+def visualize_multiple_embeddings_all_in_one(paths_of_emb_models, port):
     output_root_dir = "../data/embedding_tf_data/"
-    starting_port = 6006
+    starting_port = port
     embedding_names = []
     print("Loaded all word embeddings, going to visualize ...")
 
@@ -213,13 +213,14 @@ def visualize_multiple_embeddings_all_in_one(paths_of_emb_models):
     return
 
 
-def visualize_multiple_embeddings(paths_of_emb_models):
+def visualize_multiple_embeddings(paths_of_emb_models, port):
     """
     API to other part to call, don't modify this function.
     :param paths_of_emb_models:
+    :param port:
     :return:
     """
-    visualize_multiple_embeddings_all_in_one(paths_of_emb_models)
+    visualize_multiple_embeddings_all_in_one(paths_of_emb_models, port)
 
 
 if __name__ == "__main__":

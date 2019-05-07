@@ -1,8 +1,10 @@
 import argparse
 from api import embedding_preprocessing, embedding_evaluator, embedding_extractor, embedding_visualizer
+from visualizer import visualizer_sbs
 import logging
 import os
 from embeddings.embedding_configs import EmbeddingConfigs
+__version__ = "0.1.2"
 
 
 embedding_config = EmbeddingConfigs()
@@ -40,6 +42,11 @@ if __name__ == "__main__":
                          default="../data/vocab.txt",
                          help="Vocab to be extracted")
 
+    _parser.add_argument("-port",
+                         nargs="?",
+                         default=8889,
+                         help="Port for visualization")
+
     _parser.add_argument("-input_c2v",
                          nargs="?",
                          default=None,
@@ -69,6 +76,7 @@ if __name__ == "__main__":
     options_str = _args.args
     vocab_file = _args.vocab
     output_format = _args.output_format
+    port = _args.port
 
     # By default, we process all embeddings as word2vec format.
     embedding_preprocessing.is_word2vec_format = True
@@ -80,7 +88,7 @@ if __name__ == "__main__":
         print("Done evaluator !")
     elif options_str == 'visualizer':
         print("Starting visualizer ...")
-        embedding_visualizer.visualize_multiple_embeddings(input_embedding_files_str)
+        embedding_visualizer.visualize_multiple_embeddings(input_embedding_files_str, port)
         print("Done visualizer !")
     elif options_str.startswith("extract"):
         print("Starting extractor ...")

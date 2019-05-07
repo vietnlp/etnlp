@@ -1,11 +1,13 @@
 from setuptools import setup, find_packages
+from etnlp_api import __version__
+
 
 with open("../../README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name='ETNLP',
-    version='0.1.1',
+    version=__version__,
     # packages=['api', 'utils', 'embeddings', 'visualizer'],
     packages=find_packages(),
     py_modules=['etnlp_api'],
