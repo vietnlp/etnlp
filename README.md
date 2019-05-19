@@ -18,7 +18,8 @@ ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Wor
 # II. How do I cite ETNLP?
 Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings) is used to produce published results or incorporated into other software:
 
-```@article{vu:2019n,
+```
+@article{vu:2019n,
   title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
   author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
   journal={arXiv preprint arXiv:1903.04433},
