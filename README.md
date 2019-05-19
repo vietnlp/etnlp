@@ -12,8 +12,22 @@ ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Wor
 ## A glimpse of ETNLP:
 - Github: https://github.com/vietnlp/etnlp
 - Video: https://vimeo.com/317599106
+- Paper: https://arxiv.org/abs/1903.04433
 
-# II. More about ETNLP <a name="moreaboutETNLP"></a>:
+
+# II. How do I cite ETNLP?
+Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings) is used to produce published results or incorporated into other software:
+
+```@article{vu:2019n,
+  title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
+  author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
+  journal={arXiv preprint arXiv:1903.04433},
+  year={2019}
+  }
+```
+
+
+# III. More about ETNLP <a name="moreaboutETNLP"></a>:
 ## 1. Embedding Evaluator: 
 To compare quality of embedding models on the word analogy task.
 - Input: a pre-trained embedding vector file (word2vec format), and word analogy file.
@@ -81,7 +95,7 @@ Since most of this process is automatically done, it can be applied in other lan
 ![Alt text](images/english_sbs.png "Screenshot example of viewing each embedding interactively")
 
 
-# III. Installation and How to use ETNLP <a name="installation_and_howtouse"></a>
+# IV. Installation and How to use ETNLP <a name="installation_and_howtouse"></a>
 ## 1. Installation:
 
 From source codes (Python 3.6.x):
@@ -107,7 +121,7 @@ Interactive visualization:
 > 1. sh src/codes/04.run_etnlp_visualizer_inter.sh
 
 
-# IV. Available Lexical Resources <a name="Download_Resources"></a>
+# V. Available Lexical Resources <a name="Download_Resources"></a>
 ## 1. Word Analogy List for Vietnamese
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
@@ -140,7 +154,7 @@ Interactive visualization:
 | MULTI_WC_F_E_B               | [Link6](https://drive.google.com/file/d/1p2EGSVrVl6TIbq6pZxhEuleH26qXxDts)  (dim=2392)| [Link6] | [Link6] |
 
 
-# V. Versioning
+# VI. Versioning
 For transparency and insight into our release cycle, and for striving to maintain backward compatibility, ETNLP will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the following format:
