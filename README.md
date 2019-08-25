@@ -105,9 +105,9 @@ From source codes (Python 3.6.x):
 > 3. python setup.py install
 
 From pip (python 3.6.x)
-> sudo apt-get install python3-dev
-> pip install cython
-> pip install git+git://github.com/vietnlp/etnlp.git
+> 1. sudo apt-get install python3-dev
+> 2. pip install cython
+> 3. pip install git+git://github.com/vietnlp/etnlp.git
 OR:
 > 1. pip install etnlp 
 
