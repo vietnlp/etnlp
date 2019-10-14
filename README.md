@@ -19,10 +19,10 @@ ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Wor
 Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings) is used to produce published results or incorporated into other software:
 
 ```
-@article{vu:2019n,
+@inproceedings{vu:2019n,
   title={ETNLP: A Visual-Aided Systematic Approach to Select Pre-Trained Embeddings for a Downstream Task},
-  author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
-  journal={In: Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP)},
+  author={Vu, Xuan-Son and Vu, Thanh and Tran, Son N and Jiang, Lili},
+  booktitle={Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP)},
   year={2019}
   }
 ```
