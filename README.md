@@ -118,6 +118,23 @@ OR:
 > 3. python test2_etnlp_extractor.py
 > 4. python test3_etnlp_evaluator.py
 > 5. python test4_etnlp_visualizer.py
+### Example of using Fasttext-Sent2Vec:
+- 01. Install: https://github.com/epfml/sent2vec
+```
+01. git clone https://github.com/epfml/sent2vec
+02. pip install .
+```
+
+- 02. Extract embeddings for sentences (no requirement for tokenization before extracting embedding of sentences).
+```
+import sent2vec
+model = sent2vec.Sent2vecModel()
+model.load_model('opendata_wiki_lowercase_words.bin')
+emb = model.embed_sentence("tôi là sinh viên đh công nghệ, đại học quôc gia hà nội") 
+embs = model.embed_sentences(["tôi là sinh viên", "tôi là nhà thơ", "tôi là bác sĩ"])
+
+```
+
 
 ### 3. Visualization
 Side-by-side visualization:
