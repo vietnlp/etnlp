@@ -122,7 +122,7 @@ OR:
 - 01. Install: https://github.com/epfml/sent2vec
 ```
 01. git clone https://github.com/epfml/sent2vec
-02. pip install .
+02. cd sent2vec; pip install .
 ```
 
 - 02. Extract embeddings for sentences (no requirement for tokenization before extracting embedding of sentences).
