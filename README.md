@@ -149,7 +149,7 @@ Interactive visualization:
 
 | ﻿ Word Analogy List          | Download Link (NER Task)| Download Link (General)| 
 |------------------------------|---------------|---------------|
-| Vietnamese (This work)       | [Link1](https://drive.google.com/file/d/1eA5yvla4BhAIfWsmZherT1GEW6gzDC-1/view?usp=sharing)| [Link1]([https://drive.google.com/file/d/1JF-FdipVBO-bcoXYDNnI8a35qwbZhPB3/view?usp=sharing](https://drive.google.com/file/d/1YJ9d5rVKMMKF1xWWZi26_sNpgULTvxwg/view?usp=sharing))|
+| Vietnamese (This work)       | [Link1](https://drive.google.com/file/d/1eA5yvla4BhAIfWsmZherT1GEW6gzDC-1/view?usp=sharing)| [Link1](https://drive.google.com/file/d/1YJ9d5rVKMMKF1xWWZi26_sNpgULTvxwg/view?usp=sharing)|
 | English (Mirkolov et al. [2]) | [Link2]| [Link2](https://drive.google.com/file/d/10rWxGu8-nbQmYC8wrIussSZjY0lDh6RP/view?usp=sharing)|
 | Portuguese (Hartmann et al. [3]) | [Link3]| [Link3](https://github.com/nathanshartmann/portuguese_word_embeddings/blob/master/analogies/testset/LX-4WAnalogies.txt)|
 
