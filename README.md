@@ -169,13 +169,13 @@ Interactive visualization:
 
 | ﻿  Embedding Model           | Download Link (NER Task) | Download Link (AIVIVN SentiTask) | Download Link (General) | 
 |------------------------------|---------------|---------------|---------------|
-| w2v                          | [Link1](https://drive.google.com/open?id=1D3RvwFiRvvbP6GIcuff6LTUmm1i3yvdF) (dim=300)|  [Link1] | [Link1] |
-| w2v_c2v                      | [Link2](https://drive.google.com/open?id=1YWDmVq6ku7OzY8-Rsm_MsWQ5lH-uUb4h) (dim=300)|  [Link2] | [Link2] |
-| fastText                     | [Link3](https://drive.google.com/open?id=1EGsNoPX3acNCjYKAVD0T2r04A55lnEmH) (dim=300)|  [Link3] | [Link3] |
+| w2v                          | [Link1](https://drive.google.com/file/d/1LHaZ8LXxteHzod42naqJZYCwwq5mI9aL/view?usp=sharing) (dim=300)|  [Link1] | [Link1] |
+| w2v_c2v                      | [Link2](https://drive.google.com/file/d/1-M9Tb9l8mNmP3RKxZiZNK1Vpbng2yw4l/view?usp=sharing) (dim=300)|  [Link2] | [Link2] |
+| fastText                     | [Link3](https://drive.google.com/file/d/1dHCPhKFjtDjbrUeeymheDnlhjtaljPGE/view?usp=sharing) (dim=300)|  [Link3] | [Link3] |
 | fastText-[Sent2Vec](https://github.com/epfml/sent2vec)                     | [Link3]|  [Link3] | [Link3](https://drive.google.com/file/d/1BzL1mpdfqCCJioCdAlTVshbrz0lGfP2D/view?usp=sharing) (dim=300, 6GB, trained on 20GB of [news data](https://github.com/binhvq/news-corpus) and Wiki-data of ETNLP. |
-| Elmo                         | [Link4](https://drive.google.com/open?id=1U2eWRWwgbva9OMyRvJKopn8FsmTLqMiq) (dim=1024)|  [Link4](https://drive.google.com/file/d/1jVJtF0f6SbtUd-t3bnywP6mFnz0QXPIx/view?usp=sharing) (dim=1024)| [Link4](https://drive.google.com/file/d/1XPsTzg1Gex-Hh2nl9344YlZc1orOVBDp/view?usp=sharing) (dim=1024, 731MB and 1.9GB after extraction.)|
-| Bert_base                    | [Link5](https://drive.google.com/open?id=1ZEI6jHFYn-eptuf1nEwWQY8U4OXGeLx3) (dim=768)|  [Link5] | [Link5] |
-| MULTI_WC_F_E_B               | [Link6](https://drive.google.com/file/d/1p2EGSVrVl6TIbq6pZxhEuleH26qXxDts)  (dim=2392)| [Link6] | [Link6] |
+| Elmo                         | [Link4](https://drive.google.com/file/d/1zDaSD8NsZNXGyd9iVOxTcb7CP61Ixo-r/view?usp=sharing) (dim=1024)|  [Link4](https://drive.google.com/file/d/1jVJtF0f6SbtUd-t3bnywP6mFnz0QXPIx/view?usp=sharing) (dim=1024)| [Link4](https://drive.google.com/file/d/1XPsTzg1Gex-Hh2nl9344YlZc1orOVBDp/view?usp=sharing) (dim=1024, 731MB and 1.9GB after extraction.)|
+| Bert_base                    | [Link5](https://drive.google.com/file/d/16fRkmIHiB16OlM8WdFmoApGtLMf6YJJ8/view?usp=sharing) (dim=768)|  [Link5] | [Link5] |
+| MULTI_WC_F_E_B               | [Link6](https://drive.google.com/file/d/1gq7b8hs31VzoeO3n3C__ftlDnE_iBZW2/view?usp=sharing)  (dim=2392)| [Link6] | [Link6] |
 
 
 # VI. Versioning
