@@ -138,6 +138,10 @@ def get_avg_vector(word, embedding_words):
         # print("list_vector: ", list_vector)
         # input(">>>>>>>>")
 
+        # If no vectors found for any word in the phrase, return None
+        if not list_vector:
+            return None
+            
         returned_Word = Word(word, vectors.mean_list(list_vector), 1)
     else:
         returned_Word = find_word(word, embedding_words)
